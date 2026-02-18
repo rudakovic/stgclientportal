@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/YOURLS-1.9.2/includes/vendor/pomo/pomo" />
+      <path value="$PROJECT_DIR$/YOURLS-1.9.2/includes/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/YOURLS-1.9.2/includes/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/YOURLS-1.9.2/includes/vendor/aura/sql" />
+      <path value="$PROJECT_DIR$/YOURLS-1.9.2/includes/vendor/composer" />
+      <path value="$PROJECT_DIR$/YOURLS-1.9.2/includes/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/YOURLS-1.9.2/includes/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/YOURLS-1.9.2/includes/vendor/jakeasmith/http_build_url" />
+      <path value="$PROJECT_DIR$/YOURLS-1.9.2/includes/vendor/maxmind-db/reader" />
+      <path value="$PROJECT_DIR$/YOURLS-1.9.2/includes/vendor/ozh/bookmarkletgen" />
+      <path value="$PROJECT_DIR$/YOURLS-1.9.2/includes/vendor/spatie/array-to-xml" />
+      <path value="$PROJECT_DIR$/YOURLS-1.9.2/includes/vendor/geoip2/geoip2" />
+      <path value="$PROJECT_DIR$/YOURLS-1.9.2/includes/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/YOURLS-1.9.2/includes/vendor/maxmind/web-service-common" />
+      <path value="$PROJECT_DIR$/YOURLS-1.9.2/includes/vendor/rmccue/requests" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/download-plugins-dashboard/vendor/wpfactory/wpfactory-admin-menu" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/download-plugins-dashboard/vendor/wpfactory/wpfactory-cross-selling" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/download-plugins-dashboard/vendor/composer" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/wps-hide-login/vendor/composer" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/ninja-tables/vendor/wpfluent/framework" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/ninja-tables/vendor/composer" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/vendor/composer" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/patchstack/lib/patchstack/vendor/composer" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/bricks-advanced-themer/vendor/composer" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/bricks-advanced-themer/vendor/scssphp/scssphp" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/project-huddle/includes/libraries/wp-session-manager-4.0/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/project-huddle/includes/libraries/wp-session-manager-4.0/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/project-huddle/includes/libraries/wp-session-manager-4.0/vendor/composer" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/project-huddle/includes/libraries/wp-session-manager-4.0/vendor/ericmann/sessionz" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/stripe-sub-to-woo-sub/vendor/composer" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/stripe-sub-to-woo-sub/vendor/stripe/stripe-php" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/spinupwp/vendor/composer" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/bricks-advanced-themer/plugins/acf-pro/vendor/composer" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/project-huddle/includes/libraries/wp-session-manager/vendor/composer" />
+      <path value="$PROJECT_DIR$/wp-content/themes/bricks/includes/integrations/svg-sanitizer/library/vendor/enshrined/svg-sanitize" />
+      <path value="$PROJECT_DIR$/wp-content/themes/bricks/includes/integrations/svg-sanitizer/library/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>
