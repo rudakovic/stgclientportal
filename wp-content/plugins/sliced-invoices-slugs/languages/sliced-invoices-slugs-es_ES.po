@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sliced Invoices Better URL's\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-01 17:29-0700\n"
+"PO-Revision-Date: 2020-12-15 06:42+0000\n"
+"Last-Translator: Lolo Marchal <info@chipweb.es>\n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: updater/plugin-updater.php:97
+msgid "Activate License"
+msgstr "Activar Licencia"
+
+#: sliced-invoices-slugs.php:106 sliced-invoices-slugs.php:133
+msgid "Better URLs"
+msgstr "Better URLs"
+
+#. Description of the plugin/theme
+msgid ""
+"Change the URL slugs on Invoices and Quotes without touching any code. "
+"Requirements: The Sliced Invoices Plugin"
+msgstr ""
+"Cambiar el slug URL para las facturas y presupuestos sin tocar código. "
+"Requisitos: El plugin Sliced Invoices"
+
+#: updater/plugin-updater.php:96
+msgid "Deactivate License"
+msgstr "Desactivar Licencia"
+
+#: updater/plugin-updater.php:69
+msgid "Enter the License Key for this extension"
+msgstr "Introducir clave de licencia de la extensión"
+
+#: updater/class-base-updater.php:331
+msgid "Error"
+msgstr "Error"
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr "https://slicedinvoices.com/"
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/better-urls/"
+msgstr "https://slicedinvoices.com/extensions/better-urls/"
+
+#: sliced-invoices-slugs.php:139
+msgid "Invoice URL Slug"
+msgstr "Slug Facturas"
+
+#: updater/plugin-updater.php:88
+#, php-format
+msgid "License: %s"
+msgstr "Licencia: %s"
+
+#: sliced-invoices-slugs.php:112
+msgid "Quote URL Slug"
+msgstr "Slug Presupuestos"
+
+#: sliced-invoices-slugs.php:92
+msgid "Settings"
+msgstr "Ajustes"
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr "Sliced Invoices"
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Better URL's"
+msgstr "Sliced Invoices URL's Mejoradas"
+
+#: sliced-invoices-slugs.php:213
+#, php-format
+msgid ""
+"Sliced Invoices Better URL's extension cannot find the required <a "
+"href=\"%s\">Sliced Invoices plugin</a>. Please make sure the core Sliced "
+"Invoices plugin is <a href=\"%s\">installed and activated</a>."
+msgstr ""
+"La extensión Sliced Invoices Better URL's no puede encontrar el <a "
+"href=\"%s\">plugin Sliced Invoices</a> necesario. Por favor, asegúrate de "
+"que el plugin principal de Sliced Invoices está <a href=\"%s\">instalado y "
+"activado</a>."
+
+#: updater/class-base-updater.php:193
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+"Hay una nueva versión de %1$s disponible. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">Ver versión %3$s detalles</a> o <a "
+"href=\"%4$s\">actualizar ahora</a>."
+
+#: updater/class-base-updater.php:186
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Hay una nueva versión de %1$s disponible. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">Ver versión %3$s detalles</a>."
+
+#: sliced-invoices-slugs.php:140
+msgid ""
+"You can change this from sliced_invoice to invoice or bill (or any other "
+"word you like). Must be all lowercase."
+msgstr ""
+"Puedes cambiar el término \"sliced_invoice\" a facturas (o cualquier otra "
+"palabra que prefieras). Debe ser en minúsculas, aunque puede contener "
+"guiones bajos."
+
+#: sliced-invoices-slugs.php:113
+msgid ""
+"You can change this from sliced_quote to quotes or estimates (or any other "
+"word you like). Must be all lowercase and only underscores, no dashes."
+msgstr ""
+"Puedes cambiar el término \"sliced_quote\" a presupuestos, proformas (o "
+"cualquier otra palabra que prefieras). Debe ser en minúsculas, aunque puede "
+"contener guiones bajos."
+
+#: updater/class-base-updater.php:331
+msgid "You do not have permission to install plugin updates"
+msgstr "No tienes permiso para instalar actualizaciones de plugins"

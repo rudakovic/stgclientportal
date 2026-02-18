@@ -1,0 +1,748 @@
+# Copyright (C) 2021 SuperSide Me
+# This file is distributed under the same license as the SuperSide Me package.
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperSide Me\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/class-supersideme-builder.php:27, includes/settings/class-supersideme-customizer.php:65, includes/settings/class-supersideme-settings.php:51, includes/settings/class-supersideme-settings.php:52
+msgid "SuperSide Me"
+msgstr ""
+
+#: includes/class-supersideme-builder.php:29
+msgid "This is the widget area for the SuperSide Me[nu] bar. Not all widgets will work here, so please use caution."
+msgstr ""
+
+#: includes/class-supersideme-builder.php:45
+msgid "SuperSide Me Navigation Menu"
+msgstr ""
+
+#: includes/class-supersideme-builder.php:67
+msgid "Navigation Menu"
+msgstr ""
+
+#: includes/class-supersideme-builder.php:68, includes/settings/definitions/defaults.php:12
+msgid "Menu"
+msgstr ""
+
+#: includes/class-supersideme-builder.php:69
+msgid "Navigation Sub Menu"
+msgstr ""
+
+#: includes/class-supersideme-builder.php:78, includes/settings/class-supersideme-helptabs.php:56, includes/settings/definitions/defaults.php:43
+msgid "Search"
+msgstr ""
+
+#: includes/class-supersideme-cron.php:45
+msgid "Once Weekly"
+msgstr ""
+
+#: includes/class-supersideme-getter.php:101, includes/class-supersideme-getter.php:125, includes/class-supersideme-getter.php:130
+msgid "Close Navigation"
+msgstr ""
+
+#: includes/class-supersideme.php:133
+msgid "SuperSide Me works like magic, but you've got to give it something with which to work. Please add a menu to a <a href=\"%s\">registered menu location</a> or add a widget to the new <a href=\"%s\">SuperSide Me widget area</a>. If those both look all right, double check your <a href=\"%s\">Automagic Menu settings</a>."
+msgstr ""
+
+#: includes/class-supersideme.php:159
+msgid "Settings"
+msgstr ""
+
+#: includes/settings/class-supersideme-customizer.php:66
+msgid "Only certain styling settings are available in the Customizer; more can be found on the SuperSide Me settings page."
+msgstr ""
+
+#: includes/settings/class-supersideme-definesettings.php:76
+msgid "Change the default behavior and style for the SuperSide Me panel."
+msgstr ""
+
+#. translators: link is to tutorial for filters
+#: includes/settings/class-supersideme-definesettings.php:78
+msgid " Want a little more control over your menu and can handle a bit of coding? Check out the <a href=\"%s\" target=\"_blank\">navigation options filter</a>."
+msgstr ""
+
+#: includes/settings/class-supersideme-definesettings.php:92, includes/settings/class-supersideme-helptabs.php:195
+msgid "If you have used SuperSide Me before 2.4.0, SVG icons are turned off by default for backwards compatibility."
+msgstr ""
+
+#: includes/settings/class-supersideme-definesettings.php:93
+msgid "See the help tab (above) for more information."
+msgstr ""
+
+#: includes/settings/class-supersideme-definesettings.php:102
+msgid "Optional settings which may enhance your SuperSide Me experience."
+msgstr ""
+
+#: includes/settings/class-supersideme-definesettings.php:111
+msgid "SuperSide Me works automagically by combining every menu assigned to a location on your site and outputting them to your new mobile menu panel."
+msgstr ""
+
+#. translators: placeholder is the link to the Menus admin page.
+#: includes/settings/class-supersideme-definesettings.php:113
+msgid "You can check which locations actually have menus assigned under <a href=\"%s\">Appearance > Menus</a>."
+msgstr ""
+
+#: includes/settings/class-supersideme-definesettings.php:114
+msgid "Here, you can set headings for each menu, or remove a certain menu from being added to the panel."
+msgstr ""
+
+#: includes/settings/class-supersideme-definesettings.php:126
+msgid "You can now add up to three custom menu buttons to display with your SuperSide Me menu/search button(s). Each button must have a link and label (which will show if you set it, or be readable for users with screen readers)."
+msgstr ""
+
+#: includes/settings/class-supersideme-definesettings.php:136
+msgid "Modify the settings for the menu button(s) appearance and location. Although it is a <b>really good idea</b> to have visible labels for your buttons, if you leave the labels blank, they will still have hidden labels for screen readers, so will still be accessible."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:41, includes/settings/definitions/sections.php:23
+msgid "Automagic Menu Settings"
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:46, includes/settings/definitions/unsimplify.php:5
+msgid "Disable Automagic Menu"
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:61
+msgid "Swiping"
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:66
+msgid "Display Elements"
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:71
+msgid "Outline"
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:76
+msgid "Font Awesome"
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:81, includes/settings/definitions/widget.php:11
+msgid "Widget Location"
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:95
+msgid "Main Menu Buttons"
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:100
+msgid "Button Location"
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:110
+msgid "Colors"
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:115, includes/settings/definitions/icons.php:13, includes/settings/definitions/sections.php:31
+msgid "Custom Icons"
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:125, includes/settings/definitions/side.php:10, includes/settings/definitions/side.php:17
+msgid "Set Side for Navigation"
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:130
+msgid "SuperSide Me[nu] Appears At"
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:135, includes/settings/definitions/displace.php:10
+msgid "Panel Behavior"
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:149
+msgid "By default, the SuperSide Me navigation panel slides in from the right side of the site."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:157
+msgid "The menu button is full width by default. You can set the button to just be the width of its contents."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:158
+msgid "The menu icon will show before your SuperSide Me menu button. You really should have a label for it as well. However, if you leave this blank, a screen reader friendly label will still be added to the button."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:159
+msgid "You can optionally add a search button to display next to the main menu button. It will be display on the side of the screen opposite the menu panel, so if your menu is on the right, the search button will be on the left."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:169
+msgid "By default, the SuperSide Me menu activates when your browser window or device screen size is 800px or smaller. You can change that number to activate the menu at a larger or smaller size."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:170
+msgid "For even more control, check the documentation for filters--for example, if you want the SuperSide Me menu at all widths, or your theme uses em/rem based media queries."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:180
+msgid "You can set the colors for the main SuperSide Me panel/button and links. You can use your own CSS for other colors."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:181
+msgid "If you want your panel to be a bit transparent, disable \"Push Site with Panel\", and change the Opacity of your panel. 100% is completely opaque. 75% is the minimum because that's pushing the limits of visibility."
+msgstr ""
+
+#. translators: link to the Font Awesome website.
+#: includes/settings/class-supersideme-helptabs.php:192
+msgid "If you are using SVG icons, you can easily change them. SuperSide Me includes <a href=\"%s\" target=\"_blank\" rel=\"noopener\">Font Awesome 5 icons (free only)</a> by default."
+msgstr ""
+
+#. translators: links to a tutorial on using the filter
+#: includes/settings/class-supersideme-helptabs.php:194
+msgid "If you want to use your own SVG icons, keep this setting checked and type in the SVG names as needed. You may want to <a href=\"%s\" target=\"_blank\" rel=\"noopener\">use a filter to disable loading the SuperSide Me SVG</a>."
+msgstr ""
+
+#. translators: link to options tab, where the Font Awesome settings are.
+#: includes/settings/class-supersideme-helptabs.php:197
+msgid "If you choose to switch to SVG, you may also want to <a href=\"%s\">disable SuperSide Me from loading Font Awesome</a> (this will not happen automatically due to instructions in past tutorials)."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:207
+msgid "In pixels, the width of your menu panel. Even if you set a relatively large number here, the panel will not be wider than the screen."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:208
+msgid "By default, the panel will push the site to the side when it appears. To make the panel slide over the top of the site, change this option to \"Slide Over Site\"."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:218
+msgid "The list on this screen shows all menu locations registered by your theme. If you have not assigned a menu to a location, that location will not show in your SuperSide Me navigation panel."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:219
+msgid "All menu locations with menus assigned will automagically be added to your SuperSide Me navatigation panel, unless you disable the automatic menu."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:229
+msgid "By default, the plugin adds the menu assigned to all registered menu locations to your side panel. It's automagic. You can disable this and send only the SuperSide Me widget content to the panel. If that widget is empty, your side panel will be empty, too."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:237
+msgid "Add a small search input to the top of your side panel."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:245
+msgid "Optionally, open the menu on touch screens by swiping (away from the side where the menu is)."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:246
+msgid "This will be the most effective if your menu button clearly indicates which side the menu is on."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:256
+msgid "By default, the menu button is added to the very beginning of the website. If you'd like to place it somewhere else, enter the class or ID of the element of the location. SuperSide Me will attempt to confirm that your custom location exists; if it does not, the button will be placed in its default location."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:267
+msgid "General navigation elements will be hidden by default, but if your theme adds a button or other element which is still showing, add it to this list to hide it. Same with elements which might be hidden but that you would like to show. You can use classes (.site-header) or IDs (#site-header). Separate multiple elements with commas."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:268
+msgid "Pro Tip: if you don't know what CSS is, don't add things here. You could hide things from your site that you didn't mean to. If that happens, clear this field and resave your settings."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:278
+msgid "For accessibility, it's important to have a style which clearly shows which element has focus. SuperSide Me uses the standard outline; you can adjust the outline style here."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:286
+msgid "SuperSide Me loads Font Awesome for icons. If you are already loading Font Awesome another way, you can disable the font from loading."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:287
+msgid "You can also disable Font Awesome entirely and replace them in your CSS. Disabling the icons will prevent any Font Awesome CSS from being output at all."
+msgstr ""
+
+#: includes/settings/class-supersideme-helptabs.php:297
+msgid "You may choose to place the SuperSide Me widget either at the end of the menu panel (default), or before the panel menus/after the search input."
+msgstr ""
+
+#: includes/settings/class-supersideme-licensing.php:134
+msgid "SuperSide Me[nu] License"
+msgstr ""
+
+#: includes/settings/class-supersideme-licensing.php:145
+msgid "Licensed users of SuperSide Me receive plugin updates, support, and good vibes."
+msgstr ""
+
+#: includes/settings/class-supersideme-licensing.php:148
+msgid " Great news--your license is activated!"
+msgstr ""
+
+#: includes/settings/class-supersideme-licensing.php:167
+msgid "License Key"
+msgstr ""
+
+#: includes/settings/class-supersideme-licensing.php:169
+msgid "Enter your license key."
+msgstr ""
+
+#: includes/settings/class-supersideme-licensing.php:217, includes/settings/class-supersideme-licensing.php:261, includes/settings/class-supersideme-settings.php:268
+msgid "Something unexpected happened. Please try again."
+msgstr ""
+
+#. translators:  date of license expiration
+#: includes/settings/class-supersideme-licensing.php:461
+msgid "It looks like your license expired on %s."
+msgstr ""
+
+#. translators: link to purchase license renewal
+#: includes/settings/class-supersideme-licensing.php:464
+msgid " To continue receiving updates, <a href=\"%s\" rel=\"noopener\" target=\"_blank\">renew now and receive a discount</a>."
+msgstr ""
+
+#: includes/settings/class-supersideme-licensing.php:471
+msgid "Your license key has been disabled."
+msgstr ""
+
+#. translators: name of plugin
+#: includes/settings/class-supersideme-licensing.php:477
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/settings/class-supersideme-licensing.php:482
+msgid "If you're seeing this message and have recently migrated from another site, you should just need to reactivate your license."
+msgstr ""
+
+#: includes/settings/class-supersideme-licensing.php:486
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#. translators: link to store URL/account
+#: includes/settings/class-supersideme-licensing.php:493
+msgid "I'm honestly not sure what went wrong. You may want to <a href=\"%s\" target=\"_blank\" rel=\"noopener\">log into your account</a> and check your license key."
+msgstr ""
+
+#. translators: 1) name of plugin; 2) URL for license activation screen
+#: includes/settings/class-supersideme-licensing.php:562
+msgid "Sorry, there is an issue with your license for %1$s. Please check the <a href=\"%2$s\">plugin license</a>."
+msgstr ""
+
+#. translators: 1) name of plugin; 2) latest plugin version number; 3) current/active plugin version
+#: includes/settings/class-supersideme-licensing.php:577
+msgid "The latest version of %1$s is %2$s and you are running %3$s. "
+msgstr ""
+
+#: includes/settings/class-supersideme-licensing.php:555
+msgid "Please make sure you <a href=\"%1$s\">activate your %2$s license</a> in order to receive automatic updates and support."
+msgstr ""
+
+#: includes/settings/class-supersideme-settings-enqueue.php:69
+msgid "Add Button,"
+msgstr ""
+
+#: includes/settings/class-supersideme-settings-enqueue.php:70
+msgid "Remove Button,"
+msgstr ""
+
+#: includes/settings/class-supersideme-settings-enqueue.php:71
+msgid "Do you really want to remove this button?"
+msgstr ""
+
+#: includes/settings/class-supersideme-settings-sanitize.php:203
+msgid "Well, that was unexpected. The %s has been reset to the last valid setting; the value you entered didn't work."
+msgstr ""
+
+#: includes/settings/class-supersideme-settings.php:105
+msgid "Activate License"
+msgstr ""
+
+#: includes/settings/class-supersideme-settings.php:136
+msgid "Manage with Live Preview"
+msgstr ""
+
+#: includes/settings/class-supersideme-settings.php:172
+msgid "License"
+msgstr ""
+
+#: includes/settings/class-supersideme-settings.php:180
+msgid "Settings Tabs"
+msgstr ""
+
+#: includes/settings/class-supersideme-settings.php:221
+msgid "General"
+msgstr ""
+
+#: includes/settings/class-supersideme-settings.php:225
+msgid "Appearance"
+msgstr ""
+
+#: includes/settings/class-supersideme-settings.php:229
+msgid "Buttons"
+msgstr ""
+
+#: includes/settings/class-supersideme-settings.php:233
+msgid "Options"
+msgstr ""
+
+#: includes/settings/class-supersideme-settings.php:237
+msgid "Menus"
+msgstr ""
+
+#: includes/settings/class-supersideme-settings.php:241
+msgid "Menu Bar"
+msgstr ""
+
+#: includes/settings/definitions/background.php:10
+msgid "Background Color"
+msgstr ""
+
+#: includes/settings/definitions/background.php:13
+msgid "Change the background color for the menu panel."
+msgstr ""
+
+#: includes/settings/definitions/block.php:10
+msgid "Show Elements"
+msgstr ""
+
+#: includes/settings/definitions/block.php:13
+msgid "Force elements to show using CSS. Separate multiple elements with commas. Must be a CSS element (eg. .site-header)"
+msgstr ""
+
+#: includes/settings/definitions/close.php:10
+msgid "Close Button Text"
+msgstr ""
+
+#: includes/settings/definitions/close.php:14
+msgid "[Visible] label for menu close button."
+msgstr ""
+
+#: includes/settings/definitions/color-link.php:10
+msgid "Link Color"
+msgstr ""
+
+#: includes/settings/definitions/color-link.php:13
+msgid "Change the link color for the menu panel."
+msgstr ""
+
+#: includes/settings/definitions/custom-buttons.php:11, includes/settings/definitions/sections.php:27
+msgid "Custom Buttons"
+msgstr ""
+
+#: includes/settings/definitions/defaults.php:13
+msgid "Close"
+msgstr ""
+
+#: includes/settings/definitions/desktop.php:10
+msgid "Desktop"
+msgstr ""
+
+#: includes/settings/definitions/desktop.php:13
+msgid "Replace the site menus with SuperSide Me at all sizes, including desktop."
+msgstr ""
+
+#: includes/settings/definitions/desktop.php:14
+msgid "This will override the screen/browser width setting."
+msgstr ""
+
+#: includes/settings/definitions/displace.php:14
+msgid "Push Site"
+msgstr ""
+
+#: includes/settings/definitions/displace.php:15
+msgid "Slide Over Site"
+msgstr ""
+
+#: includes/settings/definitions/displace.php:18
+msgid "If enabled, the panel will push the site upon opening. Disable and the panel will slide over the site."
+msgstr ""
+
+#: includes/settings/definitions/fontawesome.php:7
+msgid "SuperSide Me uses Font Awesome for menu icons. If you are already loading Font Awesome another way, you can disable the font from loading; if you want to replace the icons completely, disable them, too."
+msgstr ""
+
+#: includes/settings/definitions/fontawesome.php:10
+msgid "It looks like you have SVG icons enabled, so you may be able to disable Font Awesome here."
+msgstr ""
+
+#: includes/settings/definitions/fontawesome.php:15
+msgid "Load Font Awesome"
+msgstr ""
+
+#: includes/settings/definitions/fontawesome.php:19
+msgid "Load Fonts"
+msgstr ""
+
+#: includes/settings/definitions/fontawesome.php:20
+msgid "Use Icons"
+msgstr ""
+
+#: includes/settings/definitions/hidden.php:10
+msgid "Hide Elements"
+msgstr ""
+
+#: includes/settings/definitions/hidden.php:13
+msgid "Force elements to hide using CSS. Separate multiple elements with commas. Must be a CSS element (eg. .site-header)"
+msgstr ""
+
+#: includes/settings/definitions/icons-custom.php:11
+msgid "Menu Button"
+msgstr ""
+
+#: includes/settings/definitions/icons-custom.php:15
+msgid "Close Button"
+msgstr ""
+
+#: includes/settings/definitions/icons-custom.php:19
+msgid "Sub Menu Button"
+msgstr ""
+
+#: includes/settings/definitions/icons-custom.php:23, includes/settings/definitions/search-button.php:10
+msgid "Search Button"
+msgstr ""
+
+#: includes/settings/definitions/location.php:10
+msgid "Menu Button(s) Location"
+msgstr ""
+
+#: includes/settings/definitions/location.php:13
+msgid "Optional: set the location for the menu button(s). Leave blank for the default. Must be a CSS element (eg. .site-header)."
+msgstr ""
+
+#: includes/settings/definitions/max-width.php:10
+msgid "SuperSide Me Appears At"
+msgstr ""
+
+#: includes/settings/definitions/max-width.php:12, includes/settings/definitions/panel-width.php:12
+msgid "pixels"
+msgstr ""
+
+#: includes/settings/definitions/max-width.php:18
+msgid "This is the largest screen/browser width at which the SuperSide Me navigation becomes active."
+msgstr ""
+
+#: includes/settings/definitions/menu-bar.php:12
+msgid "Link"
+msgstr ""
+
+#: includes/settings/definitions/menu-bar.php:17
+msgid "Label"
+msgstr ""
+
+#: includes/settings/definitions/menu-bar.php:22
+msgid "Icon"
+msgstr ""
+
+#: includes/settings/definitions/menu-bar.php:28
+msgid "Show the text label in addition to the icon"
+msgstr ""
+
+#: includes/settings/definitions/menu-bar.php:30
+msgid "Show Label"
+msgstr ""
+
+#: includes/settings/definitions/menu-bar.php:34
+msgid "Open link in a new window"
+msgstr ""
+
+#: includes/settings/definitions/menu-bar.php:36
+msgid "Link Behavior"
+msgstr ""
+
+#: includes/settings/definitions/navigation.php:10
+msgid "Main Menu Button Text"
+msgstr ""
+
+#: includes/settings/definitions/navigation.php:14
+msgid "[Visible] label for main menu button."
+msgstr ""
+
+#: includes/settings/definitions/opacity.php:10
+msgid "Background Opacity"
+msgstr ""
+
+#: includes/settings/definitions/opacity.php:18
+msgid "Transparency is great, but more effective if your panel slides out over your site."
+msgstr ""
+
+#: includes/settings/definitions/outline.php:14
+msgid "Outline Style"
+msgstr ""
+
+#: includes/settings/definitions/outline.php:18
+msgid "dotted"
+msgstr ""
+
+#: includes/settings/definitions/outline.php:19
+msgid "dashed"
+msgstr ""
+
+#: includes/settings/definitions/outline.php:20
+msgid "solid"
+msgstr ""
+
+#: includes/settings/definitions/outline.php:22
+msgid "Set outline style"
+msgstr ""
+
+#: includes/settings/definitions/outline.php:23
+msgid "The outline provides a visual reference for when a menu element has focus."
+msgstr ""
+
+#: includes/settings/definitions/panel-width.php:10
+msgid "Panel Width"
+msgstr ""
+
+#: includes/settings/definitions/position.php:10
+msgid "Menu Button(s) Position"
+msgstr ""
+
+#: includes/settings/definitions/position.php:13, includes/settings/definitions/position.php:21
+msgid "Change the CSS value of the button's position."
+msgstr ""
+
+#: includes/settings/definitions/position.php:15
+msgid "Relative"
+msgstr ""
+
+#: includes/settings/definitions/position.php:16
+msgid "Absolute"
+msgstr ""
+
+#: includes/settings/definitions/position.php:17
+msgid "Fixed"
+msgstr ""
+
+#: includes/settings/definitions/position.php:18
+msgid "Stick to top"
+msgstr ""
+
+#: includes/settings/definitions/position.php:19
+msgid "Stick to bottom"
+msgstr ""
+
+#: includes/settings/definitions/search-button-text.php:10
+msgid "Search Button Text"
+msgstr ""
+
+#: includes/settings/definitions/search-button-text.php:14
+msgid "[Visible] label for search button."
+msgstr ""
+
+#: includes/settings/definitions/search-button.php:12
+msgid "Add a search button next to the menu button."
+msgstr ""
+
+#: includes/settings/definitions/search.php:10
+msgid "Search Input"
+msgstr ""
+
+#: includes/settings/definitions/search.php:13
+msgid "Add a search input to the beginning of the side panel."
+msgstr ""
+
+#: includes/settings/definitions/sections.php:6
+msgid "General Settings"
+msgstr ""
+
+#: includes/settings/definitions/sections.php:10
+msgid "Color Settings"
+msgstr ""
+
+#: includes/settings/definitions/sections.php:15
+msgid "Button Settings"
+msgstr ""
+
+#: includes/settings/definitions/sections.php:19
+msgid "Optional Settings"
+msgstr ""
+
+#: includes/settings/definitions/shrink.php:10
+msgid "Main Menu Button Size"
+msgstr ""
+
+#: includes/settings/definitions/shrink.php:12
+msgid "Set the button to only be as wide as its contents/text."
+msgstr ""
+
+#: includes/settings/definitions/shrink.php:13
+msgid "Set the width for the main menu button or the container for the menu and search buttons."
+msgstr ""
+
+#: includes/settings/definitions/shrink.php:16
+msgid "Full Width/100%"
+msgstr ""
+
+#: includes/settings/definitions/shrink.php:17
+msgid "Auto"
+msgstr ""
+
+#: includes/settings/definitions/side.php:14
+msgid "Left"
+msgstr ""
+
+#: includes/settings/definitions/side.php:15
+msgid "Right"
+msgstr ""
+
+#: includes/settings/definitions/speed.php:10
+msgid "Panel Speed"
+msgstr ""
+
+#: includes/settings/definitions/speed.php:12
+msgid "milliseconds"
+msgstr ""
+
+#: includes/settings/definitions/speed.php:18
+msgid "The amount of time it takes the panel to slide open."
+msgstr ""
+
+#: includes/settings/definitions/svg.php:9
+msgid "Use SVG"
+msgstr ""
+
+#: includes/settings/definitions/svg.php:12
+msgid "Use SVG instead of an icon font for all the icons."
+msgstr ""
+
+#: includes/settings/definitions/swipe.php:10
+msgid "Add Swiping"
+msgstr ""
+
+#: includes/settings/definitions/swipe.php:13
+msgid "Set your menu to open when the user swipes their screen."
+msgstr ""
+
+#: includes/settings/definitions/swipe.php:14
+msgid "Most effective if users can clearly see which side of the screen the menu is on."
+msgstr ""
+
+#: includes/settings/definitions/unsimplify.php:8
+msgid "If you check this, none of the menus listed below will display in your SuperSide Me panel, even if they have menus assigned."
+msgstr ""
+
+#: includes/settings/definitions/widget.php:15
+msgid "After Menus/End of Panel"
+msgstr ""
+
+#: includes/settings/definitions/widget.php:16
+msgid "Before Menus/After Search Input"
+msgstr ""
+
+#: includes/settings/definitions/widget.php:18
+msgid "Set widget location"
+msgstr ""
+
+#: includes/settings/fields/class-supersideme-field-custom-custom.php:38
+msgid "Remove Button"
+msgstr ""
+
+#: includes/settings/fields/class-supersideme-field-custom-custom.php:42
+msgid "Add Button"
+msgstr ""
+
+#: includes/settings/fields/class-supersideme-field-custom-menus.php:31
+msgid "[Visible] Heading"
+msgstr ""
+
+#: includes/settings/fields/class-supersideme-field-custom-menus.php:55
+msgid "Do not add this menu to the panel."
+msgstr ""
+
+#: includes/settings/fields/class-supersideme-field-license.php:59
+msgid "Deactivate"
+msgstr ""

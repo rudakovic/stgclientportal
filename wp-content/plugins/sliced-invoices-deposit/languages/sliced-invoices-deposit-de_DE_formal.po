@@ -1,0 +1,309 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sliced Invoices Deposit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-01 17:27-0700\n"
+"PO-Revision-Date: 2019-07-03 14:25+0200\n"
+"Last-Translator: Thorsten Wollenhöfer <thorsten.wollenhoefer@gmail.com>\n"
+"Language-Team: Thorsten Wollenhöfer <thorsten.wollenhoefer@gmail.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-deposit.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: sliced-invoices-deposit.php:163 sliced-invoices-deposit.php:222
+msgid "Deposit Invoices"
+msgstr "Teilzahlungsrechnungen"
+
+#: sliced-invoices-deposit.php:169
+msgid "Deposit Invoice message"
+msgstr "Nachricht zur Teilzahlungsrechnung"
+
+#: sliced-invoices-deposit.php:170
+msgid ""
+"Default: \"This is a Deposit Invoice for %deposit_amount% of the project "
+"total\"<br />(The wildcard %deposit_amount% will be replaced with the amount "
+"of the deposit invoice.)"
+msgstr ""
+"Standard: „Dies ist eine Teilzahlungsrechnung über %deposit_amount% vom "
+"gesamten Projekt“<br />(der Platzhalter %deposit_amount% wird mit dem Betrag "
+"der Teilzahlungsrechnung überschrieben.)"
+
+#: sliced-invoices-deposit.php:180
+msgid "Balance Invoice message"
+msgstr "Nachricht über den Restbetrag der Rechnung"
+
+#: sliced-invoices-deposit.php:181
+msgid ""
+"Default: \"This is a Balance Invoice for %deposit_amount% of the project "
+"total\"<br />(The wildcard %deposit_amount% will be replaced with the amount "
+"of the balance invoice.)"
+msgstr ""
+"Standard: „Dies ist die Rechnung des Restbetrags über %deposit_amount% vom "
+"gesamten Projekt“<br />(der Platzhalter %deposit_amount% wird mit dem "
+"Restbetrag der Rechnung überschrieben.)"
+
+#: sliced-invoices-deposit.php:228 sliced-invoices-deposit.php:750
+#: sliced-invoices-deposit.php:757
+msgid "Deposit"
+msgstr "Teilzahlung"
+
+#: sliced-invoices-deposit.php:238
+msgid "Amount payable for this Deposit Invoice"
+msgstr "Zu zahlender Betrag dieser Teilzahlungsrechnung"
+
+#: sliced-invoices-deposit.php:248
+msgid "Amount payable for this Balance Invoice"
+msgstr "Zu zahlender Betrag dieser verbleibenden Rechnungssumme"
+
+#: sliced-invoices-deposit.php:258
+msgid "Project Total"
+msgstr "Gesamt Total"
+
+#: sliced-invoices-deposit.php:311 sliced-invoices-deposit.php:332
+#: sliced-invoices-deposit.php:338
+#, php-format
+msgid "Deposit %s"
+msgstr "Teilzahlung %s"
+
+#: sliced-invoices-deposit.php:335
+#, php-format
+msgid "Balance %s"
+msgstr "Restbetrag %s"
+
+#: sliced-invoices-deposit.php:365
+msgid "balance"
+msgstr "Restbetrag"
+
+#: sliced-invoices-deposit.php:368
+msgid "deposit"
+msgstr "Teilzahlung"
+
+#: sliced-invoices-deposit.php:372
+msgid "View"
+msgstr "Anzeigen"
+
+#: sliced-invoices-deposit.php:373
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: sliced-invoices-deposit.php:378 sliced-invoices-deposit.php:381
+#, php-format
+msgid ""
+"<h4 class=\"no-print sliced-message message\">This is a %1s %2s for %3s%% of "
+"the project total</h4>"
+msgstr ""
+"<h4 class=\"no-print sliced-message message\">Das ist %1s %2s für %3s%% von "
+"dem Gesamtbetrag der Rechnung</h4>"
+
+#: sliced-invoices-deposit.php:384
+#, php-format
+msgid ""
+"<h4 class=\"no-print sliced-message message\">This is a %1s %2s for %3s of "
+"the project total</h4>"
+msgstr ""
+"<h4 class=\"no-print sliced-message message\">Das ist %1s %2s für %3s%% von "
+"dem Gesamtbetrag der Rechnung</h4>"
+
+#: sliced-invoices-deposit.php:387
+#, php-format
+msgid "%1s or %2s the %3s %4s"
+msgstr "%1s oder %2s der %3s %4s"
+
+#: sliced-invoices-deposit.php:389
+msgid "Create Deposit Invoice"
+msgstr "Teilzahlungsrechnung erstellen"
+
+#: sliced-invoices-deposit.php:389
+msgid "Create Deposit"
+msgstr "Teilzahlung erstellen"
+
+#: sliced-invoices-deposit.php:408
+msgid "Important!"
+msgstr "Wichtig!"
+
+#: sliced-invoices-deposit.php:408
+msgid ""
+"Please ensure that any changes to this invoice are saved before creating the "
+"deposit invoice."
+msgstr ""
+"Bitte stellen Sie sicher, dass Sie die Rechnung gespeichert haben bevor sie "
+"eine Teilzahlungsrechnung erstellen."
+
+#: sliced-invoices-deposit.php:414
+msgid "Deposit Amount"
+msgstr "Teilzahlungsbetrag"
+
+#: sliced-invoices-deposit.php:420
+msgid "Create The Deposit Invoice"
+msgstr "Erstellen Sie die Teilzahlungsrechnung"
+
+#: sliced-invoices-deposit.php:460
+msgid "Deposit -"
+msgstr "Teilzahlung -"
+
+#: sliced-invoices-deposit.php:667
+#, php-format
+msgid ""
+"<span class=\"ui-tip\" title=\"%1s %2s for %3s\"><strong>%4s: %5s</strong></"
+"span><br />"
+msgstr ""
+"<span class=\"ui-tip\" title=\"%1s %2s for %3s\"><strong>%4s: %5s</strong></"
+"span><br />"
+
+#: sliced-invoices-deposit.php:670
+#, php-format
+msgid "Total: %s"
+msgstr "Gesamt: %s"
+
+#: sliced-invoices-deposit.php:765
+msgid "Paid"
+msgstr "Bezahlt"
+
+#: sliced-invoices-deposit.php:771
+msgid "Total Due"
+msgstr "Gesamt fällig"
+
+#: sliced-invoices-deposit.php:832
+#, php-format
+msgid "Deposit %s successfully created."
+msgstr "Teilzahlung %s erfolgreich erstellt."
+
+#: sliced-invoices-deposit.php:847
+msgid "Deposit Invoice options will be displayed after you save this invoice."
+msgstr ""
+"Die Optionen für die Teilzahlungsrechnung werden angezeigt, nachdem Sie "
+"diese Rechnung gespeichert haben."
+
+#: sliced-invoices-deposit.php:897
+#, php-format
+msgid ""
+"Sliced Invoices Deposit extension cannot find the required <a href=\"%s"
+"\">Sliced Invoices plugin</a>. Please make sure the core Sliced Invoices "
+"plugin is <a href=\"%s\">installed and activated</a>."
+msgstr ""
+"Die Deposit-Erweiterung für Sliced Invoices kann das erforderliche <a href="
+"\"%s\">Plugin für Sliced Invoices</a> nicht finden. Stellen Sie sicher, dass "
+"das Sliced Invoices-Hauptplugin <a href=\"%s\">installiert und aktiviert</a> "
+"ist."
+
+#: updater/class-base-updater.php:207
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$sAnzeigen der Version %3$s "
+"Details%4$s."
+
+#: updater/class-base-updater.php:215
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$sAnzeigen der Version %3$s "
+"Details%4$s oder %5$saktualisieren Sie jetzt%6$s."
+
+#: updater/class-base-updater.php:402
+msgid "You do not have permission to install plugin updates"
+msgstr "Sie haben keine Berechtigung zum Installieren von Plugin-Updates"
+
+#: updater/class-base-updater.php:402
+msgid "Error"
+msgstr "Fehler"
+
+#: updater/plugin-updater.php:92 updater/plugin-updater.php:116
+msgid "Enter the License Key for this extension"
+msgstr "Geben Sie den Lizenzschlüssel für diese Erweiterung ein"
+
+#: updater/plugin-updater.php:132
+#, php-format
+msgid "License: %s"
+msgstr "Lizenz: %s"
+
+#: updater/plugin-updater.php:140
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: updater/plugin-updater.php:141
+msgid "Activate License"
+msgstr "Aktiviere Lizenz"
+
+#: updater/plugin-updater.php:343
+#, php-format
+msgid ""
+"No license key found.  Don't forget to enter your license key on the <a href="
+"\"%s\">Licenses page</a>."
+msgstr ""
+"Kein Lizenzschlüssel gefunden Vergessen Sie nicht, Ihren Lizenzschlüssel auf "
+"der <a href=\"%s\">Lizenzseite</a> einzugeben."
+
+#: updater/plugin-updater.php:360
+#, php-format
+msgid ""
+"Your license for %s has expired.  Please <a href=\"%s\">renew your license</"
+"a> to continue receiving updates and support."
+msgstr ""
+"Ihre Lizenz für %s ist abgelaufen. Bitte <a href=\"%s\">erneuern Sie Ihre "
+"Lizenz</a>, um weiterhin Updates und Support zu erhalten."
+
+#: updater/plugin-updater.php:373
+#, php-format
+msgid ""
+"Your license for %s has been disabled.  Please <a href=\"%s\">contact us</a> "
+"for assistance."
+msgstr ""
+"Ihre Lizenz für %s wurde deaktiviert. Bitte <a href=\"%s\">kontaktieren Sie "
+"uns</a>, um Hilfe zu erhalten."
+
+#: updater/plugin-updater.php:385
+#, php-format
+msgid ""
+"Your license for %s is not active.  Be sure to activate your license key on "
+"the <a href=\"%s\">Licenses page</a> to receive updates and support."
+msgstr ""
+"Ihre Lizenz für %s ist nicht aktiv. Achten Sie darauf, Ihren Lizenzschlüssel "
+"auf der <a href=\"%s\">Lizenzseite</a> zu aktivieren, um Updates und Support "
+"zu erhalten."
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Deposit"
+msgstr "Sliced Invoices Teilzahlungsrechnung"
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/deposit-invoices/"
+msgstr "https://slicedinvoices.com/extensions/deposit-invoices/"
+
+#. Description of the plugin/theme
+msgid ""
+"Create deposit invoices with the click of a button. Requirements: The Sliced "
+"Invoices Plugin"
+msgstr ""
+"Erstellen Sie eine Teilzahlungsrechnung mit nur einem Klick. Dazu "
+"erforderlich ist: Das Sliced Invoices Plugin"
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr "Sliced Invoices"
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr "https://slicedinvoices.com/"
+
+#~ msgid ""
+#~ "To create a Deposit Invoice, first enter your line items, then save the "
+#~ "invoice.  Once saved, your deposit options will appear above."
+#~ msgstr ""
+#~ "Für die erstellung eines Rechnungssplitt, Bitte zuerst Ihre Artikel "
+#~ "eingeben und die Rechnung speichern. Die Option Rechnungssplitt steht "
+#~ "Ihnen Anschließend zur Verfügung."

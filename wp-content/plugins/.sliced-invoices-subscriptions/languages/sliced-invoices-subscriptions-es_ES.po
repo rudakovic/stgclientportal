@@ -1,0 +1,444 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Project-Id-Version: Sliced Invoices Subscriptions\n"
+"POT-Creation-Date: 2019-09-12 02:20-0700\n"
+"PO-Revision-Date: 2021-12-23 03:15-0800\n"
+"Last-Translator: Lolo Marchal\n"
+"Language-Team: Español\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-subscriptions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: es_ES\n"
+"X-Loco-Version: 2.4.6; wp-5.5.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: sliced-invoices-subscriptions.php:166
+msgid "Cancel subscription"
+msgstr "Cancelar suscripción"
+
+#: sliced-invoices-subscriptions.php:193
+msgid ""
+"By completing checkout, you consent to be charged automatically according to "
+"the terms shown above."
+msgstr ""
+"Al completar el pago, usted consiente en que se le cobre automáticamente de "
+"acuerdo con los términos mostrados arriba."
+
+#: sliced-invoices-subscriptions.php:224 sliced-invoices-subscriptions.php:273
+msgid "Subscription Terms:"
+msgstr "Términos de suscripción:"
+
+#: sliced-invoices-subscriptions.php:225 sliced-invoices-subscriptions.php:274
+#: sliced-invoices-subscriptions.php:1102
+#, php-format
+msgid "%1$s charged every %2$s %3$s %4$s"
+msgstr "%1$s cargado cada %2$s %3$s %4$s"
+
+#: sliced-invoices-subscriptions.php:232 sliced-invoices-subscriptions.php:281
+#: sliced-invoices-subscriptions.php:1108
+msgid "Trial period:"
+msgstr "Periodo de prueba:"
+
+#: sliced-invoices-subscriptions.php:233 sliced-invoices-subscriptions.php:282
+#: sliced-invoices-subscriptions.php:1110
+#, php-format
+msgid "%1$s for %2$s %3$s (%4$s %5$s)"
+msgstr "%1$s para %2$s %3$s (%4$s %5$s)"
+
+#: sliced-invoices-subscriptions.php:238 sliced-invoices-subscriptions.php:287
+#: sliced-invoices-subscriptions.php:1115
+msgid "cycle"
+msgid_plural "cycles"
+msgstr[0] "ciclo"
+msgstr[1] "ciclos"
+
+#: sliced-invoices-subscriptions.php:309
+msgid "Subscription Invoices"
+msgstr "Subscription Invoices (Facturas de suscripción)"
+
+#: sliced-invoices-subscriptions.php:352
+msgid "Subscription"
+msgstr "Suscripción"
+
+#: sliced-invoices-subscriptions.php:372 sliced-invoices-subscriptions.php:403
+#, php-format
+msgid "Subscription %s"
+msgstr "Suscripción %s"
+
+#: sliced-invoices-subscriptions.php:559
+msgid "Are you sure you want to cancel this subscription?"
+msgstr "¿Estás seguro de que quieres cancelar esta suscripción?"
+
+#: sliced-invoices-subscriptions.php:693
+msgid "Receipt -"
+msgstr "Recibo -"
+
+#: sliced-invoices-subscriptions.php:842 sliced-invoices-subscriptions.php:1092
+msgid "Active"
+msgstr "Activa"
+
+#: sliced-invoices-subscriptions.php:845 sliced-invoices-subscriptions.php:1095
+msgid "Cancelled"
+msgstr "Cancelada"
+
+#: sliced-invoices-subscriptions.php:863
+msgid "day"
+msgid_plural "days"
+msgstr[0] "día"
+msgstr[1] "días"
+
+#: sliced-invoices-subscriptions.php:866
+msgid "month"
+msgid_plural "months"
+msgstr[0] "mes"
+msgstr[1] "meses"
+
+#: sliced-invoices-subscriptions.php:869
+msgid "year"
+msgid_plural "years"
+msgstr[0] "año"
+msgstr[1] "años"
+
+#: sliced-invoices-subscriptions.php:885
+msgid "until cancelled"
+msgstr "hasta que sea cancelada"
+
+#: sliced-invoices-subscriptions.php:888
+#, php-format
+msgid "for %1$s %2$s"
+msgstr "para %1$s %2$s"
+
+#: sliced-invoices-subscriptions.php:890
+msgid "payment"
+msgid_plural "payments"
+msgstr[0] "pago"
+msgstr[1] "pagos"
+
+#: sliced-invoices-subscriptions.php:956
+msgid "There was an error with the form submission, please try again."
+msgstr ""
+"Hubo un error con el envío del formulario, por favor, inténtalo de nuevo."
+
+#: sliced-invoices-subscriptions.php:999
+msgid "Success"
+msgstr "Correcto"
+
+#: sliced-invoices-subscriptions.php:1001
+msgid "Subscription has been cancelled."
+msgstr "La suscripción ha sido cancelada"
+
+#: sliced-invoices-subscriptions.php:1004
+#, php-format
+msgid "<a href=\"%1s\">Click here to return to %s</a>"
+msgstr "<a href=\"%1s\">Haz clic aquí para regresar a %s</a>"
+
+#: sliced-invoices-subscriptions.php:1011
+msgid "Invalid payment gateway"
+msgstr "Pasarela de pagos inválida"
+
+#: sliced-invoices-subscriptions.php:1055
+msgid ""
+"Are you sure you want to cancel this subscription?  This cannot be undone."
+msgstr ""
+"¿Estás seguro de que quieres cancelar esta suscripción? Esta acción no puede "
+"deshacerse."
+
+#: sliced-invoices-subscriptions.php:1086
+msgid "Subscription status"
+msgstr "Estado de suscripción"
+
+#: sliced-invoices-subscriptions.php:1089
+msgid "Pending"
+msgstr "Pendiente"
+
+#: sliced-invoices-subscriptions.php:1101
+msgid "Terms:"
+msgstr "Términos:"
+
+#: sliced-invoices-subscriptions.php:1117
+msgid "no trial period"
+msgstr "sin periodo de prueba"
+
+#: sliced-invoices-subscriptions.php:1120
+msgid "Gateway:"
+msgstr "Pasarela de pagos:"
+
+#: sliced-invoices-subscriptions.php:1128
+#: sliced-invoices-subscriptions.php:1135
+msgid "Subscription Invoice"
+msgstr "Factura de suscripción"
+
+#: sliced-invoices-subscriptions.php:1128
+msgid "Edit Subscription"
+msgstr "Editar suscripción"
+
+#: sliced-invoices-subscriptions.php:1130
+msgid "Cancel Subscription"
+msgstr "Cancelar suscripción"
+
+#: sliced-invoices-subscriptions.php:1135
+msgid "Create Subscription Invoice"
+msgstr "Crear factura de suscripción"
+
+#: sliced-invoices-subscriptions.php:1151
+msgid ""
+"Subscription Invoice options will be displayed after you save this invoice."
+msgstr ""
+"Las opciones de la Factura de suscripción se mostrarán después de guardar "
+"esta factura."
+
+#: sliced-invoices-subscriptions.php:1214
+msgid "Subscription invoice successfully created."
+msgstr "Factura de suscripción creada correctamente."
+
+#: sliced-invoices-subscriptions.php:1220
+msgid "Subscription invoice successfully updated."
+msgstr "Factura de suscripción actualizada correctamente."
+
+#: sliced-invoices-subscriptions.php:1226
+msgid "Subscription invoice cancelled."
+msgstr "Factura de suscripción cancelada."
+
+#: sliced-invoices-subscriptions.php:1232
+msgid "Subscription error"
+msgstr "Error de suscripción"
+
+#: sliced-invoices-subscriptions.php:1265
+msgid "Friendly reminder:"
+msgstr "Recordatorio amistoso:"
+
+#: sliced-invoices-subscriptions.php:1265
+msgid ""
+"Subscription terms cannot be changed once the subscription is active.  To "
+"change the subscription amount or schedule, you must first cancel this "
+"subscription, then start a new one."
+msgstr ""
+"Los términos de las suscripciones no pueden ser cambiados una vez que la "
+"suscripción está activa. Para cambiar el importe de la suscripción o su "
+"programación, primero debes cancelar esta suscripción y después, crear una "
+"nueva."
+
+#: sliced-invoices-subscriptions.php:1267
+msgid "Any other settings can be changed below:"
+msgstr "Algún otro ajuste puede ser cambiado debajo:"
+
+#: sliced-invoices-subscriptions.php:1276
+#: sliced-invoices-subscriptions.php:1385
+msgid "Enable receipt invoices?"
+msgstr "¿Activar facturas recibo?"
+
+#: sliced-invoices-subscriptions.php:1285
+#: sliced-invoices-subscriptions.php:1394
+msgid "Automatically send to client?"
+msgstr "¿Enviar automáticamente al cliente?"
+
+#: sliced-invoices-subscriptions.php:1289
+#: sliced-invoices-subscriptions.php:1398
+msgid "Yes"
+msgstr "Sí"
+
+#: sliced-invoices-subscriptions.php:1290
+#: sliced-invoices-subscriptions.php:1399
+msgid "No"
+msgstr "No"
+
+#: sliced-invoices-subscriptions.php:1301
+#: sliced-invoices-subscriptions.php:1411
+msgid "Update Subscription"
+msgstr "Actualizar Suscripción"
+
+#: sliced-invoices-subscriptions.php:1310
+msgid "Important!"
+msgstr "¡Importante!"
+
+#: sliced-invoices-subscriptions.php:1310
+msgid ""
+"Please ensure that any changes to this invoice are saved before creating the "
+"subscription."
+msgstr ""
+"Por favor, asegúrate de que cualquier cambio a esta factura sea guardado "
+"antes de crear la suscripción."
+
+#: sliced-invoices-subscriptions.php:1319
+msgid "Charge every..."
+msgstr "Cargar cada..."
+
+#: sliced-invoices-subscriptions.php:1324
+#: sliced-invoices-subscriptions.php:1358
+msgid "Day(s)"
+msgstr "Día(s)"
+
+#: sliced-invoices-subscriptions.php:1325
+#: sliced-invoices-subscriptions.php:1359
+msgid "Month(s)"
+msgstr "Mes(es)"
+
+#: sliced-invoices-subscriptions.php:1326
+#: sliced-invoices-subscriptions.php:1360
+msgid "Year(s)"
+msgstr "Año(s)"
+
+#: sliced-invoices-subscriptions.php:1333
+msgid "Number of payments"
+msgstr "Número de pagos"
+
+#: sliced-invoices-subscriptions.php:1336
+msgid "Continue until cancelled"
+msgstr "Continuar hasta que sea cancelado"
+
+#: sliced-invoices-subscriptions.php:1337
+msgid "Fixed term:"
+msgstr "Término fijo:"
+
+#: sliced-invoices-subscriptions.php:1338
+msgid "payments"
+msgstr "pagos"
+
+#: sliced-invoices-subscriptions.php:1344
+msgid "Enable Trial?"
+msgstr "¿Activar Prueba?"
+
+#: sliced-invoices-subscriptions.php:1353
+msgid "Trial cycle duration"
+msgstr "Duración del periodo de prueba"
+
+#: sliced-invoices-subscriptions.php:1367
+msgid "Trial number of cycles"
+msgstr "Número de ciclos de prueba"
+
+#: sliced-invoices-subscriptions.php:1370
+msgid "Cycle(s)"
+msgstr "Ciclo(s)"
+
+#: sliced-invoices-subscriptions.php:1376
+msgid "Trial amount"
+msgstr "Importe de prueba"
+
+#: sliced-invoices-subscriptions.php:1413
+msgid "Create Subscription"
+msgstr "Crear Suscripción"
+
+#: sliced-invoices-subscriptions.php:1462
+#, php-format
+msgid ""
+"Sliced Invoices Subscriptions extension cannot find the required <a href=\"%s"
+"\">Sliced Invoices plugin</a>. Please make sure the core Sliced Invoices "
+"plugin is <a href=\"%s\">installed and activated</a>."
+msgstr ""
+"La extensión Sliced Invoices Subscriptions no puede encontrar el <a href=\"%s"
+"\">plugin Sliced Invoices</a> requerido. Por favor, asegúrate de que el "
+"plugin principal de Sliced Invoices está <a href=\"%s\">instalado y "
+"activado</a>."
+
+#: updater/class-base-updater.php:207
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Hay una nueva versión de %1$s disponible. %2$sVer detalles %3$s de la versión"
+"%4$s."
+
+#: updater/class-base-updater.php:215
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Hay una nueva versión de %1$s disponible. %2$sVer versión %3$s detalles%4$s "
+"o %5$sactualización ahora%6$s."
+
+#: updater/class-base-updater.php:402
+msgid "You do not have permission to install plugin updates"
+msgstr "No tienes permisos para instalar actualizaciones de plugin"
+
+#: updater/class-base-updater.php:402
+msgid "Error"
+msgstr "Error"
+
+#: updater/plugin-updater.php:92 updater/plugin-updater.php:116
+msgid "Enter the License Key for this extension"
+msgstr "Introduce la Clave de Licencia para esta extensión"
+
+#: updater/plugin-updater.php:132
+#, php-format
+msgid "License: %s"
+msgstr "Licencia: %s"
+
+#: updater/plugin-updater.php:140
+msgid "Deactivate License"
+msgstr "Desactivar Licencia"
+
+#: updater/plugin-updater.php:141
+msgid "Activate License"
+msgstr "Activar Licencia"
+
+#: updater/plugin-updater.php:343
+#, php-format
+msgid ""
+"No license key found.  Don't forget to enter your license key on the <a href="
+"\"%s\">Licenses page</a>."
+msgstr ""
+"No se ha encontrado la clave de licencia. No olvides introducir tu clave de "
+"licencia en la <a href=\"%s\">Página de Licencias</a>."
+
+#: updater/plugin-updater.php:360
+#, php-format
+msgid ""
+"Your license for %s has expired.  Please <a href=\"%s\">renew your license</"
+"a> to continue receiving updates and support."
+msgstr ""
+"Tu clave de licencia para %s ha caducado.  Por favor, <a href=\"%s\">renueva "
+"tu licencia</a> para continuar recibiendo actualizaciones y soporte."
+
+#: updater/plugin-updater.php:373
+#, php-format
+msgid ""
+"Your license for %s has been disabled.  Please <a href=\"%s\">contact us</a> "
+"for assistance."
+msgstr ""
+"Tu licencia para %s ha sido desactivada. Por favor, <a href=\"%s\">contacta "
+"con nosotros</a> y trataremos de ayudarte."
+
+#: updater/plugin-updater.php:385
+#, php-format
+msgid ""
+"Your license for %s is not active.  Be sure to activate your license key on "
+"the <a href=\"%s\">Licenses page</a> to receive updates and support."
+msgstr ""
+"Tu licencia para %s no está activa.  Asegúrate de activar tu clave de "
+"licencia en la <a href=\"%s\">página de Licencias</a> para recibir "
+"actualizaciones y soporte."
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Subscriptions"
+msgstr "Sliced Invoices Suscripciones"
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/subscription-invoices/"
+msgstr "https://slicedinvoices.com/extensions/subscription-invoices/"
+
+#. Description of the plugin/theme
+msgid ""
+"Create subscription invoices with the click of a button. Requirements: The "
+"Sliced Invoices Plugin"
+msgstr ""
+"Crea facturas de suscripción con un clic. Requisitos: El plugin Sliced "
+"Invoices"
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr "Sliced Invoices"
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr "https://slicedinvoices.com/"

@@ -1,0 +1,7 @@
+[2025-08-01 16:41:04] ***** Start migration transaction *****
+[2025-08-01 16:41:04] Start core migrations
+[2025-08-01 16:41:04] Finish core migrations
+[2025-08-01 16:41:04] *Starting migrations for YayMailAddonWcSubscription*
+[2025-08-01 16:41:04] No migrations available for YayMailAddonWcSubscription
+[2025-08-01 16:41:04] *Finished migrations for YayMailAddonWcSubscription*
+[2025-08-01 16:41:04] ***** End migration transaction *****

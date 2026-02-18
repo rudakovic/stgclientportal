@@ -1,0 +1,271 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Sliced Invoices Deposit\n"
+"POT-Creation-Date: 2022-04-08 13:18-0700\n"
+"PO-Revision-Date: 2017-06-06 22:55-0700\n"
+"Last-Translator: \n"
+"Language-Team: Sliced Invoices <info@slicedinvoices.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-deposit.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:104
+#: admin/includes/class-sliced-invoices-deposit-admin.php:149
+#: admin/includes/class-sliced-invoices-deposit-admin.php:236
+msgid "Deposit Invoices"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:125
+#: admin/includes/class-sliced-invoices-deposit-admin.php:131
+#, php-format
+msgid "Deposit %s"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:128
+#, php-format
+msgid "Balance %s"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:155
+msgid "Deposit Invoice message"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:156
+msgid ""
+"Default: \"This is a Deposit Invoice for %deposit_amount% of the project "
+"total\"<br />(The wildcard %deposit_amount% will be replaced with the amount "
+"of the deposit invoice.)"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:166
+msgid "Balance Invoice message"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:167
+msgid ""
+"Default: \"This is a Balance Invoice for %deposit_amount% of the project "
+"total\"<br />(The wildcard %deposit_amount% will be replaced with the amount "
+"of the balance invoice.)"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:206
+#, php-format
+msgid ""
+"<span class=\"ui-tip\" title=\"%1s %2s for %3s\"><strong>%4s: %5s</strong></"
+"span><br />"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:209
+#, php-format
+msgid "Total: %s"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:242
+#: includes/class-sliced-deposit.php:434
+msgid "Deposit"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:252
+#: includes/class-sliced-deposit.php:435
+msgid "Amount payable for this Deposit Invoice"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:262
+#: includes/class-sliced-deposit.php:436
+msgid "Amount payable for this Balance Invoice"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:272
+#: includes/class-sliced-deposit.php:437
+msgid "Project Total"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:302
+msgid "Important!"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:302
+msgid ""
+"Please ensure that any changes to this invoice are saved before creating the "
+"deposit invoice."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:308
+msgid "Deposit Amount"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:314
+msgid "Create The Deposit Invoice"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:337
+#, php-format
+msgid "Deposit %s successfully created."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:385
+msgid "balance"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:388
+msgid "deposit"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:392
+msgid "View"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:393
+msgid "Edit"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:398
+#: admin/includes/class-sliced-invoices-deposit-admin.php:401
+#, php-format
+msgid ""
+"<h4 class=\"no-print sliced-message message\">This is a %1s %2s for %3s%% of "
+"the project total</h4>"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:404
+#, php-format
+msgid ""
+"<h4 class=\"no-print sliced-message message\">This is a %1s %2s for %3s of "
+"the project total</h4>"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:407
+#, php-format
+msgid "%1s or %2s the %3s %4s"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:409
+msgid "Create Deposit Invoice"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:409
+msgid "Create Deposit"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-deposit-admin.php:422
+msgid "Deposit Invoice options will be displayed after you save this invoice."
+msgstr ""
+
+#: includes/class-sliced-deposit.php:126
+msgid "Paid"
+msgstr ""
+
+#: includes/class-sliced-deposit.php:132
+msgid "Total Due"
+msgstr ""
+
+#: includes/class-sliced-deposit.php:362
+msgid "Deposit -"
+msgstr ""
+
+#: includes/class-sliced-deposit.php:459
+#, php-format
+msgid ""
+"Sliced Invoices Deposit extension cannot find the required <a href=\"%s"
+"\">Sliced Invoices plugin</a>. Please make sure the core Sliced Invoices "
+"plugin is <a href=\"%s\">installed and activated</a>."
+msgstr ""
+
+#: updater/class-base-updater.php:207
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: updater/class-base-updater.php:215
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: updater/class-base-updater.php:402
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: updater/class-base-updater.php:402
+msgid "Error"
+msgstr ""
+
+#: updater/plugin-updater.php:91 updater/plugin-updater.php:115
+msgid "Enter the License Key for this extension"
+msgstr ""
+
+#: updater/plugin-updater.php:131
+#, php-format
+msgid "License: %s"
+msgstr ""
+
+#: updater/plugin-updater.php:139
+msgid "Deactivate License"
+msgstr ""
+
+#: updater/plugin-updater.php:140
+msgid "Activate License"
+msgstr ""
+
+#: updater/plugin-updater.php:342
+#, php-format
+msgid ""
+"No license key found.  Don't forget to enter your license key on the <a href="
+"\"%s\">Licenses page</a>."
+msgstr ""
+
+#: updater/plugin-updater.php:359
+#, php-format
+msgid ""
+"Your license for %s has expired.  Please <a href=\"%s\">renew your license</"
+"a> to continue receiving updates and support."
+msgstr ""
+
+#: updater/plugin-updater.php:372
+#, php-format
+msgid ""
+"Your license for %s has been disabled.  Please <a href=\"%s\">contact us</a> "
+"for assistance."
+msgstr ""
+
+#: updater/plugin-updater.php:384
+#, php-format
+msgid ""
+"Your license for %s is not active.  Be sure to activate your license key on "
+"the <a href=\"%s\">Licenses page</a> to receive updates and support."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Deposit"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/deposit-invoices/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create deposit invoices with the click of a button. Requirements: The Sliced "
+"Invoices Plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr ""

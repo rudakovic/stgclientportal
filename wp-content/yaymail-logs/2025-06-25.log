@@ -1,0 +1,80 @@
+[2025-06-25 11:36:11] YayMail is freshly installed, no migrations needed!
+[2025-06-25 11:59:28] ***** Start migration transaction *****
+[2025-06-25 11:59:28] Start core migrations
+[2025-06-25 11:59:28] Finish core migrations
+[2025-06-25 11:59:28] *Starting migrations for YayMailAddonWcSubscription*
+[2025-06-25 11:59:28] No migrations available for YayMailAddonWcSubscription
+[2025-06-25 11:59:28] *Finished migrations for YayMailAddonWcSubscription*
+[2025-06-25 11:59:28] ***** End migration transaction *****
+[2025-06-25 12:32:04] SYSTEM ERROR: 0 : Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_time()
+/sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/Functions.php(334)
+#0 /sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/YayMailTemplate.php(248): yaymail_get_logger()
+#1 /sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/Ajax.php(222): YayMail\YayMailTemplate->get_content()
+#2 /sites/clientportal.valet.io/files/wp-includes/class-wp-hook.php(324): YayMail\Ajax->preview_mail()
+#3 /sites/clientportal.valet.io/files/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /sites/clientportal.valet.io/files/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /sites/clientportal.valet.io/files/wp-admin/admin-ajax.php(192): do_action()
+#6 {main}
+[2025-06-25 12:32:13] SYSTEM ERROR: 0 : Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_time()
+/sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/Functions.php(334)
+#0 /sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/YayMailTemplate.php(248): yaymail_get_logger()
+#1 /sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/Ajax.php(157): YayMail\YayMailTemplate->get_content()
+#2 /sites/clientportal.valet.io/files/wp-includes/class-wp-hook.php(324): YayMail\Ajax->send_test_mail()
+#3 /sites/clientportal.valet.io/files/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /sites/clientportal.valet.io/files/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /sites/clientportal.valet.io/files/wp-admin/admin-ajax.php(192): do_action()
+#6 {main}
+[2025-06-25 15:13:48] SYSTEM ERROR: 0 : Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_time()
+/sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/Functions.php(334)
+#0 /sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/YayMailTemplate.php(248): yaymail_get_logger()
+#1 /sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/Ajax.php(157): YayMail\YayMailTemplate->get_content()
+#2 /sites/clientportal.valet.io/files/wp-includes/class-wp-hook.php(324): YayMail\Ajax->send_test_mail()
+#3 /sites/clientportal.valet.io/files/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /sites/clientportal.valet.io/files/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /sites/clientportal.valet.io/files/wp-admin/admin-ajax.php(192): do_action()
+#6 {main}
+[2025-06-25 15:13:55] SYSTEM ERROR: 0 : Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_time()
+/sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/Functions.php(334)
+#0 /sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/YayMailTemplate.php(248): yaymail_get_logger()
+#1 /sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/Ajax.php(157): YayMail\YayMailTemplate->get_content()
+#2 /sites/clientportal.valet.io/files/wp-includes/class-wp-hook.php(324): YayMail\Ajax->send_test_mail()
+#3 /sites/clientportal.valet.io/files/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /sites/clientportal.valet.io/files/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /sites/clientportal.valet.io/files/wp-admin/admin-ajax.php(192): do_action()
+#6 {main}
+[2025-06-25 15:14:28] SYSTEM ERROR: 0 : Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_time()
+/sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/Functions.php(334)
+#0 /sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/YayMailTemplate.php(248): yaymail_get_logger()
+#1 /sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/Ajax.php(157): YayMail\YayMailTemplate->get_content()
+#2 /sites/clientportal.valet.io/files/wp-includes/class-wp-hook.php(324): YayMail\Ajax->send_test_mail()
+#3 /sites/clientportal.valet.io/files/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /sites/clientportal.valet.io/files/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /sites/clientportal.valet.io/files/wp-admin/admin-ajax.php(192): do_action()
+#6 {main}
+[2025-06-25 15:14:51] SYSTEM ERROR: 0 : Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_time()
+/sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/Functions.php(334)
+#0 /sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/YayMailTemplate.php(248): yaymail_get_logger()
+#1 /sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/Ajax.php(157): YayMail\YayMailTemplate->get_content()
+#2 /sites/clientportal.valet.io/files/wp-includes/class-wp-hook.php(324): YayMail\Ajax->send_test_mail()
+#3 /sites/clientportal.valet.io/files/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /sites/clientportal.valet.io/files/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /sites/clientportal.valet.io/files/wp-admin/admin-ajax.php(192): do_action()
+#6 {main}
+[2025-06-25 15:15:15] SYSTEM ERROR: 0 : Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_time()
+/sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/Functions.php(334)
+#0 /sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/YayMailTemplate.php(248): yaymail_get_logger()
+#1 /sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/Ajax.php(157): YayMail\YayMailTemplate->get_content()
+#2 /sites/clientportal.valet.io/files/wp-includes/class-wp-hook.php(324): YayMail\Ajax->send_test_mail()
+#3 /sites/clientportal.valet.io/files/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /sites/clientportal.valet.io/files/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /sites/clientportal.valet.io/files/wp-admin/admin-ajax.php(192): do_action()
+#6 {main}
+[2025-06-25 15:15:58] SYSTEM ERROR: 0 : Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_time()
+/sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/Functions.php(334)
+#0 /sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/YayMailTemplate.php(248): yaymail_get_logger()
+#1 /sites/clientportal.valet.io/files/wp-content/plugins/yaymail/src/Ajax.php(157): YayMail\YayMailTemplate->get_content()
+#2 /sites/clientportal.valet.io/files/wp-includes/class-wp-hook.php(324): YayMail\Ajax->send_test_mail()
+#3 /sites/clientportal.valet.io/files/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /sites/clientportal.valet.io/files/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /sites/clientportal.valet.io/files/wp-admin/admin-ajax.php(192): do_action()
+#6 {main}

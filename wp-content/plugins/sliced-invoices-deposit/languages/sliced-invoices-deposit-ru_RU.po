@@ -1,0 +1,228 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: Sliced Invoices Deposit\n"
+"POT-Creation-Date: 2017-06-17 11:15+0300\n"
+"PO-Revision-Date: 2017-07-15 16:18+0300\n"
+"Language-Team: Sliced Invoices <info@slicedinvoices.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-deposit.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: sliced-invoices-deposit.php:115 sliced-invoices-deposit.php:174
+msgid "Deposit Invoices"
+msgstr ""
+
+#: sliced-invoices-deposit.php:121
+msgid "Deposit Invoice message"
+msgstr "Сообщение"
+
+#: sliced-invoices-deposit.php:122
+msgid ""
+"Default: \"This is a Deposit Invoice for %deposit_amount% of the project "
+"total\"<br />(The wildcard %deposit_amount% will be replaced with the amount "
+"of the deposit invoice.)"
+msgstr ""
+
+#: sliced-invoices-deposit.php:132
+msgid "Balance Invoice message"
+msgstr "Сообщение о балансе счета"
+
+#: sliced-invoices-deposit.php:133
+msgid ""
+"Default: \"This is a Balance Invoice for %deposit_amount% of the project "
+"total\"<br />(The wildcard %deposit_amount% will be replaced with the amount "
+"of the balance invoice.)"
+msgstr ""
+
+#: sliced-invoices-deposit.php:180
+msgid "Amount payable for this Deposit Invoice"
+msgstr ""
+
+#: sliced-invoices-deposit.php:190
+msgid "Amount payable for this Balance Invoice"
+msgstr ""
+
+#: sliced-invoices-deposit.php:200
+msgid "Project Total"
+msgstr ""
+
+#: sliced-invoices-deposit.php:259 sliced-invoices-deposit.php:265
+#, php-format
+msgid "Deposit %s"
+msgstr "Депозит %s"
+
+#: sliced-invoices-deposit.php:262
+#, php-format
+msgid "Balance %s"
+msgstr "Баланс %s"
+
+#: sliced-invoices-deposit.php:292
+msgid "balance"
+msgstr "баланс"
+
+#: sliced-invoices-deposit.php:295
+msgid "deposit"
+msgstr "депозит"
+
+#: sliced-invoices-deposit.php:299
+msgid "View"
+msgstr "Просмотр"
+
+#: sliced-invoices-deposit.php:300
+msgid "Edit"
+msgstr "Правка"
+
+#: sliced-invoices-deposit.php:305 sliced-invoices-deposit.php:308
+#, php-format
+msgid ""
+"<h4 class=\"no-print sliced-message message\">This is a %1s %2s for %3s%% of "
+"the project total</h4>"
+msgstr ""
+
+#: sliced-invoices-deposit.php:311
+#, php-format
+msgid ""
+"<h4 class=\"no-print sliced-message message\">This is a %1s %2s for %3s of "
+"the project total</h4>"
+msgstr ""
+
+#: sliced-invoices-deposit.php:314
+#, php-format
+msgid "%1s or %2s the %3s %4s"
+msgstr ""
+
+#: sliced-invoices-deposit.php:316
+msgid "Create Deposit Invoice"
+msgstr "Создать депозитный счет"
+
+#: sliced-invoices-deposit.php:316
+msgid "Create Deposit"
+msgstr "Создать депозит"
+
+#: sliced-invoices-deposit.php:335
+msgid "Important!"
+msgstr "Важно!"
+
+#: sliced-invoices-deposit.php:335
+msgid ""
+"Please ensure that any changes to this invoice are saved before creating the "
+"deposit invoice."
+msgstr ""
+"Пожалуйста, убедитесь в том, что вы сохранили все изменения, прежде чем "
+"создавать депозитный счет."
+
+#: sliced-invoices-deposit.php:341
+msgid "Deposit Amount"
+msgstr "Сумма депозита"
+
+#: sliced-invoices-deposit.php:347
+msgid "Create The Deposit Invoice"
+msgstr "Создать депозитный счет"
+
+#: sliced-invoices-deposit.php:387
+msgid "Deposit -"
+msgstr "Депозит -"
+
+#: sliced-invoices-deposit.php:556
+#, php-format
+msgid ""
+"<span class=\"ui-tip\" title=\"%1s %2s for %3s\"><strong>%4s: %5s</strong></"
+"span><br />"
+msgstr ""
+
+#: sliced-invoices-deposit.php:559
+#, php-format
+msgid "Total: %s"
+msgstr "Сумма: %s"
+
+#: sliced-invoices-deposit.php:621
+msgid "Sub Total"
+msgstr ""
+
+#: sliced-invoices-deposit.php:643
+msgid "Total Due"
+msgstr ""
+
+#: sliced-invoices-deposit.php:669
+#, php-format
+msgid "Deposit %s successfully created."
+msgstr "Депозит %s успешно создан."
+
+#: updater/class-base-updater.php:186
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Доступна новая версия %1$s. <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">Узнать больше о версии %3$s</a>."
+
+#: updater/class-base-updater.php:193
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Доступна новая версия %1$s. <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">Узнать больше о версии %3$s</a> или <a href=\"%4$s\">обновить</a>."
+
+#: updater/class-base-updater.php:331
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+"У вас недостаточно привилегий для выполнения операции по обновлению плагинов"
+
+#: updater/class-base-updater.php:331
+msgid "Error"
+msgstr "Ошибка"
+
+#: updater/plugin-updater.php:70
+msgid "Enter the License Key for this extension"
+msgstr "Введите лицензионный ключ"
+
+#: updater/plugin-updater.php:89
+#, php-format
+msgid "License: %s"
+msgstr "Лицензионный ключ: %s"
+
+#: updater/plugin-updater.php:97
+msgid "Deactivate License"
+msgstr "Деактивировать лицензию"
+
+#: updater/plugin-updater.php:98
+msgid "Activate License"
+msgstr "Активировать лицензию"
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Deposit"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://slicedinvoices.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create deposit invoices with the click of a button. Requirements: The Sliced "
+"Invoices Plugin"
+msgstr ""
+"Создавайте депозитные счета одним щелчком мыши. Требования: плагин Sliced "
+"Invoices"
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr ""

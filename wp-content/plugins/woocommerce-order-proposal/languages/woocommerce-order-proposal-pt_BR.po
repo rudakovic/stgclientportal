@@ -1,0 +1,717 @@
+# Copyright (C) 2021 WP Overnight
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Order Proposal 1.7.19\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-order-"
+"proposal\n"
+"POT-Creation-Date: 2021-10-28T10:57:35+00:00\n"
+"PO-Revision-Date: 2021-11-02 16:33+0000\n"
+"Last-Translator: WP Overnight <support@wpovernight.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Domain: woocommerce-order-proposal\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Order Proposal"
+msgstr "WooCommerce Order Proposal"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpovernight.com/"
+msgstr "https://wpovernight.com/"
+
+#. Description of the plugin
+msgid "Adds the ability to create order proposals to WooCommerce"
+msgstr "Adiciona ao WooCommerce a capacidade de criar propostas de pedidos"
+
+#. Author of the plugin
+msgid "WP Overnight"
+msgstr "WP Overnight"
+
+#: compatibility/class-woocommerce-pdf-invoices-old.php:53
+#: compatibility/class-woocommerce-pdf-invoices-old.php:73
+#: compatibility/class-woocommerce-pdf-invoices-old.php:74
+#: compatibility/class-woocommerce-pdf-invoices-old.php:113
+msgid "PDF Proposal"
+msgstr "Proposta PDF"
+
+#: compatibility/class-woocommerce-pdf-invoices-old.php:79
+#: compatibility/class-woocommerce-pdf-invoices-old.php:80
+#: compatibility/class-woocommerce-pdf-invoices-old.php:114
+msgid "PDF Order Confirmation"
+msgstr "Confirmação do pedido em PDF"
+
+#: compatibility/class-woocommerce-pdf-invoices-old.php:136
+msgid "Download proposal (PDF)"
+msgstr "Download da proposta (PDF)"
+
+#: compatibility/class-woocommerce-pdf-invoices-old.php:141
+msgid "Download Order Confirmation (PDF)"
+msgstr "Baixar Confirmação de Pedido (PDF)"
+
+#: compatibility/class-woocommerce-pdf-invoices.php:53
+#: compatibility/class-woocommerce-pdf-invoices.php:96
+#: templates/legacy/pdf/business/proposal.php:68
+#: templates/legacy/pdf/modern/proposal.php:53
+#: templates/legacy/pdf/simple/proposal.php:53
+#: templates/legacy/pdf/simple_premium/proposal.php:55
+#: templates/pdf/business/proposal.php:75 templates/pdf/modern/proposal.php:61
+#: templates/pdf/simple/proposal.php:61
+#: templates/pdf/simple_premium/proposal.php:63
+msgid "Proposal Number:"
+msgstr "Número da Proposta:"
+
+#: compatibility/class-woocommerce-pdf-invoices.php:56
+#: compatibility/class-woocommerce-pdf-invoices.php:66
+#: compatibility/class-woocommerce-pdf-invoices.php:99
+#: templates/legacy/pdf/business/proposal.php:78
+#: templates/legacy/pdf/modern/proposal.php:57
+#: templates/legacy/pdf/simple/proposal.php:57
+#: templates/legacy/pdf/simple_premium/proposal.php:60
+#: templates/pdf/business/proposal.php:85 templates/pdf/modern/proposal.php:66
+#: templates/pdf/simple/proposal.php:66
+#: templates/pdf/simple_premium/proposal.php:68
+msgid "Proposal Date:"
+msgstr "Data da Proposta:"
+
+#: compatibility/class-woocommerce-pdf-invoices.php:59
+#: compatibility/class-woocommerce-pdf-invoices.php:69
+msgid "Notes (printed in the proposal):"
+msgstr "Notas (impressas na proposta):"
+
+#: compatibility/documents/class-wcpdf-order-confirmation.php:33
+#: compatibility/documents/class-wcpdf-order-confirmation.php:47
+#: templates/legacy/pdf/business/order-confirmation.php:35
+#: templates/legacy/pdf/modern/order-confirmation.php:47
+#: templates/legacy/pdf/simple/order-confirmation.php:14
+#: templates/legacy/pdf/simple/order-confirmation.php:26
+#: templates/legacy/pdf/simple_premium/order-confirmation.php:15
+#: templates/legacy/pdf/simple_premium/order-confirmation.php:27
+msgid "Order Confirmation"
+msgstr "Confirmação do pedido"
+
+#: compatibility/documents/class-wcpdf-order-confirmation.php:120
+#: compatibility/documents/class-wcpdf-proposal.php:121
+msgid ""
+"Display shipping address (in addition to the default billing address) if "
+"different from billing address"
+msgstr ""
+"Exibir endereço de entrega (além do endereço de cobrança padrão), se "
+"diferente do endereço de cobrança"
+
+#: compatibility/documents/class-wcpdf-order-confirmation.php:148
+msgid "Display order confirmation number"
+msgstr "Exibir número de confirmação do pedido"
+
+#: compatibility/documents/class-wcpdf-order-confirmation.php:160
+msgid "Display custom order confirmation number"
+msgstr "Exibir número de confirmação de pedido personalizado"
+
+#: compatibility/documents/class-wcpdf-order-confirmation.php:166
+#: compatibility/documents/class-wcpdf-proposal.php:190
+msgid ""
+"By default the order number will be used. Enable this option to use a custom "
+"number that can be changed in the Proposal."
+msgstr ""
+"Por padrão, será utilizado o número do pedido. Habilite esta opção para usar "
+"um número personalizado que pode ser alterado na Proposta."
+
+#: compatibility/documents/class-wcpdf-order-confirmation.php:172
+msgid "Next confirmation number"
+msgstr "Próximo número de confirmação"
+
+#: compatibility/documents/class-wcpdf-order-confirmation.php:194
+msgid ""
+"to use the order confirmation year and/or month, use "
+"[order_confirmation_year] or [order_confirmation_month] respectively"
+msgstr ""
+"para usar o ano e/ou mês de confirmação do pedido, use "
+"[order_confirmation_year] ou [order_confirmation_month] respectivamente"
+
+#: compatibility/documents/class-wcpdf-order-confirmation.php:213
+#: compatibility/documents/class-wcpdf-proposal.php:237
+msgid "Allow My Account download"
+msgstr "Permitir o download de Minha Conta"
+
+#: compatibility/documents/class-wcpdf-order-confirmation.php:237
+#: compatibility/documents/class-wcpdf-proposal.php:273
+msgid "Footer Override: terms & conditions, policies, etc."
+msgstr "Substituição do Rodapé: termos e condições, políticas, etc."
+
+#: compatibility/documents/class-wcpdf-proposal.php:33
+#: compatibility/documents/class-wcpdf-proposal.php:47
+#: includes/class-wc-order-proposal-order.php:577
+#: templates/legacy/pdf/business/proposal.php:35
+#: templates/legacy/pdf/modern/proposal.php:47
+#: templates/legacy/pdf/simple/proposal.php:14
+#: templates/legacy/pdf/simple/proposal.php:26
+#: templates/legacy/pdf/simple_premium/proposal.php:15
+#: templates/legacy/pdf/simple_premium/proposal.php:27
+msgid "Proposal"
+msgstr "Proposta"
+
+#: compatibility/documents/class-wcpdf-proposal.php:149
+msgid "Display proposal end date"
+msgstr "Exibir data final da proposta"
+
+#: compatibility/documents/class-wcpdf-proposal.php:160
+msgid "Always show Proposal PDF"
+msgstr "Mostrar sempre a proposta PDF"
+
+#: compatibility/documents/class-wcpdf-proposal.php:166
+msgid ""
+"Proposal PDF is usually only shown when an Order was a proposal before. "
+"Enable this to show the PDF even on non Proposal orders."
+msgstr ""
+"O PDF da proposta geralmente só é mostrado quando um pedido era uma proposta "
+"anteriormente. Permita que isto mostre o PDF mesmo em pedidos que não sejam "
+"de propostas."
+
+#: compatibility/documents/class-wcpdf-proposal.php:172
+msgid "Display proposal number"
+msgstr "Exibir número da proposta"
+
+#: compatibility/documents/class-wcpdf-proposal.php:184
+msgid "Display custom proposal number"
+msgstr "Exibir número de proposta personalizado"
+
+#: compatibility/documents/class-wcpdf-proposal.php:196
+msgid "Next proposal number"
+msgstr "Próximo número de proposta"
+
+#: compatibility/documents/class-wcpdf-proposal.php:218
+msgid ""
+"to use the proposal year and/or month, use [proposal_year] or "
+"[proposal_month] respectively"
+msgstr ""
+"para usar a proposta ano e/ou mês, usar [proposal_year] ou [proposal_month] "
+"respectivamente"
+
+#: compatibility/documents/class-wcpdf-proposal.php:261
+msgid ""
+"Show payment gateways in PDF as payment options if prepayment is enabled"
+msgstr ""
+"Mostrar meios de pagamento no PDF como opções de pagamento se o pré-"
+"pagamento estiver habilitado"
+
+#: includes/class-wc-order-proposal-ajax.php:150
+#: includes/class-wc-order-proposal-ajax.php:178
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Você não tem permissões suficientes para acessar essa página."
+
+#: includes/class-wc-order-proposal-ajax.php:158
+msgid "Customer accepted proposal."
+msgstr "Proposta aceite pelo cliente."
+
+#: includes/class-wc-order-proposal-ajax.php:186
+msgid "Customer declined proposal."
+msgstr "O cliente recusou a proposta."
+
+#: includes/class-wc-order-proposal-order.php:235
+msgid "Email order proposal to customer"
+msgstr "Enviar email com proposta para o cliente"
+
+#: includes/class-wc-order-proposal-order.php:296
+#: includes/class-wc-order-proposal-order.php:708
+msgid "Decline Proposal"
+msgstr "Rejeitar proposta"
+
+#: includes/class-wc-order-proposal-order.php:297
+#: includes/class-wc-order-proposal-order.php:690
+msgid "Accept Proposal"
+msgstr "Aceitar Proposta"
+
+#: includes/class-wc-order-proposal-order.php:347
+msgid "Order Proposal Options"
+msgstr "Opções da proposta do pedido"
+
+#: includes/class-wc-order-proposal-order.php:363
+msgid "Reduce Stock (Order Proposal)"
+msgstr "Reduzir o estoque (Proposta de pedido)"
+
+#: includes/class-wc-order-proposal-order.php:401
+msgid "PDF Template Type"
+msgstr "Tipo de modelo PDF"
+
+#: includes/class-wc-order-proposal-order.php:402
+msgid "Select the preferred PDF template type."
+msgstr "Selecione o tipo preferido de modelo PDF."
+
+#: includes/class-wc-order-proposal-order.php:408
+msgid "Simple"
+msgstr "Simple"
+
+#: includes/class-wc-order-proposal-order.php:409
+msgid "Simple Premium"
+msgstr "Simple Premium"
+
+#: includes/class-wc-order-proposal-order.php:410
+msgid "Modern"
+msgstr "Modern"
+
+#: includes/class-wc-order-proposal-order.php:411
+msgid "Business"
+msgstr "Business"
+
+#: includes/class-wc-order-proposal-order.php:420
+#: includes/gateways/class-wc-gateway-order-proposal.php:34
+#: includes/gateways/class-wc-gateway-order-proposal.php:68
+#: woocommerce/class-wc-email-order-proposal-admin.php:71
+#: woocommerce/class-wc-email-order-proposal-gateway.php:78
+#: woocommerce/class-wc-email-order-proposal.php:78
+msgid "Order Proposal"
+msgstr "Proposta de pedido"
+
+#: includes/class-wc-order-proposal-order.php:426
+msgid "Default Proposal Valid Days"
+msgstr "Validade padrão da Proposta"
+
+#: includes/class-wc-order-proposal-order.php:427
+msgid "The Default Proposal Valid Days for the Order Proposal Plugin."
+msgstr ""
+"Os dias de validade padrão da proposta para o Plugin de Proposta de Pedido."
+
+#: includes/class-wc-order-proposal-order.php:435
+msgid "Cancel Expired Proposals"
+msgstr "Cancelar propostas expiradas"
+
+#: includes/class-wc-order-proposal-order.php:436
+msgid "Cancel Orders with expired proposal date."
+msgstr "Cancelar pedidos com data de proposta expirada."
+
+#: includes/class-wc-order-proposal-order.php:442
+msgid "Disable Reduce Stock"
+msgstr "Desativar redução de estoque"
+
+#: includes/class-wc-order-proposal-order.php:443
+msgid ""
+"Do not reduce stock for proposals when they are created. Stock will only be "
+"reduced when the customer pays for the order or it is completed."
+msgstr ""
+"Não reduza o estoque para propostas quando elas forem criadas. O estoque só "
+"será reduzido quando o cliente pagar pelo pedido ou quando este for "
+"concluído."
+
+#: includes/class-wc-order-proposal-order.php:449
+msgid "Default Prepay Option in Order Proposals"
+msgstr "Opção de pré-pagamento padrão nas propostas de pedidos"
+
+#: includes/class-wc-order-proposal-order.php:450
+msgid "The Default Prepay Option for the Order Proposal Plugin."
+msgstr "A opção de pré-pagamento padrão para o Plugin de Proposta de Pedido."
+
+#: includes/class-wc-order-proposal-order.php:456
+msgid "Reserve Stock Button in Order Proposals"
+msgstr "Botão de reserva de estoque em propostas de pedidos"
+
+#: includes/class-wc-order-proposal-order.php:457
+msgid ""
+"Adds a button to the order for manual stock reduction. This option will "
+"prevent automatic stock reduction on the Gateway."
+msgstr ""
+"Adiciona um botão ao pedido de redução manual do estoque. Esta opção "
+"impedirá a redução automática do estoque no Gateway."
+
+#: includes/class-wc-order-proposal-order.php:463
+msgid "Hide Cancelled/Failed Proposals"
+msgstr "Esconder propostas canceladas/ falhadas"
+
+#: includes/class-wc-order-proposal-order.php:464
+msgid ""
+"Hide Cancelled and Failed Proposals for Customers on their My Account page."
+msgstr ""
+"Ocultar Propostas Canceladas e Falhadas para Clientes em sua página Minha "
+"Conta."
+
+#: includes/class-wc-order-proposal-order.php:471
+msgid "Pay without login"
+msgstr "Pagar sem login"
+
+#: includes/class-wc-order-proposal-order.php:472
+msgid "Allow users to pay Order Proposals without login."
+msgstr "Permitir que os usuários paguem propostas de pedidos sem fazer login."
+
+#: includes/class-wc-order-proposal-order.php:544
+msgid "Proposal Valid From:"
+msgstr "Proposta válida desde:"
+
+#: includes/class-wc-order-proposal-order.php:556
+msgid "Proposal Valid Until:"
+msgstr "Proposta válida até:"
+
+#: includes/class-wc-order-proposal-order.php:568
+msgid "Print we require a prepayment text on the proposal?"
+msgstr "Imprimir um texto de pré-pagamento obrigatório na proposta?"
+
+#: includes/class-wc-order-proposal-order.php:573
+msgid "Save Settings"
+msgstr "Salvar configurações"
+
+#: includes/class-wc-order-proposal-order.php:741
+msgid "Proposal Complete"
+msgstr "Proposta completa"
+
+#: includes/class-wc-order-proposal-order.php:744
+msgid "Proposal number"
+msgstr "Número da proposta"
+
+#: includes/class-wc-order-proposal-order.php:747
+msgid "Proposal details"
+msgstr "Detalhes da proposta"
+
+#: includes/class-wc-order-proposal-order.php:760
+msgid "Thank you. Your order proposal has been received."
+msgstr "Obrigado. Sua proposta de pedido foi recebida."
+
+#: includes/gateways/class-wc-gateway-order-proposal.php:35
+msgid "Allows payments by Order Proposal"
+msgstr "Permite pagamentos por proposta de pedido"
+
+#: includes/gateways/class-wc-gateway-order-proposal.php:61
+msgid "Enable Order Proposal"
+msgstr "Habilitar proposta de pedido"
+
+#: includes/gateways/class-wc-gateway-order-proposal.php:75
+msgid "This will create an Order Proposal."
+msgstr "Isto criará uma proposta de pedido."
+
+#: includes/gateways/class-wc-gateway-order-proposal.php:81
+msgid "Instructions that will be added to the thank you page and emails."
+msgstr "Instruções que serão adicionados à página de agradecimento e emails."
+
+#: includes/gateways/class-wc-gateway-order-proposal.php:86
+msgid "Order Proposal Email"
+msgstr "E-mail da proposta de pedido"
+
+#: includes/gateways/class-wc-gateway-order-proposal.php:87
+msgid "Send Order Proposal Email instead of Order Email"
+msgstr "Enviar proposta de pedido por email ao invés de email de pedido"
+
+#: includes/gateways/class-wc-gateway-order-proposal.php:134
+msgid "Order Proposal Requested"
+msgstr "Proposta de pedido solicitada"
+
+#. translators: 1. item ID, 2. variation ID, 3,4. stock quantity
+#: includes/wc-order-proposal-functions.php:259
+msgid "Item #%1$s variation #%2$s stock increased from %3$s to %4$s."
+msgstr "Item #%1$s variação #%2$s estoque aumentou de %3$s para %4$s."
+
+#. translators: 1. item ID, 2,3. stock quantity
+#: includes/wc-order-proposal-functions.php:262
+msgid "Item #%1$s stock increased from %2$s to %3$s."
+msgstr "O estoque do item #%1$s foi aumentado de %2$s para %3$s."
+
+#. translators: 1. item ID, 2,3. stock quantity
+#: includes/wc-order-proposal-functions.php:275
+msgid "Item #%1$s stock reduced from %2$s to %3$s."
+msgstr "Item #%1$s estoque reduzido de %2$s para %3$s."
+
+#. translators: billing name
+#: templates/emails/admin-order-proposal-gateway.php:22
+#: templates/emails/plain/admin-order-proposal-gateway.php:26
+msgid ""
+"You have received an order proposal from %s. The proposal is as follows:"
+msgstr "Você recebeu uma proposta de pedido de %s. A proposta é a seguinte:"
+
+#: templates/emails/customer-order-proposal-declined.php:21
+#: templates/emails/plain/customer-order-proposal-declined.php:27
+msgid "As requested, this order proposal was declined."
+msgstr "Como solicitado, esta proposta de pedido foi recusada."
+
+#. translators: proposal date
+#: templates/emails/customer-order-proposal-declined.php:26
+#: templates/emails/plain/customer-order-proposal-declined.php:30
+msgid "This proposal was valid until %s"
+msgstr "Esta proposta era válida até %s"
+
+#: templates/emails/customer-order-proposal-declined.php:29
+#: templates/emails/plain/customer-order-proposal-declined.php:32
+msgid "The declined proposal details are shown below:"
+msgstr "Os detalhes da proposta recusada são mostrados abaixo:"
+
+#: templates/emails/customer-order-proposal-gateway.php:21
+#: templates/emails/plain/customer-order-proposal-gateway.php:25
+msgid "Thank you for your Proposal. We will get in touch with you shortly."
+msgstr "Obrigado por sua proposta. Entraremos em contato com você em breve."
+
+#: templates/emails/customer-order-proposal-gateway.php:22
+#: templates/emails/customer-order-proposal.php:35
+#: templates/emails/plain/customer-order-proposal-gateway.php:26
+#: templates/emails/plain/customer-order-proposal.php:37
+msgid "Your proposal details are shown below:"
+msgstr "Os detalhes de sua proposta são mostrados abaixo:"
+
+#: templates/emails/customer-order-proposal.php:21
+#: templates/emails/plain/customer-order-proposal.php:27
+msgid "As requested, we send you your order proposal."
+msgstr "Conforme solicitado, enviamos-lhe sua proposta de pedido."
+
+#. translators: proposal date
+#: templates/emails/customer-order-proposal.php:26
+#: templates/emails/plain/customer-order-proposal.php:30
+msgid "This proposal is valid until %s"
+msgstr "Esta proposta é válida até %s"
+
+#. translators: payment link
+#: templates/emails/customer-order-proposal.php:32
+#: templates/emails/plain/customer-order-proposal.php:34
+msgid "To pay for this proposal please use the following link: %s"
+msgstr "Para pagar por esta proposta, favor utilizar o link a seguir: %s"
+
+#. translators: payment link
+#: templates/emails/customer-order-proposal.php:32
+#: templates/emails/plain/customer-order-proposal.php:34
+msgid "pay"
+msgstr "pagar"
+
+#: templates/legacy/pdf/business/proposal.php:83
+#: templates/legacy/pdf/modern/proposal.php:62
+#: templates/legacy/pdf/simple/proposal.php:62
+#: templates/legacy/pdf/simple_premium/proposal.php:65
+#: templates/pdf/business/proposal.php:90 templates/pdf/modern/proposal.php:71
+#: templates/pdf/simple/proposal.php:71
+#: templates/pdf/simple_premium/proposal.php:73
+msgid "Proposal End Date:"
+msgstr "Data final da proposta:"
+
+#: templates/legacy/pdf/business/proposal.php:162
+#: templates/legacy/pdf/modern/proposal.php:107
+#: templates/legacy/pdf/simple/proposal.php:123
+#: templates/legacy/pdf/simple_premium/proposal.php:153
+#: templates/pdf/modern/proposal.php:120 templates/pdf/simple/proposal.php:146
+#: templates/pdf/simple_premium/proposal.php:173
+msgid ""
+"We require a prepayment of the order. You have the following payment options:"
+msgstr ""
+"Exigimos um pré-pagamento do pedido. Você tem as seguintes opções de "
+"pagamento:"
+
+#: templates/legacy/pdf/business/proposal.php:168
+#: templates/legacy/pdf/modern/proposal.php:113
+#: templates/legacy/pdf/simple/proposal.php:129
+#: templates/legacy/pdf/simple_premium/proposal.php:159
+#: templates/pdf/business/proposal.php:188
+#: templates/pdf/modern/proposal.php:126 templates/pdf/simple/proposal.php:152
+#: templates/pdf/simple_premium/proposal.php:179
+msgid "You have the following payment options:"
+msgstr "Você tem as seguintes opções de pagamento:"
+
+#: templates/legacy/pdf/modern/order-confirmation.php:54
+#: templates/legacy/pdf/simple/order-confirmation.php:54
+#: templates/legacy/pdf/simple_premium/order-confirmation.php:55
+#: templates/pdf/modern/order-confirmation.php:61
+#: templates/pdf/simple/order-confirmation.php:61
+#: templates/pdf/simple_premium/order-confirmation.php:63
+msgid "Order Confirmation Number:"
+msgstr "Número de confirmação do pedido:"
+
+#: templates/legacy/pdf/modern/order-confirmation.php:60
+#: templates/legacy/pdf/simple/order-confirmation.php:60
+#: templates/legacy/pdf/simple_premium/order-confirmation.php:61
+#: templates/pdf/modern/order-confirmation.php:67
+#: templates/pdf/simple/order-confirmation.php:67
+#: templates/pdf/simple_premium/order-confirmation.php:69
+msgid "Order Confirmation Date:"
+msgstr "Data de confirmação do pedido:"
+
+#: templates/legacy/pdf/simple/proposal.php:67
+#: templates/legacy/pdf/simple_premium/proposal.php:70
+#: templates/pdf/simple/proposal.php:76
+#: templates/pdf/simple_premium/proposal.php:78
+msgid "Shipping Method:"
+msgstr "Método de envio:"
+
+#: templates/legacy/pdf/simple/proposal.php:113
+#: templates/pdf/business/proposal.php:149
+#: templates/pdf/modern/proposal.php:156 templates/pdf/simple/proposal.php:135
+#: templates/pdf/simple_premium/proposal.php:135
+msgid "Customer Notes"
+msgstr "Notas do cliente"
+
+#: templates/pdf/business/proposal.php:141
+#: templates/pdf/modern/proposal.php:147 templates/pdf/simple/proposal.php:125
+#: templates/pdf/simple_premium/proposal.php:127
+msgid "Notes"
+msgstr "Notas"
+
+#: templates/pdf/business/proposal.php:183
+msgid "We require a prepayment of the order."
+msgstr "Exigimos um pré-pagamento do pedido."
+
+#: woocommerce-order-proposal.php:243
+msgid ""
+"The <b>Order Proposal</b> documentation is available <a href=\"https://docs."
+"wpovernight.com/category/order-proposal/\" target=\"_blank\">on this page</"
+"a>. The settings can be <a href=\"admin.php?page=wc-settings\">found here</"
+"a>."
+msgstr ""
+"A documentação da <b>Proposta de Pedido</b> está disponível <a href="
+"\"https://docs.wpovernight.com/category/order-proposal/\" target=\"_blank"
+"\">nesta página</a>. As configurações podem ser <a href=\"admin.php?page=wc-"
+"settings\">encontradas aqui</a>."
+
+#: woocommerce-order-proposal.php:373
+msgid "Are you sure you want to decline this proposal?"
+msgstr "Você tem certeza de que quer recusar esta proposta?"
+
+#: woocommerce-order-proposal.php:396 woocommerce-order-proposal.php:441
+msgctxt "Order status"
+msgid "Proposal"
+msgstr "Proposta"
+
+#. translators: proposal count
+#: woocommerce-order-proposal.php:402
+msgid "Order Proposal <span class=\"count\">(%s)</span>"
+msgid_plural "Order Proposal <span class=\"count\">(%s)</span>"
+msgstr[0] "Proposta de pedido <span class=\"count\">(%s)</span>"
+msgstr[1] "Proposta de pedido <span class=\"count\">(%s)</span>"
+
+#: woocommerce-order-proposal.php:406 woocommerce-order-proposal.php:434
+#: woocommerce-order-proposal.php:438
+msgctxt "Order status"
+msgid "Proposal Requested"
+msgstr "Proposta solicitada"
+
+#. translators: proposal requests count
+#: woocommerce-order-proposal.php:412
+msgid "Order Proposal Requests <span class=\"count\">(%s)</span>"
+msgid_plural "Order Proposal Requests <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+"Solicitações de proposta de pedido <span class=\"count\">(%s)</span>"
+msgstr[1] "Pedidos de proposta de pedido <span class=\"count\">(%s)</span>"
+
+#: woocommerce-order-proposal.php:568
+msgid "Proposal validation date reached."
+msgstr "Data de validação da proposta alcançada."
+
+#: woocommerce/class-wc-email-order-proposal-admin.php:31
+msgid "Admin Proposal Payment Gateway"
+msgstr "Método de Pagamento Proposta Admin"
+
+#: woocommerce/class-wc-email-order-proposal-admin.php:32
+msgid ""
+"This is an order notification sent to the admin containing the order "
+"proposal when the customer used the Order Proposal Gateway."
+msgstr ""
+"Esta é uma notificação de pedido enviada ao administrador contendo a "
+"proposta de pedido quando o cliente utilizou o Método de Proposta de Pedido."
+
+#: woocommerce/class-wc-email-order-proposal-admin.php:193
+#: woocommerce/class-wc-email-order-proposal-declined.php:194
+#: woocommerce/class-wc-email-order-proposal-gateway.php:204
+#: woocommerce/class-wc-email-order-proposal.php:205
+msgid "Enable/Disable"
+msgstr "Habilitar/Desabilitar"
+
+#: woocommerce/class-wc-email-order-proposal-admin.php:195
+#: woocommerce/class-wc-email-order-proposal-declined.php:196
+#: woocommerce/class-wc-email-order-proposal-gateway.php:206
+#: woocommerce/class-wc-email-order-proposal.php:207
+msgid "Enable this email notification"
+msgstr "Ativar esta notificação de email"
+
+#: woocommerce/class-wc-email-order-proposal-admin.php:207
+#: woocommerce/class-wc-email-order-proposal-declined.php:200
+#: woocommerce/class-wc-email-order-proposal-gateway.php:210
+#: woocommerce/class-wc-email-order-proposal.php:211
+msgid "BCC Recipient(s)"
+msgstr "Destinatário(s) BCC"
+
+#: woocommerce/class-wc-email-order-proposal-admin.php:209
+#: woocommerce/class-wc-email-order-proposal-declined.php:202
+#: woocommerce/class-wc-email-order-proposal-gateway.php:212
+#: woocommerce/class-wc-email-order-proposal.php:213
+msgid "Enter BCC recipients (comma separated) for this email."
+msgstr "Insira os destinatários BCC (separados por vírgulas) para este e-mail."
+
+#: woocommerce/class-wc-email-order-proposal-admin.php:214
+#: woocommerce/class-wc-email-order-proposal-declined.php:207
+#: woocommerce/class-wc-email-order-proposal-gateway.php:217
+#: woocommerce/class-wc-email-order-proposal.php:218
+msgid "Email Subject"
+msgstr "Assunto do e-mail"
+
+#: woocommerce/class-wc-email-order-proposal-admin.php:223
+#: woocommerce/class-wc-email-order-proposal-declined.php:216
+#: woocommerce/class-wc-email-order-proposal-gateway.php:226
+#: woocommerce/class-wc-email-order-proposal.php:227
+msgid "Email Heading"
+msgstr "Cabeçalho do e-mail"
+
+#: woocommerce/class-wc-email-order-proposal-admin.php:232
+#: woocommerce/class-wc-email-order-proposal-declined.php:224
+#: woocommerce/class-wc-email-order-proposal-gateway.php:234
+#: woocommerce/class-wc-email-order-proposal.php:235
+msgid "Email type"
+msgstr "Tipo de e-mail"
+
+#: woocommerce/class-wc-email-order-proposal-admin.php:234
+#: woocommerce/class-wc-email-order-proposal-declined.php:226
+#: woocommerce/class-wc-email-order-proposal-gateway.php:236
+#: woocommerce/class-wc-email-order-proposal.php:237
+msgid "Choose which format of email to send."
+msgstr "Escolha o formato de e-mail a ser enviado."
+
+#: woocommerce/class-wc-email-order-proposal-declined.php:31
+msgid "Customer Proposal Declined"
+msgstr "Proposta do Cliente Declinada"
+
+#: woocommerce/class-wc-email-order-proposal-declined.php:32
+msgid ""
+"This is an order notification sent to customers when declining a Proposal."
+msgstr ""
+"Esta é uma notificação de pedido enviada aos clientes quando uma proposta é "
+"recusada."
+
+#: woocommerce/class-wc-email-order-proposal-declined.php:61
+msgid "Your {site_title} order proposal from {order_date} was declined"
+msgstr "Sua proposta de pedido de {site_title} foi recusada"
+
+#: woocommerce/class-wc-email-order-proposal-declined.php:71
+msgid "Order Proposal Declined"
+msgstr "Proposta de Pedido Declinada"
+
+#: woocommerce/class-wc-email-order-proposal-gateway.php:31
+msgid "Customer Proposal Payment Gateway"
+msgstr "Método de Pagamento Proposta do Cliente"
+
+#: woocommerce/class-wc-email-order-proposal-gateway.php:32
+msgid ""
+"This is an order notification sent to customers containing their order "
+"proposal when they used the Order Proposal Gateway."
+msgstr ""
+"Esta é uma notificação de pedido enviada aos clientes contendo sua proposta "
+"de pedido quando eles usaram o Método de Proposta de Pedido."
+
+#: woocommerce/class-wc-email-order-proposal-gateway.php:68
+#: woocommerce/class-wc-email-order-proposal.php:68
+msgid "Your {site_title} order proposal from {order_date}"
+msgstr "Sua {site_title} proposta de pedido de {order_date}"
+
+#: woocommerce/class-wc-email-order-proposal.php:31
+msgid "Customer Proposal Backend"
+msgstr "Proposta do Cliente Backend"
+
+#: woocommerce/class-wc-email-order-proposal.php:32
+msgid ""
+"This is an order notification sent to customers containing their order "
+"proposal when created in the backend."
+msgstr ""
+"Esta é uma notificação de pedido enviada aos clientes contendo sua proposta "
+"de pedido quando criada no backend."
+
+#~ msgid "This proposal is valid until "
+#~ msgstr "Esta proposta é válida até"
+
+#~ msgid "Bcc Recipient(s)"
+#~ msgstr "Destinatários Bcc"
+
+#~ msgid "Enter Bcc recipients (comma separated) for this email."
+#~ msgstr ""
+#~ "Digite os destinatários do Bcc (separados por vírgula) para este e-mail."

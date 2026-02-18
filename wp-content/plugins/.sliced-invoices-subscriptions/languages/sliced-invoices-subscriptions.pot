@@ -1,0 +1,414 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Sliced Invoices Subscriptions\n"
+"POT-Creation-Date: 2022-05-19 18:09-0700\n"
+"PO-Revision-Date: 2017-02-12 22:20-0800\n"
+"Last-Translator: \n"
+"Language-Team: Sliced Invoices <info@slicedinvoices.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-subscriptions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:86
+msgid "Subscription"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:107
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:138
+#, php-format
+msgid "Subscription %s"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:300
+msgid "Are you sure you want to cancel this subscription?"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:410
+msgid "Subscription status"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:413
+msgid "Pending"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:416
+#: includes/class-sliced-subscriptions.php:399
+msgid "Active"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:419
+#: includes/class-sliced-subscriptions.php:402
+msgid "Cancelled"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:425
+msgid "Terms:"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:426
+#: includes/class-sliced-subscriptions.php:160
+#: includes/class-sliced-subscriptions.php:208
+#, php-format
+msgid "%1$s charged every %2$s %3$s %4$s"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:432
+#: includes/class-sliced-subscriptions.php:167
+#: includes/class-sliced-subscriptions.php:215
+msgid "Trial period:"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:434
+#: includes/class-sliced-subscriptions.php:168
+#: includes/class-sliced-subscriptions.php:216
+#, php-format
+msgid "%1$s for %2$s %3$s (%4$s %5$s)"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:439
+#: includes/class-sliced-subscriptions.php:173
+#: includes/class-sliced-subscriptions.php:221
+msgid "cycle"
+msgid_plural "cycles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:441
+msgid "no trial period"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:444
+msgid "Gateway:"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:452
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:459
+msgid "Subscription Invoice"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:452
+msgid "Edit Subscription"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:454
+msgid "Cancel Subscription"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:459
+msgid "Create Subscription Invoice"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:474
+msgid ""
+"Subscription Invoice options will be displayed after you save this invoice."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:544
+msgid "Subscription invoice successfully created."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:550
+msgid "Subscription invoice successfully updated."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:556
+msgid "Subscription invoice cancelled."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:562
+msgid "Subscription error"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:601
+msgid "Friendly reminder:"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:601
+msgid ""
+"Subscription terms cannot be changed once the subscription is active.  To "
+"change the subscription amount or schedule, you must first cancel this "
+"subscription, then start a new one."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:603
+msgid "Any other settings can be changed below:"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:612
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:721
+msgid "Enable receipt invoices?"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:621
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:730
+msgid "Automatically send to client?"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:625
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:734
+msgid "Yes"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:626
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:735
+msgid "No"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:637
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:747
+msgid "Update Subscription"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:646
+msgid "Important!"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:646
+msgid ""
+"Please ensure that any changes to this invoice are saved before creating the "
+"subscription."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:655
+msgid "Charge every..."
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:660
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:694
+msgid "Day(s)"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:661
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:695
+msgid "Month(s)"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:662
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:696
+msgid "Year(s)"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:669
+msgid "Number of payments"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:672
+msgid "Continue until cancelled"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:673
+msgid "Fixed term:"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:674
+msgid "payments"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:680
+msgid "Enable Trial?"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:689
+msgid "Trial cycle duration"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:703
+msgid "Trial number of cycles"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:706
+msgid "Cycle(s)"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:712
+msgid "Trial amount"
+msgstr ""
+
+#: admin/includes/class-sliced-invoices-subscriptions-admin.php:749
+msgid "Create Subscription"
+msgstr ""
+
+#: includes/class-sliced-subscriptions.php:103
+msgid "Cancel subscription"
+msgstr ""
+
+#: includes/class-sliced-subscriptions.php:129
+msgid ""
+"By completing checkout, you consent to be charged automatically according to "
+"the terms shown above."
+msgstr ""
+
+#: includes/class-sliced-subscriptions.php:159
+#: includes/class-sliced-subscriptions.php:207
+msgid "Subscription Terms:"
+msgstr ""
+
+#: includes/class-sliced-subscriptions.php:294
+msgid "Receipt -"
+msgstr ""
+
+#: includes/class-sliced-subscriptions.php:419
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-sliced-subscriptions.php:422
+msgid "month"
+msgid_plural "months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-sliced-subscriptions.php:425
+msgid "year"
+msgid_plural "years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-sliced-subscriptions.php:440
+msgid "until cancelled"
+msgstr ""
+
+#: includes/class-sliced-subscriptions.php:443
+#, php-format
+msgid "for %1$s %2$s"
+msgstr ""
+
+#: includes/class-sliced-subscriptions.php:445
+msgid "payment"
+msgid_plural "payments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-sliced-subscriptions.php:507
+msgid "There was an error with the form submission, please try again."
+msgstr ""
+
+#: includes/class-sliced-subscriptions.php:550
+msgid "Success"
+msgstr ""
+
+#: includes/class-sliced-subscriptions.php:552
+msgid "Subscription has been cancelled."
+msgstr ""
+
+#: includes/class-sliced-subscriptions.php:555
+#, php-format
+msgid "<a href=\"%1s\">Click here to return to %s</a>"
+msgstr ""
+
+#: includes/class-sliced-subscriptions.php:562
+msgid "Invalid payment gateway"
+msgstr ""
+
+#: includes/class-sliced-subscriptions.php:604
+msgid ""
+"Are you sure you want to cancel this subscription?  This cannot be undone."
+msgstr ""
+
+#: includes/class-sliced-subscriptions.php:621
+#, php-format
+msgid ""
+"Sliced Invoices Subscriptions extension cannot find the required <a href=\"%s"
+"\">Sliced Invoices plugin</a>. Please make sure the core Sliced Invoices "
+"plugin is <a href=\"%s\">installed and activated</a>."
+msgstr ""
+
+#: updater/class-base-updater.php:207
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: updater/class-base-updater.php:215
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: updater/class-base-updater.php:402
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: updater/class-base-updater.php:402
+msgid "Error"
+msgstr ""
+
+#: updater/plugin-updater.php:91 updater/plugin-updater.php:115
+msgid "Enter the License Key for this extension"
+msgstr ""
+
+#: updater/plugin-updater.php:131
+#, php-format
+msgid "License: %s"
+msgstr ""
+
+#: updater/plugin-updater.php:139
+msgid "Deactivate License"
+msgstr ""
+
+#: updater/plugin-updater.php:140
+msgid "Activate License"
+msgstr ""
+
+#: updater/plugin-updater.php:342
+#, php-format
+msgid ""
+"No license key found.  Don't forget to enter your license key on the <a href="
+"\"%s\">Licenses page</a>."
+msgstr ""
+
+#: updater/plugin-updater.php:359
+#, php-format
+msgid ""
+"Your license for %s has expired.  Please <a href=\"%s\">renew your license</"
+"a> to continue receiving updates and support."
+msgstr ""
+
+#: updater/plugin-updater.php:372
+#, php-format
+msgid ""
+"Your license for %s has been disabled.  Please <a href=\"%s\">contact us</a> "
+"for assistance."
+msgstr ""
+
+#: updater/plugin-updater.php:384
+#, php-format
+msgid ""
+"Your license for %s is not active.  Be sure to activate your license key on "
+"the <a href=\"%s\">Licenses page</a> to receive updates and support."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Subscriptions"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/subscription-invoices/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create subscription invoices with the click of a button. Requirements: The "
+"Sliced Invoices Plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr ""

@@ -1,0 +1,90 @@
+1.3.0
+=================================
+* FIX: issue where logged in users maybe can't view invoices even when using secure link.
+* UPDATE: minor refactoring; changes for compatibility with forthcoming Sliced Invoices v3.9.0.
+* UPDATE: updated Spanish translation (thanks to Lolo Marchal).
+* UPDATE: updated .pot file for translations.
+
+1.2.4
+=================================
+* FIX: security issue where users could access quotes/invoices of another user by manipulating PDF links
+
+1.2.3
+=================================
+* FIX: issue with sometimes incorrectly blocking ajax requests during payment process
+* UPDATE: German translation update (thanks to Thorsten Wollenhöfer)
+
+1.2.2
+=================================
+* NEW: add requirements check. If the core Sliced Invoices plugin is not found, a notice will be displayed to tell you this.
+* NEW: German formal translation (thanks to Thorsten Wollenhöfer)
+* NEW: Italian translation (thanks to Alessio Simone)
+* FIX: another typo
+* UPDATE: updated .pot file for translations
+
+1.2.1
+=================================
+* FIX: typo in default "Access Denied" message
+* UPDATE: add new constant "SLICED_SECURE_ACCESS_DENIED"
+
+1.2.0
+=================================
+* NEW: Admin notices (intuitively alerts you if there are potential issues needing your attention)
+* NEW: French translation (thanks to Web Mat)
+* NEW: Spanish translation (thanks to Lolo Marchal)
+* NEW: Ukrainian and Russian translations (thanks to Andrew Reva)
+* FIX: issue with incorrect links when using "plain" permalinks
+* UPDATE: refactor code
+* UPDATE: update .pot file for translations
+* UPDATE: update updater
+
+1.1.8
+=================================
+* UPDATE: Compatibility update for Sliced Invoices version 3.4.0.  (NOTE: This update is required for your payment reminder emails to continue working properly after Sliced Invoices v3.4.0 is released)
+
+1.1.7
+=================================
+* FIX: issue with access denied message after invoice payment confirmation
+
+1.1.6
+=================================
+* FIX: Security issue where users could access quotes/invoices of another user by manipulating URL string
+
+1.1.5
+=================================
+* UPDATE: Add additional translatable fields (when using Easy Translate Extension)
+
+1.1.4
+=================================
+* FIX: issue with invalid links in automatic reminder emails (requires Sliced Invoices 2.871 or newer)
+
+1.1.3
+=================================
+* NEW: Create .po and .mo files ready for translation
+
+1.1.2
+=================================
+* FIX: Error with updater not displaying update message
+* FIX: Error with permalink not displaying on pages in admin
+
+1.1.1
+=================================
+* FIX: Undefined index notices within updater
+
+1.1.0
+=================================
+* NEW: Add licenses and one-click updates
+
+1.0.2
+=================================
+* FIX: Remove the check to only add secure link to invoices and quotes. So can be added to woocommerce checkout page
+* FIX: Change loading order
+* FIX: Issue with PDF not printing when attached to Woocommerce email
+
+1.0.1
+=================================
+* FIX: Add security check to quotes
+
+1.0.0
+=================================
+* Released

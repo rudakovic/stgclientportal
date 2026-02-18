@@ -1,0 +1,323 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Sliced Invoices Partial Payments\n"
+"POT-Creation-Date: 2018-04-05 17:36-0700\n"
+"PO-Revision-Date: 2019-06-04 11:57+0200\n"
+"Language-Team: Sliced Invoices <support@slicedinvoices.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-partial-payments.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: it_IT\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: sliced-invoices-partial-payments.php:133
+msgid "How much do you want to pay?"
+msgstr "Quanto desideri pagare?"
+
+#: sliced-invoices-partial-payments.php:146
+msgid "Total Due"
+msgstr "Totale dovuto"
+
+#: sliced-invoices-partial-payments.php:153
+#: sliced-invoices-partial-payments.php:226
+#: sliced-invoices-partial-payments.php:313
+msgid "Minimum Payment"
+msgstr "Pagamento minimo"
+
+#: sliced-invoices-partial-payments.php:202
+#: sliced-invoices-partial-payments.php:306
+msgid "Partial Payments Settings"
+msgstr "Impostazioni pagamenti parziali"
+
+#: sliced-invoices-partial-payments.php:220
+msgid "Partial Payments are not allowed for Subscription Invoices"
+msgstr "I pagamenti parziali non sono consentiti per le fatture di abbonamento"
+
+#: sliced-invoices-partial-payments.php:233
+#: sliced-invoices-partial-payments.php:321
+msgid "Show \"Minimum Payment\" option"
+msgstr "Mostra l’opzione “Pagamento minimo”"
+
+#: sliced-invoices-partial-payments.php:238
+#: sliced-invoices-partial-payments.php:326
+msgid "Minimum Payment Amount (required)"
+msgstr "Importo minimo di pagamento (richiesto)"
+
+#: sliced-invoices-partial-payments.php:253
+#: sliced-invoices-partial-payments.php:341
+msgid "Extend Due Date (optional)"
+msgstr "Estendi data di scadenza (facoltativo)"
+
+#: sliced-invoices-partial-payments.php:261
+#: sliced-invoices-partial-payments.php:349
+msgid "Day(s)"
+msgstr "Giorno(i)"
+
+#: sliced-invoices-partial-payments.php:262
+#: sliced-invoices-partial-payments.php:350
+msgid "Month(s)"
+msgstr "Mese(i)"
+
+#: sliced-invoices-partial-payments.php:263
+#: sliced-invoices-partial-payments.php:351
+msgid "Year(s)"
+msgstr "Anno(i)"
+
+#: sliced-invoices-partial-payments.php:265
+#: sliced-invoices-partial-payments.php:353
+msgid ""
+"If client pays Minimum Payment Amount, automatically extend the invoice due "
+"date.  To skip, leave blank."
+msgstr ""
+"Se il cliente paga l’Importo minimo di pagamento, estendere automaticamente "
+"la data di scadenza della fattura. Per saltare, lascia vuoto."
+
+#: sliced-invoices-partial-payments.php:268
+#: sliced-invoices-partial-payments.php:356
+msgid "Other Payment Amount"
+msgstr "Altro importo di pagamento"
+
+#: sliced-invoices-partial-payments.php:275
+#: sliced-invoices-partial-payments.php:363
+msgid "Show \"Other Payment Amount\" option"
+msgstr "Mostra l’opzione “Altro importo di pagamento”"
+
+#: sliced-invoices-partial-payments.php:280
+#: sliced-invoices-partial-payments.php:368
+msgid "Minimum Other Payment Amount (optional)"
+msgstr "Importo minimo di pagamento (facoltativo)"
+
+#: sliced-invoices-partial-payments.php:281
+#: sliced-invoices-partial-payments.php:369
+msgid ""
+"This is the smallest payment amount you will accept.  It can be less than "
+"the \"Minimum Payment Amount\"."
+msgstr ""
+"Questo è l’importo di pagamento più piccolo che accetti. Può essere "
+"inferiore al “Importo minimo di pagamento”."
+
+#: sliced-invoices-partial-payments.php:317
+#, php-format
+msgid ""
+"These settings will not be shown on the %1$s, but they will automatically "
+"carry over to the future %2$s when this %1$s is accepted/converted."
+msgstr ""
+"Queste impostazioni non verranno mostrate su %1$s, ma verranno "
+"automaticamente trasferite al futuro %2$s quando questo %1$s viene accettato/"
+"convertito."
+
+#: sliced-invoices-partial-payments.php:443
+#, php-format
+msgid ""
+"Sliced Invoices Partial Payments has detected your Sliced Invoices plugin is "
+"out of date and not fully compatible with this version of Partial Payments. "
+"Please go to your %sPlugins page%s and update it now."
+msgstr ""
+"Sliced Invoices Partial Payments ha rilevato che il plug-in Sliced Invoices "
+"non è aggiornato e non completamente compatibile con questa versione di "
+"Partial Payments. Vai alla pagina% sPlugins% s e aggiornalo ora."
+
+#: sliced-invoices-partial-payments.php:444
+#, php-format
+msgid "<strong>You have:</strong> Sliced Invoices version %s."
+msgstr "<strong> Hai: </strong> Sliced Invoices versione %s."
+
+#: sliced-invoices-partial-payments.php:445
+msgid "<strong>Required:</strong> Sliced Invoices version 3.7.0 or newer"
+msgstr ""
+"<strong>Richiesto:</strong> Sliced Invoices versione 3.7.0 o successive"
+
+#: sliced-invoices-partial-payments.php:461
+#, php-format
+msgid ""
+"Sliced Invoices Partial Payments has detected your 2Checkout gateway is out "
+"of date and not fully compatible with this version of Partial Payments. "
+"Please go to your %sPlugins page%s and update it now."
+msgstr ""
+"Sliced Invoices Partial Payments hanno rilevato che la piattaforma 2Checkout "
+"non è aggiornata e non è completamente compatibile con questa versione di "
+"Partial Payments. Vai alla pagina %sPlugins%s e aggiornalo ora."
+
+#: sliced-invoices-partial-payments.php:462
+#, php-format
+msgid "<strong>You have:</strong> Sliced Invoices 2Checkout version %s."
+msgstr "<strong>Hai:</strong> Sliced Invoices 2Checkout versione %s."
+
+#: sliced-invoices-partial-payments.php:463
+msgid ""
+"<strong>Required:</strong> Sliced Invoices 2Checkout version 1.2.0 or newer"
+msgstr ""
+"<strong>Richiesto:</strong> Sliced Invoices 2Checkout versione 1.2.0 o "
+"successive"
+
+#: sliced-invoices-partial-payments.php:479
+#, php-format
+msgid ""
+"Sliced Invoices Partial Payments has detected your Braintree gateway is out "
+"of date and not fully compatible with this version of Partial Payments. "
+"Please go to your %sPlugins page%s and update it now."
+msgstr ""
+"Sliced Invoices Partial Payments hanno rilevato che la piattaforma Braintree "
+"non è aggiornato e non completamente compatibile con questa versione di "
+"Partial Payments Vai alla pagina %sPlugins%s e aggiornalo ora."
+
+#: sliced-invoices-partial-payments.php:480
+#, php-format
+msgid "<strong>You have:</strong> Sliced Invoices Braintree version %s."
+msgstr "<strong>Hai:</strong> Sliced Invoices Braintree versione %s."
+
+#: sliced-invoices-partial-payments.php:481
+msgid ""
+"<strong>Required:</strong> Sliced Invoices Braintree version 1.5.0 or newer"
+msgstr ""
+"<strong>Richiesto:</strong> Sliced Invoices Braintree versione 1.5.0 o "
+"successive"
+
+#: sliced-invoices-partial-payments.php:497
+#, php-format
+msgid ""
+"Sliced Invoices Partial Payments has detected your Stripe gateway is out of "
+"date and not fully compatible with this version of Partial Payments. Please "
+"go to your %sPlugins page%s and update it now."
+msgstr ""
+"Sliced Invoices Partial Payments hanno rilevato che la piattaforma Stripe "
+"non è aggiornato e non completamente compatibile con questa versione di "
+"Partial Payments Vai alla pagina %sPlugins%s e aggiornalo ora."
+
+#: sliced-invoices-partial-payments.php:498
+#, php-format
+msgid "<strong>You have:</strong> Sliced Invoices Stripe version %s."
+msgstr "<strong>Hai:</strong> Sliced Invoices Stripe versione %s."
+
+#: sliced-invoices-partial-payments.php:499
+msgid ""
+"<strong>Required:</strong> Sliced Invoices Stripe version 1.7.0 or newer"
+msgstr ""
+"<strong>Richiesto:</strong> Sliced Invoices Stripe versione 1.7.0 o "
+"successive"
+
+#: sliced-invoices-partial-payments.php:740
+msgid "Continue"
+msgstr "Continua"
+
+#: sliced-invoices-partial-payments.php:766
+msgid "The amount you entered is more than the total due. Are you sure?"
+msgstr "L’importo inserito è superiore al totale. Sei sicuro?"
+
+#: sliced-invoices-partial-payments.php:775
+#, php-format
+msgid "Amount must be at least %s"
+msgstr "L’importo deve essere almeno %s"
+
+#: updater/class-base-updater.php:207
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"È disponibile una nuova versione di %1$ s. %2$sGuarda versione %3$s dettagli "
+"%4$s."
+
+#: updater/class-base-updater.php:215
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"È disponibile una nuova versione di %1$s. %2$sGuarda versione %3$s dettagli "
+"%4$s oppure %5$s aggiorna ora %6$s."
+
+#: updater/class-base-updater.php:402
+msgid "You do not have permission to install plugin updates"
+msgstr "Non hai il permesso di installare aggiornamenti del plugin"
+
+#: updater/class-base-updater.php:402
+msgid "Error"
+msgstr "Errore"
+
+#: updater/plugin-updater.php:92 updater/plugin-updater.php:116
+msgid "Enter the License Key for this extension"
+msgstr "Inserisci il codice di licenza per questa estensione"
+
+#: updater/plugin-updater.php:132
+#, php-format
+msgid "License: %s"
+msgstr "Licenza: %s"
+
+#: updater/plugin-updater.php:140
+msgid "Deactivate License"
+msgstr "Disattiva Licenza"
+
+#: updater/plugin-updater.php:141
+msgid "Activate License"
+msgstr "Attiva Licenza"
+
+#: updater/plugin-updater.php:343
+#, php-format
+msgid ""
+"No license key found.  Don't forget to enter your license key on the <a href="
+"\"%s\">Licenses page</a>."
+msgstr ""
+"Nessuna chiave di licenza trovata. Non dimenticare di inserire il codice di "
+"licenza nella <a href=\"%s\"> pagina Licenze </a>."
+
+#: updater/plugin-updater.php:360
+#, php-format
+msgid ""
+"Your license for %s has expired.  Please <a href=\"%s\">renew your license</"
+"a> to continue receiving updates and support."
+msgstr ""
+"La tua licenza per %s è scaduta. <a href=\"%s\"> rinnova la licenza </a> per "
+"continuare a ricevere aggiornamenti e supporto."
+
+#: updater/plugin-updater.php:373
+#, php-format
+msgid ""
+"Your license for %s has been disabled.  Please <a href=\"%s\">contact us</a> "
+"for assistance."
+msgstr ""
+"La tua licenza per %s è stata disabilitata. Si prega di <a href=\"%s\"> "
+"contattarci </a> per assistenza."
+
+#: updater/plugin-updater.php:385
+#, php-format
+msgid ""
+"Your license for %s is not active.  Be sure to activate your license key on "
+"the <a href=\"%s\">Licenses page</a> to receive updates and support."
+msgstr ""
+"La tua licenza per %s non è attiva. Assicurati di attivare il codice di "
+"licenza nella <a href=\"%s\"> pagina Licenze </a> per ricevere aggiornamenti "
+"e supporto."
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Partial Payments"
+msgstr "Sliced Invoices Partial Payments"
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/partial-payments/"
+msgstr "https://slicedinvoices.com/extensions/partial-payments/"
+
+#. Description of the plugin/theme
+msgid ""
+"Allow clients to pay less than the total invoice, based on your criteria. "
+"Requirements: The Sliced Invoices Plugin"
+msgstr ""
+"Consenti ai clienti di pagare meno del totale della fattura, in base ai tuoi "
+"criteri. Requisiti: il plugin Sliced Invoices"
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr "Sliced Invoices"
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr "https://slicedinvoices.com/"

@@ -1,0 +1,53 @@
+1.1.7
+=================================
+* UPDATE: use transient to trigger flush_rewrite_rules instead of cron task.
+* UPDATE: updated Spanish translation (thanks to Lolo Marchal).
+* UPDATE: updated .pot file for translations.
+* UPDATE: updated updater.
+
+1.1.6
+=================================
+* FIX: conflict with Gravity Forms plugin >= v2.5
+* FIX: PHP warning
+* UPDATE: updated German translation (thanks to Thorsten Wollenhöfer)
+
+1.1.5
+=================================
+* NEW: add requirements check. If the core Sliced Invoices plugin is not found, a notice will be displayed to tell you this.
+* NEW: French translation (thanks to Web Mat)
+* NEW: German translation (thanks to Reinhard Frenzel)
+* NEW: German formal translation (thanks to Thorsten Wollenhöfer)
+* NEW: Italian translation (thanks to Alessio Simone)
+* NEW: Spanish translation (thanks to Lolo Marchal)
+* NEW: Ukrainian and Russian translations (thanks to Andrew Reva)
+* UPDATE: remove permalinks warning notice... no longer necessary
+* UPDATE: update .pot file for translations
+* UPDATE: update updater
+
+1.1.4
+=================================
+* UPDATE: automatically update permalinks when necessary
+
+1.1.3
+=================================
+* NEW: Create .po and .mo files ready for translation
+
+1.1.2
+=================================
+* FIX: Undefined index notices within updater
+
+1.1.1
+=================================
+* FIX: Undefined index notice
+
+1.1.0
+=================================
+* NEW: Add licenses and one-click updates
+
+1.0.1
+=================================
+Fix: errors with PHP 7 and array_push
+
+1.0.0
+=================================
+* Released

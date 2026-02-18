@@ -1,0 +1,63 @@
+1.4.0
+=================================
+* NEW: Spanish translation (thanks to Lolo Marchal).
+* UPDATE: added compatibility with PHP 8.0.
+* UPDATE: updated .pot file for translations.
+* FIX: PHP notices.
+
+1.3.7
+=================================
+* FIX: escaping issue.
+
+1.3.6
+=================================
+* FIX: display issue with admin notices.
+* FIX: duplicated subscription log on receipt invoices.
+* FIX: PHP warning.
+
+1.3.5
+=================================
+* FIX: issue with receipt emails not sending.
+
+1.3.4
+=================================
+* NEW: show subscription terms and disclaimer on payment page.
+* UPDATE: update .pot file for translations.
+
+1.3.3
+=================================
+* NEW: add requirements check. If the core Sliced Invoices plugin is not found, a notice will be displayed to tell you this.
+* NEW: Italian translation (thanks to Alessio Simone).
+* UPDATE: update .pot file for translations.
+
+1.3.2
+=================================
+* FIX: fix PHP notice
+* UPDATE: minor text changes to make the settings easier to understand.
+
+1.3.1
+=================================
+* FIX: fix PHP notice, various PHP 7.1 issues.
+* UPDATE: update .pot file for translations.
+
+1.3.0
+=================================
+* NEW: added options for creating and sending receipt invoices upon each successive payment.
+* NEW: admin notices (intuitively alerts you if there are potential issues needing your attention).
+* NEW: French translation (thanks to Web Mat).
+* NEW: Ukrainian and Russian translations (thanks to Andrew Reva).
+* UPDATE: minor code refactoring.
+* UPDATE: update .pot file for translations.
+* UPDATE: update updater.
+
+1.2.0
+=================================
+* NEW: add ability for client to cancel subscription from invoice page.
+
+1.1.0
+=================================
+* UPDATE: add support for Braintree plans.
+
+1.0.0
+=================================
+* Released.

@@ -1,0 +1,90 @@
+2.4.0
+=================================
+* UPDATE: added compatibility with PHP 8.0.
+* UPDATE: updated .pot file for translations.
+* UPDATE: updated Spanish translation (thanks to Lolo Marchal).
+* FIX: minor translation issues.
+
+2.3.3
+=================================
+* FIX: escaping issue.
+
+2.3.2
+=================================
+* FIX: conflict with Gravity Forms plugin >= v2.5.
+* FIX: PHP warning.
+* UPDATE: updated French translation (thanks to Web Mat).
+* UPDATE: updated German translation (thanks to Thorsten Wollenhöfer).
+
+2.3.1
+=================================
+* NEW: add requirements check. If the core Sliced Invoices plugin is not found, a notice will be displayed to tell you this.
+* NEW: Italian translation (thanks to Alessio Simone).
+* FIX: fix "total due" field showing total, not total due.
+* UPDATE: updated .pot file for translations.
+
+2.3.0
+=================================
+* NEW: admin notices (intuitively alerts you if there are potential issues needing your attention).
+* NEW: French translation (thanks to Web Mat).
+* NEW: German translation (thanks to Reinhard Frenzel).
+* NEW: Spanish translation (thanks to Lolo Marchal).
+* NEW: Ukrainian and Russian translations (thanks to Andrew Reva).
+* FIX: fix tax issue with Woo Invoices (deposit amount being calculated *before* woocommerce tax provided).
+* UPDATE: update updater.
+* UPDATE: updated .pot file for translations.
+
+2.2.2
+=================================
+* FIX: conflict with Woo Invoices.
+
+2.2.1
+=================================
+* FIX: leave full sub total available for template tags, e.g. sliced_get_invoice_sub_total().
+* UPDATE: changes to maintain compatibility with Sliced Invoices v3.6.0 and newer.
+* UPDATE: streamline how deposit/balance info is displayed on invoices.
+* UPDATE: update .pot file.
+
+2.2.0
+=================================
+* NEW: Add action 'sliced_deposit_created'.
+* NEW: Show deposit or balance amount below invoice totals (admin view).
+* FIX: Don't overwrite discount and partial payment lines on invoice (if using Discounts and Partial Payments extension).
+* FIX: Fix link in View button.
+* FIX: PHP notice.
+* UPDATE: Update updater.
+* UPDATE: Add .pot file for future translations.
+
+2.1.0
+=================================
+* NEW: Add settings for customizing Deposit Invoice message displayed on Invoices.
+* UPDATE: Add new translatable fields when using the Easy Translate Extension.
+
+2.0.1
+=================================
+* FIX: issue with deposit invoice numbers incorrectly truncated.
+
+2.0.0
+=================================
+* UPDATE: Major overhaul including the ability to create fixed-amount deposits, in addition to percentage deposits.
+* UPDATE: compatibility update with Woo Invoices v1.0.2.
+
+1.1.2
+=================================
+* NEW: Create .po and .mo files ready for translation.
+
+1.1.1
+=================================
+* FIX: Undefined index notices within updater.
+
+1.1.0
+=================================
+* NEW: Add licenses and one-click updates.
+
+1.0.1
+=================================
+* FIX: Bug with output of table.
+
+1.0.0
+=================================
+* Released.

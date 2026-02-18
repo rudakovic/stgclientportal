@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: assets/js/src/app/components/mockups/project/Settings.vue:129
+msgid "Saved"
+msgstr ""
+
+#: assets/js/src/app/components/mockups/toolbar/parts/RequestChangeMockup.vue:133
+msgid "Not logged in"
+msgstr ""
+
+#: assets/js/src/app/components/mockups/toolbar/parts/RequestChangeMockup.vue:157
+msgid "Last request sent: "
+msgstr ""
+
+#: assets/js/src/app/components/mockups/toolbar/parts/RequestChangeMockup.vue:158
+msgid "No previous requests"
+msgstr ""
+
+#: assets/js/src/app/components/mockups/toolbar/parts/RequestChangeMockup.vue:253
+msgid "Please select at least one member to assign."
+msgstr ""
+
+#: assets/js/src/app/components/mockups/toolbar/parts/RequestChangeMockup.vue:332
+msgid "Sent successfully!"
+msgstr ""
+
+#: assets/js/src/app/components/mockups/toolbar/parts/RequestChangeMockup.vue:344
+msgid "There was an issue sending the email."
+msgstr ""
+
+#: assets/js/src/website/admin/components/PageWidgetControl.vue:1020
+msgid "Untitled Page"
+msgstr ""
+
+#: assets/js/src/website/admin/components/PageWidgetControl.vue:1048
+msgid "Page enabled successfully"
+msgstr ""
+
+#: assets/js/src/website/admin/components/PageWidgetControl.vue:1058
+msgid "Failed to enable page. Please try again."
+msgstr ""
+
+#: assets/js/src/website/admin/components/PageWidgetControl.vue:1082
+msgid "Page disabled successfully"
+msgstr ""
+
+#: assets/js/src/website/admin/components/PageWidgetControl.vue:1090
+msgid "Failed to disable page. Please try again."
+msgstr ""
+
+#: assets/js/src/website/admin/components/PageWidgetControl.vue:1112
+msgid "Pages refreshed successfully"
+msgstr ""
+
+#: assets/js/src/website/admin/components/PageWidgetControl.vue:1119
+msgid "Failed to refresh pages. Please try again."
+msgstr ""
+
+#: assets/js/src/website/admin/components/PageWidgetControl.vue:719
+msgid "Please select specific pages where the widget should appear."
+msgstr ""
+
+#: assets/js/src/website/admin/components/PageWidgetControl.vue:743
+msgid "Failed to update widget settings. Please try again."
+msgstr ""
+
+#: assets/js/src/website/admin/components/PageWidgetControl.vue:803
+msgid "Site Homepage"
+msgstr ""
+
+#: assets/js/src/website/admin/components/PageWidgetControl.vue:850
+msgid "Failed to load enabled pages. Please try refreshing."
+msgstr ""
+
+#: assets/js/src/website/admin/components/Settings.vue:272
+msgid "The project author"
+msgstr ""
+
+#: assets/js/src/website/admin/components/Settings.vue:312
+msgid "Updated"
+msgstr ""
+
+#: assets/js/src/website/admin/components/Settings.vue:316
+msgid "Something went wrong. Please reload the page and try again."
+msgstr ""

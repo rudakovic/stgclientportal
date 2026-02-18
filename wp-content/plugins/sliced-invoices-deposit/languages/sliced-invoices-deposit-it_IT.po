@@ -1,0 +1,251 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Sliced Invoices Deposit\n"
+"POT-Creation-Date: 2018-03-19 01:57-0700\n"
+"PO-Revision-Date: 2019-06-06 18:33+0200\n"
+"Language-Team: Sliced Invoices <info@slicedinvoices.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-deposit.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: it_IT\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: sliced-invoices-deposit.php:132 sliced-invoices-deposit.php:191
+msgid "Deposit Invoices"
+msgstr "Fatture acconto"
+
+#: sliced-invoices-deposit.php:138
+msgid "Deposit Invoice message"
+msgstr "Messaggio di acconto fattura"
+
+#: sliced-invoices-deposit.php:139
+msgid ""
+"Default: \"This is a Deposit Invoice for %deposit_amount% of the project "
+"total\"<br />(The wildcard %deposit_amount% will be replaced with the amount "
+"of the deposit invoice.)"
+msgstr ""
+"Predefinito: “Questa è un fattura dell’acconto per %deposit_amount% del "
+"totale del progetto” <br/> (il jolly %deposit_amount% verrà sostituito con "
+"l’importo dell’ acconto della fattura)."
+
+#: sliced-invoices-deposit.php:149
+msgid "Balance Invoice message"
+msgstr "Messaggio di saldo della fattura"
+
+#: sliced-invoices-deposit.php:150
+msgid ""
+"Default: \"This is a Balance Invoice for %deposit_amount% of the project "
+"total\"<br />(The wildcard %deposit_amount% will be replaced with the amount "
+"of the balance invoice.)"
+msgstr ""
+"Predefinito: “Questa è una fattura di saldo per %deposit_amount% del totale "
+"del progetto” <br/> (il jolly %deposit_amount% verrà sostituito con "
+"l’importo del saldo della fattura)."
+
+#: sliced-invoices-deposit.php:197 sliced-invoices-deposit.php:719
+#: sliced-invoices-deposit.php:726
+msgid "Deposit"
+msgstr "Acconto"
+
+#: sliced-invoices-deposit.php:207
+msgid "Amount payable for this Deposit Invoice"
+msgstr "Importo relativo all’acconto della fattura"
+
+#: sliced-invoices-deposit.php:217
+msgid "Amount payable for this Balance Invoice"
+msgstr "Importo relativo al saldo della fattura"
+
+#: sliced-invoices-deposit.php:227
+msgid "Project Total"
+msgstr "Totale del progetto"
+
+#: sliced-invoices-deposit.php:280 sliced-invoices-deposit.php:301
+#: sliced-invoices-deposit.php:307
+#, php-format
+msgid "Deposit %s"
+msgstr "Acconto %s"
+
+#: sliced-invoices-deposit.php:304
+#, php-format
+msgid "Balance %s"
+msgstr "Saldo %s"
+
+#: sliced-invoices-deposit.php:334
+msgid "balance"
+msgstr "saldo"
+
+#: sliced-invoices-deposit.php:337
+msgid "deposit"
+msgstr "acconto"
+
+#: sliced-invoices-deposit.php:341
+msgid "View"
+msgstr "Mostra"
+
+#: sliced-invoices-deposit.php:342
+msgid "Edit"
+msgstr "Modifica"
+
+#: sliced-invoices-deposit.php:347 sliced-invoices-deposit.php:350
+#, php-format
+msgid ""
+"<h4 class=\"no-print sliced-message message\">This is a %1s %2s for %3s%% of "
+"the project total</h4>"
+msgstr ""
+"<h4 class=\"no-print sliced-message message\"> Questo è un %1s %2s per %3s%% "
+"del totale del progetto </h4>"
+
+#: sliced-invoices-deposit.php:353
+#, php-format
+msgid ""
+"<h4 class=\"no-print sliced-message message\">This is a %1s %2s for %3s of "
+"the project total</h4>"
+msgstr ""
+"<h4 class=\"no-print sliced-message message\"> Questo è un %1s %2s per %3s "
+"del totale del progetto </h4>"
+
+#: sliced-invoices-deposit.php:356
+#, php-format
+msgid "%1s or %2s the %3s %4s"
+msgstr "%1s o %2s di %3s %4s"
+
+#: sliced-invoices-deposit.php:358
+msgid "Create Deposit Invoice"
+msgstr "Crea fattura acconto"
+
+#: sliced-invoices-deposit.php:358
+msgid "Create Deposit"
+msgstr "Crea acconto"
+
+#: sliced-invoices-deposit.php:377
+msgid "Important!"
+msgstr "Importante!"
+
+#: sliced-invoices-deposit.php:377
+msgid ""
+"Please ensure that any changes to this invoice are saved before creating the "
+"deposit invoice."
+msgstr ""
+"Assicurati che eventuali modifiche a questa fattura vengano salvate prima di "
+"creare la fattura di acconto."
+
+#: sliced-invoices-deposit.php:383
+msgid "Deposit Amount"
+msgstr "Importo dell’ acconto"
+
+#: sliced-invoices-deposit.php:389
+msgid "Create The Deposit Invoice"
+msgstr "Crea la fattura d’acconto"
+
+#: sliced-invoices-deposit.php:429
+msgid "Deposit -"
+msgstr "Acconto -"
+
+#: sliced-invoices-deposit.php:636
+#, php-format
+msgid ""
+"<span class=\"ui-tip\" title=\"%1s %2s for %3s\"><strong>%4s: %5s</strong></"
+"span><br />"
+msgstr ""
+"<span class=\"ui-tip\" title=\"%1s %2s di %3s\"><strong>%4s: %5s</strong></"
+"span><br />"
+
+#: sliced-invoices-deposit.php:639
+#, php-format
+msgid "Total: %s"
+msgstr "Totale: %s"
+
+#: sliced-invoices-deposit.php:734
+msgid "Paid"
+msgstr "Pagato"
+
+#: sliced-invoices-deposit.php:740
+msgid "Total Due"
+msgstr "Totale dovuto"
+
+#: sliced-invoices-deposit.php:801
+#, php-format
+msgid "Deposit %s successfully created."
+msgstr "Acconto %s creto con successo."
+
+#: sliced-invoices-deposit.php:816
+msgid "Deposit Invoice options will be displayed after you save this invoice."
+msgstr ""
+"Le opzioni della fattura di acconto verranno visualizzate dopo aver salvato "
+"questa fattura."
+
+#: updater/class-base-updater.php:186
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"È disponibile una nuova versione di %1$s. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\"> Visualizza i dettagli della versione %3$s</a>."
+
+#: updater/class-base-updater.php:193
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"È disponibile una nuova versione di %1$s. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\"> Visualizza i dettagli della versione %3$s</a> "
+"oppure <a href=\"%4$s\"> aggiorna ora</a>."
+
+#: updater/class-base-updater.php:331
+msgid "You do not have permission to install plugin updates"
+msgstr "Non hai il permesso di installare aggiornamenti del plugin"
+
+#: updater/class-base-updater.php:331
+msgid "Error"
+msgstr "Errore"
+
+#: updater/plugin-updater.php:70
+msgid "Enter the License Key for this extension"
+msgstr "Inserisci il codice di licenza per questa estensione"
+
+#: updater/plugin-updater.php:89
+#, php-format
+msgid "License: %s"
+msgstr "Licenza: %s"
+
+#: updater/plugin-updater.php:97
+msgid "Deactivate License"
+msgstr "Disattiva Licenza"
+
+#: updater/plugin-updater.php:98
+msgid "Activate License"
+msgstr "Attiva Licenza"
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Deposit"
+msgstr "Sliced Invoices Deposit"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://slicedinvoices.com/"
+msgstr "http://slicedinvoices.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Create deposit invoices with the click of a button. Requirements: The Sliced "
+"Invoices Plugin"
+msgstr ""
+"Crea fatture d’ acconto con il clic di un pulsante. Requisiti: il plugin "
+"Sliced Invoices"
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr "Sliced Invoices"

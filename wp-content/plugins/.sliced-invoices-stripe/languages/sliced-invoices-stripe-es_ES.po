@@ -1,0 +1,439 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sliced Invoices Stripe\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-12 01:44-0700\n"
+"PO-Revision-Date: 2021-12-23 03:14-0800\n"
+"Last-Translator: Lolo Marchal\n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Loco-Version: 2.4.6; wp-5.5.3\n"
+
+#: includes/class-sliced-stripe.php:1366
+#, php-format
+msgid "%s Amount"
+msgstr "Importe de %s"
+
+#: includes/class-sliced-stripe.php:1365
+#, php-format
+msgid "%s Number"
+msgstr "Número de %s"
+
+#: includes/class-sliced-stripe.php:94
+msgid ""
+"3 letter code - <a href=\"https://support.stripe.com/questions/which-"
+"currencies-does-stripe-support\" target=\"_blank\">Full list of accepted "
+"currencies here</a>"
+msgstr ""
+"Código de 3 letras - <a href=\"https://support.stripe.com/questions/which-"
+"currencies-does-stripe-support\" target=\"_blank\">Lista completa de monedas "
+"aceptadas aquí</a>"
+
+#: includes/class-sliced-stripe.php:1381 includes/class-sliced-stripe.php:1977
+#, php-format
+msgid "<a href=\"%1s\">Click here to return to %s</a>"
+msgstr "<a href=\"%1s\">Haz clic aquí para regresar al %s</a>"
+
+#. Description of the plugin/theme
+msgid ""
+"Accept invoice payments using Stripe payment gateway. Requirements: The "
+"Sliced Invoices Plugin"
+msgstr ""
+"Aceptar pagos de facturas usando la pasarela de pagos Stripe. Requisitos: "
+"Plugin \"Sliced Invoices\""
+
+#: updater/plugin-updater.php:141
+msgid "Activate License"
+msgstr "Activar la licencia"
+
+#: includes/class-sliced-stripe.php:147
+msgid "Additional Payment Providers"
+msgstr "Proveedores de pagos adicionales"
+
+#: includes/class-sliced-stripe.php:1346
+msgid "Alipay"
+msgstr "Alipay"
+
+#: includes/class-sliced-stripe.php:165
+msgid ""
+"Alipay must be enabled in your Stripe account. Only supports payments in "
+"AUD, CAD, EUR, GBP, HKD, JPY, NZD, SGD, or USD. Users in Denmark, Norway, "
+"Sweden, or Switzerland must use EUR."
+msgstr ""
+"Alipay debe estar habilitado en su cuenta de Stripe. Sólo admite pagos en "
+"AUD, CAD, EUR, GBP, HKD, JPY, NZD, SGD o USD. Los usuarios de Dinamarca, "
+"Noruega, Suecia o Suiza deben usar EUR."
+
+#: includes/class-sliced-stripe.php:153
+msgid ""
+"Apple Pay must be enabled in your Stripe account, and your domain verified."
+msgstr ""
+"Apple Pay debe estar habilitado en tu cuenta de Stripe y tu dominio debe ser "
+"verificado."
+
+#: includes/class-sliced-stripe.php:1349
+msgid "Bancontact"
+msgstr "Bancontact"
+
+#: includes/class-sliced-stripe.php:171
+msgid ""
+"Bancontact must be enabled in your Stripe account. Only supports payments in "
+"EUR."
+msgstr ""
+"Bancontact debe estar habilitado en su cuenta de Stripe. Sólo admite pagos "
+"en EUR."
+
+#: includes/class-sliced-stripe.php:1449
+msgid "Bank Details"
+msgstr "Detalles bancarios"
+
+#: includes/class-sliced-stripe.php:1430
+msgid "Card Details"
+msgstr "Detalles Tarjeta"
+
+#: includes/class-sliced-stripe.php:1469
+msgid "Confirm subscription"
+msgstr "Confirmar suscripción"
+
+#: includes/class-sliced-stripe.php:1474
+msgid "Continue"
+msgstr "Continuar"
+
+#: includes/class-sliced-stripe.php:100
+msgid "Country Code"
+msgstr "Código de país"
+
+#: includes/class-sliced-stripe.php:1344
+msgid "Credit Card"
+msgstr "Tarjeta de crédito o débito"
+
+#: updater/plugin-updater.php:140
+msgid "Deactivate License"
+msgstr "Desactivar la licencia"
+
+#: includes/class-sliced-stripe.php:87
+msgid "Enable"
+msgstr "Habilitar"
+
+#: includes/class-sliced-stripe.php:164
+msgid "Enable Alipay via Stripe"
+msgstr "Habilitar Alipay a través de Stripe"
+
+#: includes/class-sliced-stripe.php:152
+msgid "Enable Apple Pay"
+msgstr "Habilitar Apple Pay"
+
+#: includes/class-sliced-stripe.php:170
+msgid "Enable Bancontact via Stripe"
+msgstr "Habilitar el Bancontact a través de la banda"
+
+#: includes/class-sliced-stripe.php:176
+msgid "Enable Giropay via Stripe"
+msgstr "Habilitar Giropay a través de Stripe"
+
+#: includes/class-sliced-stripe.php:182
+msgid "Enable iDEAL via Stripe"
+msgstr "Habilitar iDEAL a través de Stripe"
+
+#: includes/class-sliced-stripe.php:188
+msgid "Enable P24 via Stripe"
+msgstr "Habilitar P24 por medio de Stripe"
+
+#: includes/class-sliced-stripe.php:158
+msgid "Enable Payment Request Button"
+msgstr "Habilitar el botón de solicitud de pago"
+
+#: updater/plugin-updater.php:92 updater/plugin-updater.php:116
+msgid "Enter the License Key for this extension"
+msgstr "Introduzca la clave de licencia para esta extensión"
+
+#: includes/class-sliced-stripe.php:1972 updater/class-base-updater.php:402
+msgid "Error"
+msgstr "Error"
+
+#: includes/class-sliced-stripe.php:153
+#, php-format
+msgid ""
+"For further help, see the <a href=\"%s\" target=\"_blank\">Stripe Apple Pay "
+"documentation</a>"
+msgstr ""
+"Para más ayuda, ver la documentación de <a href=\"%s\" target=\"_blank"
+"\">Stripe Apple Pay </a>"
+
+#: includes/class-sliced-stripe.php:159
+msgid ""
+"For your customers who use Google Pay, Microsoft Pay, and the Payment "
+"Request API."
+msgstr ""
+"Para sus clientes que utilizan Google Pay, Microsoft Pay y la API de "
+"solicitud de pago."
+
+#: includes/class-sliced-stripe.php:620
+#, php-format
+msgid "Gateway says: %s"
+msgstr "La pasarela de pagos dice: %s"
+
+#: includes/class-sliced-stripe.php:1352
+msgid "Giropay"
+msgstr "Giropay"
+
+#: includes/class-sliced-stripe.php:177
+msgid ""
+"Giropay must be enabled in your Stripe account. Only supports payments in "
+"EUR."
+msgstr ""
+"Giropay debe estar habilitado en su cuenta de Stripe. Sólo admite pagos en "
+"EUR."
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr "https://slicedinvoices.com/"
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/stripe-payment-gateway/"
+msgstr "https://slicedinvoices.com/extensions/stripe-payment-gateway/"
+
+#: includes/class-sliced-stripe.php:183
+msgid ""
+"iDEAL must be enabled in your Stripe account. Only supports payments in EUR."
+msgstr ""
+"iDEAL debe estar habilitado en su cuenta de Stripe. Sólo admite pagos en "
+"euros."
+
+#: includes/class-sliced-stripe.php:1355
+msgid "iDEAL payment"
+msgstr "Pago por iDEAL"
+
+#: includes/class-sliced-stripe.php:141
+msgid "Include Stripe JS sitewide"
+msgstr "Incluir el JS de Stripe en todo el sitio"
+
+#: includes/class-sliced-stripe.php:700
+#, php-format
+msgid "Invoice %s"
+msgstr "Factura %s"
+
+#: updater/plugin-updater.php:132
+#, php-format
+msgid "License: %s"
+msgstr "Licencia: %s"
+
+#: includes/class-sliced-stripe.php:1437
+msgid "Name on Card"
+msgstr "Nombre en la tarjeta"
+
+#: updater/plugin-updater.php:343
+#, php-format
+msgid ""
+"No license key found.  Don't forget to enter your license key on the <a href="
+"\"%s\">Licenses page</a>."
+msgstr ""
+"No se encontró ninguna clave de licencia.  No olvides introducir tu clave de "
+"licencia en la página <a href=\"%s\">Licencias</a>."
+
+#: includes/class-sliced-stripe.php:142
+msgid ""
+"Normally Sliced Invoices loads the Stripe JS library only on the invoice "
+"payment page, but if you need to load it for your entire site enable this "
+"option."
+msgstr ""
+"Normalmente, Sliced Invoices carga la biblioteca JS de Stripe sólo en la "
+"página de pago de facturas, pero si necesita cargarla para todo su sitio, "
+"habilite esta opción."
+
+#: includes/class-sliced-stripe.php:717
+#, php-format
+msgid "One-time trial fee for Invoice %s"
+msgstr "Tasa única de prueba para Factura %s"
+
+#: includes/class-sliced-stripe.php:131
+msgid "Optional Settings"
+msgstr "Ajustes opcionales"
+
+#: includes/class-sliced-stripe.php:1393
+msgid "or enter your details below"
+msgstr "o introduzca sus datos a continuación"
+
+#: includes/class-sliced-stripe.php:1471
+#, php-format
+msgid "Pay %s Now"
+msgstr "Pagar %s Ahora"
+
+#: includes/class-sliced-stripe.php:212
+#: includes/sliced-invoices-stripe-global-functions.php:8
+msgid "Pay with Stripe"
+msgstr "Paga con Stripe"
+
+#: includes/class-sliced-stripe.php:443 includes/class-sliced-stripe.php:1615
+#: includes/class-sliced-stripe.php:1641 includes/class-sliced-stripe.php:1683
+#: includes/class-sliced-stripe.php:1710
+#, php-format
+msgid "Payment for %s"
+msgstr "Pago de %s"
+
+#: includes/class-sliced-stripe.php:506 includes/class-sliced-stripe.php:1247
+#: includes/class-sliced-stripe.php:1525
+#, php-format
+msgid "Payment for Invoice %s"
+msgstr "Pago de factura %s"
+
+#: includes/class-sliced-stripe.php:1377 includes/class-sliced-stripe.php:1968
+#, php-format
+msgid "Payment ID: %s"
+msgstr "ID de pago: %s"
+
+#: includes/class-sliced-stripe.php:1358
+msgid "Przelewy24"
+msgstr "Przelewy24"
+
+#: includes/class-sliced-stripe.php:189
+msgid ""
+"Przelewy24 must be enabled in your Stripe account. Only supports payments in "
+"EUR or PLN."
+msgstr ""
+"Przelewy24 debe estar habilitado en su cuenta de Stripe. Sólo admite pagos "
+"en EUR o PLN."
+
+#: includes/class-sliced-stripe.php:136
+msgid "Show and require \"Name on Card\" field"
+msgstr "Mostrar y requerir el campo \"Nombre en la tarjeta\""
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr "Sliced Invoices"
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Stripe"
+msgstr "Sliced Invoices Stripe"
+
+#: includes/class-sliced-stripe.php:329
+#, php-format
+msgid ""
+"Sliced Invoices Stripe Gateway cannot find the required <a href=\"%s"
+"\">Sliced Invoices plugin</a>. Please make sure the core Sliced Invoices "
+"plugin is <a href=\"%s\">installed and activated</a>."
+msgstr ""
+"La pasarela de pagos Stripe de Sliced Invoices no puede encontrar el <a href="
+"\"%s\">plugin de Sliced Invoices</a> requerido. Por favor, asegúrate de que "
+"el plugin de Sliced Invoices está <a href=\"%s\">instalado y activado</a>."
+
+#: includes/class-sliced-stripe.php:1011
+msgid ""
+"Sliced Invoices Stripe Gateway recently detected an outdated version of the "
+"Stripe library being loaded on your site, possibly from one of your other "
+"plugins. This blocked Sliced Invoices from loading a more recent version.  "
+"As a result, Stripe payments may not work properly.  Please check your "
+"plugins to make sure they are updated, and/or deactivate any older Stripe "
+"gateways you are no longer using."
+msgstr ""
+"La pasarela de pagos Stripe de Sliced Invoices recientemente detectó una "
+"versión anticuada de la biblioteca Stripe que se está cargando en tu sitio, "
+"posiblemente de uno de tus otros plugins. Esto bloqueó que Sliced Invoices "
+"cargara una versión más reciente.  Como resultado, es posible que los pagos "
+"con Stripe no funcionen correctamente.  Por favor, comprueba tus plugins "
+"para asegurarte de que están actualizados, y/o desactiva cualquier otra "
+"pasarela de pagos Stripe más antigua que ya no estés utilizando."
+
+#: includes/class-sliced-stripe.php:93
+msgid "Stripe Currency"
+msgstr "Moneda de Stripe"
+
+#: includes/class-sliced-stripe.php:207 includes/class-sliced-stripe.php:313
+msgid "Stripe Gateway"
+msgstr "Pasarela de pagos Stripe"
+
+#: includes/class-sliced-stripe.php:107
+msgid "Stripe Publishable Key"
+msgstr "Clave Pública de Stripe (Publishable Key)"
+
+#: includes/class-sliced-stripe.php:113
+msgid "Stripe Secret Key"
+msgstr "Clave Secrete de Stripe (Secret Key)"
+
+#: includes/class-sliced-stripe.php:613
+#, php-format
+msgid "Subscription %s cancelled"
+msgstr "Suscripción %s cancelada"
+
+#: includes/class-sliced-stripe.php:498
+#, php-format
+msgid "Subscription for Invoice %s"
+msgstr "Suscripción de Factura %s"
+
+#: includes/class-sliced-stripe.php:1375
+msgid "Subscription has been activated!"
+msgstr "¡La suscripción ha sido activada!"
+
+#: includes/class-sliced-stripe.php:1372 includes/class-sliced-stripe.php:1966
+msgid "Success"
+msgstr "Correcto"
+
+#: updater/class-base-updater.php:215
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Hay una nueva versión de %1$s disponible. %2$sVer versión %3$s detalles%4$s "
+"o %5$sactualización ahora%6$s."
+
+#: updater/class-base-updater.php:207
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Hay una nueva versión de %1$s disponible. %2$sVer versión %3$s detalles%4$s."
+
+#: includes/class-sliced-stripe.php:1331
+msgid "There was an error with the form submission, please try again."
+msgstr ""
+"Hubo un error con la presentación del formulario, por favor inténtelo de "
+"nuevo."
+
+#: updater/class-base-updater.php:402
+msgid "You do not have permission to install plugin updates"
+msgstr "No tienes permiso para instalar actualizaciones de plugins"
+
+#: includes/class-sliced-stripe.php:108 includes/class-sliced-stripe.php:114
+msgid ""
+"You will find your Secret Key under \"Your Account\" and then \"API Keys\"."
+msgstr ""
+"Encontrarás esta clave si vas a \"Your Account\" y luego a \"API Keys\" en "
+"tu cuenta de Stripe"
+
+#: includes/class-sliced-stripe.php:101
+msgid "Your 2-digit country code"
+msgstr "Su código de país de 2 dígitos"
+
+#: updater/plugin-updater.php:373
+#, php-format
+msgid ""
+"Your license for %s has been disabled.  Please <a href=\"%s\">contact us</a> "
+"for assistance."
+msgstr ""
+"Su licencia para %s ha sido desactivada.  Por favor, <a href=\"%s"
+"\">contáctenos </a> para obtener ayuda."
+
+#: updater/plugin-updater.php:360
+#, php-format
+msgid ""
+"Your license for %s has expired.  Please <a href=\"%s\">renew your license</"
+"a> to continue receiving updates and support."
+msgstr ""
+"Su licencia para %s ha expirado.  Por favor <a href=\"%s\">renueve su "
+"licencia</a> para continuar recibiendo actualizaciones y soporte."
+
+#: updater/plugin-updater.php:385
+#, php-format
+msgid ""
+"Your license for %s is not active.  Be sure to activate your license key on "
+"the <a href=\"%s\">Licenses page</a> to receive updates and support."
+msgstr ""
+"Su licencia para %s no está activa.  Asegúrese de activar su clave de "
+"licencia en la <a href=\"%s\">página de licencias</a> para recibir "
+"actualizaciones y soporte."

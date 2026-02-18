@@ -1,0 +1,18 @@
+diff --git a/node_modules/wp-vue-i18n/lib/pot.js b/node_modules/wp-vue-i18n/lib/pot.js
+index cace0d6..6c4aad1 100644
+--- a/node_modules/wp-vue-i18n/lib/pot.js
++++ b/node_modules/wp-vue-i18n/lib/pot.js
+@@ -54,7 +54,12 @@ function normalizeForComparison(pot) {
+   }
+ 
+   // Normalize the content type case.
+-  clone.headers['content-type'] = clone.headers['content-type'].toLowerCase();
++  if (clone.headers['content-type']) {
++    clone.headers['content-type'] = clone.headers['content-type'].toLowerCase();
++  } else {
++      // Provide a fallback content-type or handle as needed
++      clone.headers['content-type'] = 'application/json';
++  }
+   clone.translations['']['']['msgstr'][0] = clone.translations['']['']['msgstr'][0].replace(/UTF-8/, 'utf-8');
+ 
+   // Blank out the date.

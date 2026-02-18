@@ -1,0 +1,35 @@
+1.1.2
+=================================
+* FIX: payment reminders not being sent for partially paid invoices.
+
+1.1.1
+=================================
+* FIX: minor translation issue.
+
+1.1.0
+=================================
+* NEW: Spanish translation (thanks to Lolo Marchal).
+* UPDATE: added compatibility with PHP 8.0.
+* UPDATE: minor refactoring; changes for compatibility with forthcoming Sliced Invoices v3.9.0.
+* UPDATE: updated .pot file for translations.
+* FIX: show "balance outstanding" and "amount to pay" lines on payment page, even if no partial payment option is enabled.  (For example, when someone has entered partial payments manually but wants a complete payment of the balance).
+
+1.0.3
+=================================
+* FIX: JavaScript error when using a single quote (') as the decimal separator.
+
+1.0.2
+=================================
+* FIX: typo in textdomain.
+
+1.0.1
+=================================
+* NEW: add requirements check. If the core Sliced Invoices plugin is not found, a notice will be displayed to tell you this.
+* NEW: Italian translation (thanks to Alessio Simone).
+* NEW: Russian translation (thanks to Andrew Reva).
+* NEW: Ukrainian translation (thanks to Andrew Reva).
+* UPDATE: updated .pot file for translations.
+
+1.0.0
+=================================
+* Released.

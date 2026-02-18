@@ -1,0 +1,151 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Sliced Invoices Better URL's\n"
+"POT-Creation-Date: 2022-04-14 00:14-0700\n"
+"PO-Revision-Date: 2017-06-06 22:45-0700\n"
+"Last-Translator: \n"
+"Language-Team: Sliced Invoices <info@slicedinvoices.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-slugs.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: sliced-invoices-slugs.php:99
+msgid "Settings"
+msgstr ""
+
+#: sliced-invoices-slugs.php:112 sliced-invoices-slugs.php:137
+msgid "Better URLs"
+msgstr ""
+
+#: sliced-invoices-slugs.php:118
+msgid "Quote URL Slug"
+msgstr ""
+
+#: sliced-invoices-slugs.php:119
+msgid ""
+"You can change this from sliced_quote to quotes or estimates (or any other "
+"word you like). Must be all lowercase and only underscores, no dashes."
+msgstr ""
+
+#: sliced-invoices-slugs.php:143
+msgid "Invoice URL Slug"
+msgstr ""
+
+#: sliced-invoices-slugs.php:144
+msgid ""
+"You can change this from sliced_invoice to invoice or bill (or any other "
+"word you like). Must be all lowercase."
+msgstr ""
+
+#: sliced-invoices-slugs.php:224
+#, php-format
+msgid ""
+"Sliced Invoices Better URL's extension cannot find the required <a href=\"%s"
+"\">Sliced Invoices plugin</a>. Please make sure the core Sliced Invoices "
+"plugin is <a href=\"%s\">installed and activated</a>."
+msgstr ""
+
+#: sliced-invoices-slugs.php:237
+msgid "Settings saved successfully."
+msgstr ""
+
+#: updater/class-base-updater.php:186
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: updater/class-base-updater.php:193
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: updater/class-base-updater.php:331
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: updater/class-base-updater.php:331
+msgid "Error"
+msgstr ""
+
+#: updater/plugin-updater.php:90 updater/plugin-updater.php:114
+msgid "Enter the License Key for this extension"
+msgstr ""
+
+#: updater/plugin-updater.php:130
+#, php-format
+msgid "License: %s"
+msgstr ""
+
+#: updater/plugin-updater.php:138
+msgid "Deactivate License"
+msgstr ""
+
+#: updater/plugin-updater.php:139
+msgid "Activate License"
+msgstr ""
+
+#: updater/plugin-updater.php:340
+#, php-format
+msgid ""
+"No license key found.  Don't forget to enter your license key on the <a "
+"href=\"%s\">Licenses page</a>."
+msgstr ""
+
+#: updater/plugin-updater.php:357
+#, php-format
+msgid ""
+"Your license for %s has expired.  Please <a href=\"%s\">renew your license</"
+"a> to continue receiving updates and support."
+msgstr ""
+
+#: updater/plugin-updater.php:370
+#, php-format
+msgid ""
+"Your license for %s has been disabled.  Please <a href=\"%s\">contact us</"
+"a> for assistance."
+msgstr ""
+
+#: updater/plugin-updater.php:382
+#, php-format
+msgid ""
+"Your license for %s is not active.  Be sure to activate your license key on "
+"the <a href=\"%s\">Licenses page</a> to receive updates and support."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Better URL's"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/better-urls/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Change the URL slugs on Invoices and Quotes without touching any code. "
+"Requirements: The Sliced Invoices Plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr ""

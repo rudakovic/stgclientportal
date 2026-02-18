@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'yaymail/addon-wc-subscription',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '200b183b607efc81ebdcc6ce5108a61d249d0c12',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '10quality/php-data-model' => array(
+            'pretty_version' => 'v1.0.x-dev',
+            'version' => '1.0.9999999.9999999-dev',
+            'reference' => 'dea1c20d2100478bb7c929322e49f00b20c9d6d8',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../10quality/php-data-model',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        '10quality/wp-query-builder' => array(
+            'pretty_version' => 'v1.0.x-dev',
+            'version' => '1.0.9999999.9999999-dev',
+            'reference' => '0df188d63f4c3ff0f4bc17113fe4e4465b8e46ff',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../10quality/wp-query-builder',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'yaymail/addon-wc-subscription' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '200b183b607efc81ebdcc6ce5108a61d249d0c12',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

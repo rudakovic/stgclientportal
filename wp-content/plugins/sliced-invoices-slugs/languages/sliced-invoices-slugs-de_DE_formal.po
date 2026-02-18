@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sliced Invoices Better URL's v1.1.4\n"
+"POT-Creation-Date: 2019-07-01 17:29-0700\n"
+"PO-Revision-Date: 2019-07-03 14:06+0200\n"
+"Last-Translator: Thorsten Wollenhöfer <thorsten.wollenhoefer@gmail.com>\n"
+"Language-Team: Thorsten Wollenhöfer <thorsten.wollenhoefer@gmail.com>\n"
+"Language: de_DE@formal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sliced-invoices-slugs.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: sliced-invoices-slugs.php:92
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: sliced-invoices-slugs.php:106 sliced-invoices-slugs.php:133
+msgid "Better URLs"
+msgstr "Bessere URLs"
+
+#: sliced-invoices-slugs.php:112
+msgid "Quote URL Slug"
+msgstr "URL Slug für Angebote"
+
+#: sliced-invoices-slugs.php:113
+msgid ""
+"You can change this from sliced_quote to quotes or estimates (or any other "
+"word you like). Must be all lowercase and only underscores, no dashes."
+msgstr ""
+"Sie können dies von URL Slug \"sliced_quote\" in \"Angebot\" oder "
+"\"Kostenvoranschlag\" ändern (oder jedes andere Wort, das Sie mögen). Es "
+"dürfen nur Kleinbuchstaben und Unterstriche, keine Bindestriche, verwendet "
+"werden."
+
+#: sliced-invoices-slugs.php:139
+msgid "Invoice URL Slug"
+msgstr "URL Slug für Rechnungen"
+
+#: sliced-invoices-slugs.php:140
+msgid ""
+"You can change this from sliced_invoice to invoice or bill (or any other "
+"word you like). Must be all lowercase."
+msgstr ""
+"Sie können dies von URL Slug \"sliced_invoice\" in \"Rechnung\" oder "
+"\"Quittung\" ändern (oder jedes andere Wort, das Sie mögen). Es dürfen nur "
+"Kleinbuchstaben verwendet werden."
+
+#: sliced-invoices-slugs.php:213
+#, php-format
+msgid ""
+"Sliced Invoices Better URL's extension cannot find the required <a href=\"%s"
+"\">Sliced Invoices plugin</a>. Please make sure the core Sliced Invoices "
+"plugin is <a href=\"%s\">installed and activated</a>."
+msgstr ""
+"Sliced Invoices Better URLs Erweiterung kann das erforderliche <a href=\"%s"
+"\">Sliced Invoices-Plugin</a> nicht finden. Stellen Sie sicher, dass das "
+"Sliced Invoices-Hauptplugin <a href=\"%s\">installiert und aktiviert</a> ist."
+
+#: updater/class-base-updater.php:186
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">Details der Version %3$s anzeigen</a>."
+
+#: updater/class-base-updater.php:193
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\"> Details der Version anzeigen %3$ s</a> oder <a "
+"href=\"%4$s\">jetzt aktualisieren</a>."
+
+#: updater/class-base-updater.php:331
+msgid "You do not have permission to install plugin updates"
+msgstr "Sie haben keine Berechtigung, um Plugin-Updates zu installieren"
+
+#: updater/class-base-updater.php:331
+msgid "Error"
+msgstr "Fehler"
+
+#: updater/plugin-updater.php:69
+msgid "Enter the License Key for this extension"
+msgstr "Geben Sie den Lizenzschlüssel für diese Erweiterung ein"
+
+#: updater/plugin-updater.php:88
+#, php-format
+msgid "License: %s"
+msgstr "Lizenz: %s"
+
+#: updater/plugin-updater.php:96
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: updater/plugin-updater.php:97
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Better URL's"
+msgstr "Sliced Invoices Better URL's"
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/better-urls/"
+msgstr "https://slicedinvoices.com/extensions/better-urls/"
+
+#. Description of the plugin/theme
+msgid ""
+"Change the URL slugs on Invoices and Quotes without touching any code. "
+"Requirements: The Sliced Invoices Plugin"
+msgstr ""
+"Ändern Sie die URL-Slugs in Rechnungen und Angeboten ohne jegliche Code-"
+"Kenntnisse. Voraussetzung: Das Sliced Invoices Plugin"
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr "Sliced Invoices"
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr "https://slicedinvoices.com/"
+
+#~ msgid ""
+#~ "If you have modified the URL slug, please visit the <a href=\"%s"
+#~ "\">Permalinks page</a> for the new URL changes to take effect. You simply "
+#~ "need to visit the page, which will automatically flush the rewrite rules "
+#~ "and make the new changes."
+#~ msgstr ""
+#~ "Wenn Sie den URL-Block geändert haben, rufen Sie die Seite <a href=\"%s"
+#~ "\">Permalinks</a> auf, damit die neuen URL-Änderungen wirksam werden. Sie "
+#~ "müssen nur die Seite besuchen, die die Umschreibregeln automatisch löscht "
+#~ "und die neuen Änderungen vornimmt."

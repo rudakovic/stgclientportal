@@ -1,0 +1,318 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: Sliced Invoices Partial Payments\n"
+"POT-Creation-Date: 2018-04-29 11:09+0300\n"
+"PO-Revision-Date: 2018-05-18 11:46+0300\n"
+"Language-Team: Sliced Invoices <support@slicedinvoices.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-partial-payments.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: uk_UA\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: sliced-invoices-partial-payments.php:133
+msgid "How much do you want to pay?"
+msgstr "Скільки ви хочете заплатити?"
+
+#: sliced-invoices-partial-payments.php:146
+msgid "Total Due"
+msgstr "Загальна сума"
+
+#: sliced-invoices-partial-payments.php:153
+#: sliced-invoices-partial-payments.php:226
+#: sliced-invoices-partial-payments.php:313
+msgid "Minimum Payment"
+msgstr "Мінімальний платіж"
+
+#: sliced-invoices-partial-payments.php:202
+#: sliced-invoices-partial-payments.php:306
+msgid "Partial Payments Settings"
+msgstr "Оплата частинами"
+
+#: sliced-invoices-partial-payments.php:220
+msgid "Partial Payments are not allowed for Subscription Invoices"
+msgstr "Оплата частинами неможлива для регулярних платежів"
+
+#: sliced-invoices-partial-payments.php:233
+#: sliced-invoices-partial-payments.php:321
+msgid "Show \"Minimum Payment\" option"
+msgstr "Показувати опцію для мінімальної суми платежу"
+
+#: sliced-invoices-partial-payments.php:238
+#: sliced-invoices-partial-payments.php:326
+msgid "Minimum Payment Amount (required)"
+msgstr "Мінімальна сума платежу (обов'язково)"
+
+#: sliced-invoices-partial-payments.php:253
+#: sliced-invoices-partial-payments.php:341
+msgid "Extend Due Date (optional)"
+msgstr "Подовжити термін оплати (опціонально)"
+
+#: sliced-invoices-partial-payments.php:261
+#: sliced-invoices-partial-payments.php:349
+msgid "Day(s)"
+msgstr "Днів"
+
+#: sliced-invoices-partial-payments.php:262
+#: sliced-invoices-partial-payments.php:350
+msgid "Month(s)"
+msgstr "Місяців"
+
+#: sliced-invoices-partial-payments.php:263
+#: sliced-invoices-partial-payments.php:351
+msgid "Year(s)"
+msgstr "Років"
+
+#: sliced-invoices-partial-payments.php:265
+#: sliced-invoices-partial-payments.php:353
+msgid ""
+"If client pays Minimum Payment Amount, automatically extend the invoice due "
+"date.  To skip, leave blank."
+msgstr ""
+"Якщо клієнт сплатить мінімальну суму, кінцевий термін сплати буде продовжено "
+"на вказане значення. Або залиште це поле пустим, щоб не використовувати "
+"автоматичне продовження терміну сплати."
+
+#: sliced-invoices-partial-payments.php:268
+#: sliced-invoices-partial-payments.php:356
+msgid "Other Payment Amount"
+msgstr "Інші налаштування платежу"
+
+#: sliced-invoices-partial-payments.php:275
+#: sliced-invoices-partial-payments.php:363
+msgid "Show \"Other Payment Amount\" option"
+msgstr "Показувати розширені налаштування платежу"
+
+#: sliced-invoices-partial-payments.php:280
+#: sliced-invoices-partial-payments.php:368
+msgid "Minimum Other Payment Amount (optional)"
+msgstr "Мінімальна сума для сплати (опціонально)"
+
+#: sliced-invoices-partial-payments.php:281
+#: sliced-invoices-partial-payments.php:369
+msgid ""
+"This is the smallest payment amount you will accept.  It can be less than "
+"the \"Minimum Payment Amount\"."
+msgstr ""
+"Мінімальна сума платежу. Може бути меншою за мінімальну суму для сплати."
+
+#: sliced-invoices-partial-payments.php:317
+#, fuzzy, php-format
+msgid ""
+"These settings will not be shown on the %1$s, but they will automatically "
+"carry over to the future %2$s when this %1$s is accepted/converted."
+msgstr ""
+"Не буде показано на сторінці %1$s, але буде використано %2$s під час %1$s "
+"погодження або перетворення."
+
+#: sliced-invoices-partial-payments.php:443
+#, php-format
+msgid ""
+"Sliced Invoices Partial Payments has detected your Sliced Invoices plugin is "
+"out of date and not fully compatible with this version of Partial Payments. "
+"Please go to your %sPlugins page%s and update it now."
+msgstr ""
+"Розширення Partial Payments повідомляє про те, що плагін Sliced Invoices "
+"застарів, і потребує оновлення. Будь ласка, перейдіть на сторінку %sPlugins "
+"page%s і встановіть свіжу версію."
+
+#: sliced-invoices-partial-payments.php:444
+#, php-format
+msgid "<strong>You have:</strong> Sliced Invoices version %s."
+msgstr "<strong>Встановлено:</strong> Sliced Invoices версія %s."
+
+#: sliced-invoices-partial-payments.php:445
+msgid "<strong>Required:</strong> Sliced Invoices version 3.7.0 or newer"
+msgstr ""
+"<strong>Необхідно:</strong> Плагін Sliced Invoices версії 3.7.0 або новіший"
+
+#: sliced-invoices-partial-payments.php:461
+#, php-format
+msgid ""
+"Sliced Invoices Partial Payments has detected your 2Checkout gateway is out "
+"of date and not fully compatible with this version of Partial Payments. "
+"Please go to your %sPlugins page%s and update it now."
+msgstr ""
+"Плагін Sliced Invoices Partial Payments повідомляє про те, що платіжний "
+"модуль 2Checkout застарілий, і може виявитись несумісним. Будь ласка, "
+"перейдіть на сторінку %sPlugins page%s і встановіть актуальну версію."
+
+#: sliced-invoices-partial-payments.php:462
+#, php-format
+msgid "<strong>You have:</strong> Sliced Invoices 2Checkout version %s."
+msgstr "<strong>Встановлено:</strong> Sliced Invoices 2Checkout версія %s."
+
+#: sliced-invoices-partial-payments.php:463
+msgid ""
+"<strong>Required:</strong> Sliced Invoices 2Checkout version 1.2.0 or newer"
+msgstr ""
+"<strong>Необхідно:</strong> Sliced Invoices 2Checkout версія 1.2.0 або новіша"
+
+#: sliced-invoices-partial-payments.php:479
+#, php-format
+msgid ""
+"Sliced Invoices Partial Payments has detected your Braintree gateway is out "
+"of date and not fully compatible with this version of Partial Payments. "
+"Please go to your %sPlugins page%s and update it now."
+msgstr ""
+"Sliced Invoices Partial Payments повідомляє про те, що модуль Braintree "
+"gateway застарів, і може виявитись несумісним. Будь ласка, перейдіть на "
+"сторінку %sPlugins page%s і встановіть актуальну версію."
+
+#: sliced-invoices-partial-payments.php:480
+#, php-format
+msgid "<strong>You have:</strong> Sliced Invoices Braintree version %s."
+msgstr "<strong>Встановлено:</strong> Sliced Invoices Braintree версія %s."
+
+#: sliced-invoices-partial-payments.php:481
+msgid ""
+"<strong>Required:</strong> Sliced Invoices Braintree version 1.5.0 or newer"
+msgstr ""
+"<strong>Необхідно:</strong> Sliced Invoices Braintree версія 1.5.0 або новіша"
+
+#: sliced-invoices-partial-payments.php:497
+#, php-format
+msgid ""
+"Sliced Invoices Partial Payments has detected your Stripe gateway is out of "
+"date and not fully compatible with this version of Partial Payments. Please "
+"go to your %sPlugins page%s and update it now."
+msgstr ""
+"Sliced Invoices Partial Payments повідомляє про те, що платіжний модуль "
+"Stripe застарів, і може бути несумісний. Partial Payments. Please go to your "
+"%sPlugins page%s and update it now."
+
+#: sliced-invoices-partial-payments.php:498
+#, php-format
+msgid "<strong>You have:</strong> Sliced Invoices Stripe version %s."
+msgstr "<strong>Встановлено:</strong> Sliced Invoices Stripe версія %s."
+
+#: sliced-invoices-partial-payments.php:499
+msgid ""
+"<strong>Required:</strong> Sliced Invoices Stripe version 1.7.0 or newer"
+msgstr ""
+"<strong>Необхідно:</strong> Sliced Invoices Stripe версія 1.7.0 або новіша"
+
+#: sliced-invoices-partial-payments.php:740
+msgid "Continue"
+msgstr "Продовжити"
+
+#: sliced-invoices-partial-payments.php:766
+msgid "The amount you entered is more than the total due. Are you sure?"
+msgstr ""
+"Сума, яку ви ввели, більша за загальну суму. Ви точно впевнені в тому, що "
+"робите?"
+
+#: sliced-invoices-partial-payments.php:775
+#, php-format
+msgid "Amount must be at least %s"
+msgstr "Сума має становити %s або більше"
+
+#: updater/class-base-updater.php:207
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr "Нова версія %1$s вже доступна. %2$sПереглянути %3$s деталі%4$s."
+
+#: updater/class-base-updater.php:215
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: updater/class-base-updater.php:402
+msgid "You do not have permission to install plugin updates"
+msgstr "У вас недостатньо повноважень для встановлення оновлень плагінів"
+
+#: updater/class-base-updater.php:402
+msgid "Error"
+msgstr "Помилка"
+
+#: updater/plugin-updater.php:92 updater/plugin-updater.php:116
+msgid "Enter the License Key for this extension"
+msgstr "Введіть ліцензійний ключ"
+
+#: updater/plugin-updater.php:132
+#, php-format
+msgid "License: %s"
+msgstr "Ключ: %s"
+
+#: updater/plugin-updater.php:140
+msgid "Deactivate License"
+msgstr "Деактивувати ліцензію"
+
+#: updater/plugin-updater.php:141
+msgid "Activate License"
+msgstr "Активувати ліцензію"
+
+#: updater/plugin-updater.php:343
+#, php-format
+msgid ""
+"No license key found.  Don't forget to enter your license key on the <a href="
+"\"%s\">Licenses page</a>."
+msgstr ""
+"Ліцензійний ключ не знайдено. Не забудьте ввести ключ на сторінці <a href="
+"\"%s\">ліцензій</a>."
+
+#: updater/plugin-updater.php:360
+#, php-format
+msgid ""
+"Your license for %s has expired.  Please <a href=\"%s\">renew your license</"
+"a> to continue receiving updates and support."
+msgstr ""
+"Термін дії ліцензії для %s закінчився. Будь ласка, <a href=\"%s\">поновіть "
+"ліцензію</a>, щоб продовжити отримання оновлень."
+
+#: updater/plugin-updater.php:373
+#, php-format
+msgid ""
+"Your license for %s has been disabled.  Please <a href=\"%s\">contact us</a> "
+"for assistance."
+msgstr ""
+"Вашу ліцензію для %s було скасовано. Будь ласка, <a href=\"%s\">зверніться "
+"до нас</a> по допомогу."
+
+#: updater/plugin-updater.php:385
+#, php-format
+msgid ""
+"Your license for %s is not active.  Be sure to activate your license key on "
+"the <a href=\"%s\">Licenses page</a> to receive updates and support."
+msgstr ""
+"Ваша ліцензія для %s неактивна. Переконайтеся, що ви активували ліцензійний "
+"ключ на сторінці <a href=\"%s\">ліцензій</a>, щоб отримувати оновлення і "
+"технічну підтримку."
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Partial Payments"
+msgstr "Оплата частинами для Sliced Invoices"
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/partial-payments/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allow clients to pay less than the total invoice, based on your criteria. "
+"Requirements: The Sliced Invoices Plugin"
+msgstr ""
+"Дозвольте вашим клієнтам сплачувати рахунок частинами. Необхідно "
+"встановлений плагін Sliced Invoices"
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr ""

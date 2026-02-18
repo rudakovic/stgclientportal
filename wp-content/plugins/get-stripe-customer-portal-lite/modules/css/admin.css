@@ -1,0 +1,78 @@
+.big_loader {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-image: url(loader.gif);
+  background-color: rgba(255,255,255,0.5);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  z-index: 1000000;
+}
+
+.gscp-form-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 15px 0;
+}
+
+.gscp-form-group.vertical {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.gscp-form-group .gscp-control-label {
+  margin-right: 5px;
+}
+
+.gscp-form-group input[type="checkbox"] {
+  margin: 0;
+}
+
+.gscp-form-group .sp-replacer {
+  margin-right: 5px;
+}
+
+.gscp-form-group.vertical .gscp-field-left,
+.gscp-form-group.vertical .gscp-field-right {
+  margin-top: 5px;
+}
+
+.gscp-form-group .gscp-field-left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.gscp-form-group .gscp-field-right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.gscp-form-group .long-field {
+  width: 100%;
+  max-width: 500px;
+}
+
+.gscp-form-group textarea {
+  height: 200px;
+}
+
+.gscp-form-group .gscp-field-left label,
+.gscp-form-group .gscp-field-right label {
+  font-size: 1rem;
+}
+
+.gscp-form-group .gscp-field-right.vertical {
+  flex-direction: column;
+}
+
+.gscp-form-group .gscp-field-left .gscp-field-description,
+.gscp-form-group .gscp-field-right .gscp-field-description {
+  font-size: .8rem;
+  color: #888;
+}

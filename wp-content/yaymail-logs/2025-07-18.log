@@ -1,0 +1,18 @@
+[2025-07-18 16:24:05] ***** Start migration transaction *****
+[2025-07-18 16:24:05] Start core migrations
+[2025-07-18 16:24:05] Finish core migrations
+[2025-07-18 16:24:05] *Starting migrations for YayMailAddonWcSubscription*
+[2025-07-18 16:24:05] No migrations available for YayMailAddonWcSubscription
+[2025-07-18 16:24:05] *Finished migrations for YayMailAddonWcSubscription*
+[2025-07-18 16:24:05] ***** End migration transaction *****
+[2025-07-18 16:24:05] ***** Start migration transaction *****
+[2025-07-18 16:24:05] Start core migrations
+[2025-07-18 16:24:05] Attempt to migrate data from [4.0.9] to [4.1.0].
+[2025-07-18 16:24:05] _yaymail_backup_4_0_9 saved!
+[2025-07-18 16:24:05] Start migrating templates to 4.1.0
+[2025-07-18 16:24:05] Done migrating templates to 4.0.7
+[2025-07-18 16:24:05] Finish core migrations
+[2025-07-18 16:24:05] *Starting migrations for YayMailAddonWcSubscription*
+[2025-07-18 16:24:05] No migrations available for YayMailAddonWcSubscription
+[2025-07-18 16:24:05] *Finished migrations for YayMailAddonWcSubscription*
+[2025-07-18 16:24:05] ***** End migration transaction *****

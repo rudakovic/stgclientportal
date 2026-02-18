@@ -1,0 +1,500 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Sliced Invoices PDF Email\n"
+"POT-Creation-Date: 2022-04-05 00:59-0700\n"
+"PO-Revision-Date: 2017-01-27 15:17-0800\n"
+"Last-Translator: \n"
+"Language-Team: Sliced Invoices <info@slicedinvoices.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sliced-invoices-pdf-email.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/includes/class-sliced-pdf-admin.php:63
+msgid "Body Background"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:69
+msgid "Header Background"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:75
+msgid "Content Background"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:81
+msgid "Content Text Color"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:87
+msgid "Footer Background"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:93
+msgid "Footer Text Color"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:99
+msgid "Footer Text"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:144
+#: admin/includes/class-sliced-pdf-admin.php:164
+msgid "Custom PDF CSS"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:145
+#: admin/includes/class-sliced-pdf-admin.php:165
+msgid ""
+"Add custom CSS to the PDF. Due to the nature of printing PDF's (and it's "
+"limited support of CSS), occasionally you may need to add extra styles to "
+"get the PDF to look right."
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:199
+msgid "Page Size"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:200
+msgid "Select paper size for generated PDFs"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:205
+msgid "Letter"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:206
+msgid "Legal"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:207
+msgid "Ledger"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:208
+msgid "Tabloid"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:209
+msgid "Executive"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:210
+msgid "Folio"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:211
+msgid "B"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:212
+msgid "A"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:213
+msgid "Demy"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:214
+msgid "Royal"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:215
+msgid "4A0"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:216
+msgid "2A0"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:217
+msgid "A0"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:218
+msgid "A1"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:219
+msgid "A2"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:220
+msgid "A3"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:221
+msgid "A4"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:222
+msgid "A5"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:223
+msgid "A6"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:224
+msgid "A7"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:225
+msgid "A8"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:226
+msgid "A9"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:227
+msgid "A10"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:228
+msgid "B0"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:229
+msgid "B1"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:230
+msgid "B2"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:231
+msgid "B3"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:232
+msgid "B4"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:233
+msgid "B5"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:234
+msgid "B6"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:235
+msgid "B7"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:236
+msgid "B8"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:237
+msgid "B9"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:238
+msgid "B10"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:239
+msgid "C0"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:240
+msgid "C1"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:241
+msgid "C2"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:242
+msgid "C3"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:243
+msgid "C4"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:244
+msgid "C5"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:245
+msgid "C6"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:246
+msgid "C7"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:247
+msgid "C8"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:248
+msgid "C9"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:249
+msgid "C10"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:250
+msgid "RA0"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:251
+msgid "RA1"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:252
+msgid "RA2"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:253
+msgid "RA3"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:254
+msgid "RA4"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:255
+msgid "SRA0"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:256
+msgid "SRA1"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:257
+msgid "SRA2"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:258
+msgid "SRA3"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:259
+msgid "SRA4"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:263
+msgid "Page Orientation"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:268
+msgid "Portrait"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:269
+msgid "Landscape"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:273
+msgid "Page Font Size"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:274
+msgid ""
+"Default font size to use in the PDF.  Can be overridden by custom CSS, if "
+"any."
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:279
+#: admin/includes/class-sliced-pdf-admin.php:318
+msgid "Default"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:294
+msgid "Add Unicode Font (.ttf)"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:295
+msgid ""
+"If you need to print PDFs in languages requiring unicode characters "
+"(Japanese, Chinese, Korean, etc.), you may upload the required font here. "
+"<br>(For a good source of international language fonts, see <a href="
+"\"https://www.google.com/get/noto/\" target=\"_blank\">Google Noto Fonts</a>)"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:303
+msgid "Add Extended Unicode Font (.ttf)"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:304
+msgid ""
+"If your unicode font requires a second, extended font file, you may upload "
+"it here."
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:312
+msgid "PDF Generation Mode"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:313
+msgid "Try \"compatibility\" mode if you encounter issues with creating PDFs."
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:319
+msgid "Compatibility"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:336
+msgid "SSL Verify"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:337
+msgid ""
+"Set this to False if there are issues printing PDF's. It may resolve the "
+"issue."
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:388
+#, php-format
+msgid ""
+"Sliced Invoices PDF Extension has detected your server's memory limit is "
+"very low.  If you experience difficulty generating PDF files, please "
+"increase your PHP memory limit.  For further information, <a href=\"%s\">see "
+"here</a>."
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:404
+#, php-format
+msgid ""
+"Sliced Invoices PDF Extension has detected 'mbstring' is not enabled on your "
+"server.  Mbstring is required and must be enabled for PDF functionality to "
+"work properly.  For further information, <a href=\"%s\">see here</a>."
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:420
+#, php-format
+msgid ""
+"Hey there, we noticed you are using WP Super Cache, which is great plugin... "
+"However, certain settings in WP Super Cache can potentially conflict with "
+"your Sliced Invoices PDF Extension.  Please be sure to <a href=\"%s\">read "
+"this page</a> to make sure everything keeps running smoothly. --<em>Your "
+"friends at Sliced Invoices</em>"
+msgstr ""
+
+#: admin/includes/class-sliced-pdf-admin.php:441
+msgid "Settings"
+msgstr ""
+
+#: includes/class-sliced-pdf-email.php:109
+#, php-format
+msgid ""
+"Sliced Invoices PDF extension cannot find the required <a href=\"%s\">Sliced "
+"Invoices plugin</a>. Please make sure the core Sliced Invoices plugin is <a "
+"href=\"%s\">installed and activated</a>."
+msgstr ""
+
+#: includes/class-sliced-pdf.php:62
+msgid "PDF"
+msgstr ""
+
+#: includes/class-sliced-pdf.php:131
+msgid "Paid"
+msgstr ""
+
+#: includes/class-sliced-pdf.php:139
+msgid "Cancelled"
+msgstr ""
+
+#: updater/class-base-updater.php:207
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: updater/class-base-updater.php:215
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: updater/class-base-updater.php:402
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: updater/class-base-updater.php:402
+msgid "Error"
+msgstr ""
+
+#: updater/plugin-updater.php:91 updater/plugin-updater.php:115
+msgid "Enter the License Key for this extension"
+msgstr ""
+
+#: updater/plugin-updater.php:131
+#, php-format
+msgid "License: %s"
+msgstr ""
+
+#: updater/plugin-updater.php:139
+msgid "Deactivate License"
+msgstr ""
+
+#: updater/plugin-updater.php:140
+msgid "Activate License"
+msgstr ""
+
+#: updater/plugin-updater.php:342
+#, php-format
+msgid ""
+"No license key found.  Don't forget to enter your license key on the <a href="
+"\"%s\">Licenses page</a>."
+msgstr ""
+
+#: updater/plugin-updater.php:359
+#, php-format
+msgid ""
+"Your license for %s has expired.  Please <a href=\"%s\">renew your license</"
+"a> to continue receiving updates and support."
+msgstr ""
+
+#: updater/plugin-updater.php:372
+#, php-format
+msgid ""
+"Your license for %s has been disabled.  Please <a href=\"%s\">contact us</a> "
+"for assistance."
+msgstr ""
+
+#: updater/plugin-updater.php:384
+#, php-format
+msgid ""
+"Your license for %s is not active.  Be sure to activate your license key on "
+"the <a href=\"%s\">Licenses page</a> to receive updates and support."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices PDF Email"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/pdf-email/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create PDF invoices and email them direct to clients. Requirements: The "
+"Sliced Invoices Plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr ""

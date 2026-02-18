@@ -1,0 +1,16 @@
+<wpml-config>
+	<admin-texts>
+		<key name="woocommerce_admin_order_proposal_gateway_settings">
+			<key name="subject" />
+			<key name="heading" />
+		</key>
+		<key name="woocommerce_order_proposal_gateway_settings">
+			<key name="subject" />
+			<key name="heading" />
+		</key>
+		<key name="woocommerce_order_proposal_settings">
+			<key name="subject" />
+			<key name="heading" />
+		</key>
+	</admin-texts>
+</wpml-config>

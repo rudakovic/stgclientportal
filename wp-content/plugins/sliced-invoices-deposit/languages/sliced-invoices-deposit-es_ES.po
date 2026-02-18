@@ -1,0 +1,292 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sliced Invoices Deposit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-01 17:27-0700\n"
+"PO-Revision-Date: 2021-12-23 03:06-0800\n"
+"Last-Translator: Lolo Marchal\n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Loco-Version: 2.4.6; wp-5.5.3\n"
+
+#: sliced-invoices-deposit.php:387
+#, php-format
+msgid "%1s or %2s the %3s %4s"
+msgstr "%1s o %2s el %3s %4s"
+
+#: sliced-invoices-deposit.php:384
+#, php-format
+msgid ""
+"<h4 class=\"no-print sliced-message message\">This is a %1s %2s for %3s of "
+"the project total</h4>"
+msgstr ""
+"<h4 class=\"no-print sliced-message message\">Esto es un %1s %2s de %3s del "
+"total del proyecto</h4>"
+
+#: sliced-invoices-deposit.php:378 sliced-invoices-deposit.php:381
+#, php-format
+msgid ""
+"<h4 class=\"no-print sliced-message message\">This is a %1s %2s for %3s%% of "
+"the project total</h4>"
+msgstr ""
+"<h4 class=\"no-print sliced-message message\">Esto es un %1s %2s de %3s%% "
+"del total del proyecto</h4>"
+
+#: sliced-invoices-deposit.php:667
+#, php-format
+msgid ""
+"<span class=\"ui-tip\" title=\"%1s %2s for %3s\"><strong>%4s: %5s</strong></"
+"span><br />"
+msgstr ""
+"<span class=\"ui-tip\" title=\"%1s %2s para %3s\"><strong>%4s: %5s</strong></"
+"span><br />"
+
+#: updater/plugin-updater.php:141
+msgid "Activate License"
+msgstr "Activar Licencia"
+
+#: sliced-invoices-deposit.php:248
+msgid "Amount payable for this Balance Invoice"
+msgstr "Cantidad a pagar por esta Factura de Saldo Pendiente"
+
+#: sliced-invoices-deposit.php:238
+msgid "Amount payable for this Deposit Invoice"
+msgstr "Cantidad a pagar por esta factura de depósito"
+
+#: sliced-invoices-deposit.php:365
+msgid "balance"
+msgstr "saldo pendiente"
+
+#: sliced-invoices-deposit.php:335
+#, php-format
+msgid "Balance %s"
+msgstr "Saldo Pendiente %s"
+
+#: sliced-invoices-deposit.php:180
+msgid "Balance Invoice message"
+msgstr "Mensaje de Saldo Pendiente"
+
+#: sliced-invoices-deposit.php:389
+msgid "Create Deposit"
+msgstr "Crear Depósito"
+
+#: sliced-invoices-deposit.php:389
+msgid "Create Deposit Invoice"
+msgstr "Crear Factura de Depósito"
+
+#. Description of the plugin/theme
+msgid ""
+"Create deposit invoices with the click of a button. Requirements: The Sliced "
+"Invoices Plugin"
+msgstr ""
+"Permite crear facturas de depósitos mediante un clic. Requisitos: El Plugin "
+"Sliced Invoices"
+
+#: sliced-invoices-deposit.php:420
+msgid "Create The Deposit Invoice"
+msgstr "Crear la Factura de Depósito"
+
+#: updater/plugin-updater.php:140
+msgid "Deactivate License"
+msgstr "Desactivar la licencia"
+
+#: sliced-invoices-deposit.php:181
+msgid ""
+"Default: \"This is a Balance Invoice for %deposit_amount% of the project "
+"total\"<br />(The wildcard %deposit_amount% will be replaced with the amount "
+"of the balance invoice.)"
+msgstr ""
+"Por defecto: \"Tiene un saldo pendiente de %deposit_amount% que resta del "
+"total de su factura\"<br />(El comodín %deposit_amount% será re-emplazado po "
+"el importe del saldo pendiente)."
+
+#: sliced-invoices-deposit.php:170
+msgid ""
+"Default: \"This is a Deposit Invoice for %deposit_amount% of the project "
+"total\"<br />(The wildcard %deposit_amount% will be replaced with the amount "
+"of the deposit invoice.)"
+msgstr ""
+"Por defecto: \"Esto es un depósito por valor de %deposit_amount% de la "
+"factura total\"<br />(El comodín %deposit_amount% será re-emplazado por el "
+"importe del depósito.)"
+
+#: sliced-invoices-deposit.php:228 sliced-invoices-deposit.php:750
+#: sliced-invoices-deposit.php:757
+msgid "Deposit"
+msgstr "Depósito"
+
+#: sliced-invoices-deposit.php:368
+msgid "deposit"
+msgstr "depósito"
+
+#: sliced-invoices-deposit.php:311 sliced-invoices-deposit.php:332
+#: sliced-invoices-deposit.php:338
+#, php-format
+msgid "Deposit %s"
+msgstr "Depósito %s"
+
+#: sliced-invoices-deposit.php:832
+#, php-format
+msgid "Deposit %s successfully created."
+msgstr "%s de depósito creada con éxito."
+
+#: sliced-invoices-deposit.php:460
+msgid "Deposit -"
+msgstr "Depósito - "
+
+#: sliced-invoices-deposit.php:414
+msgid "Deposit Amount"
+msgstr "Importe de Depósito"
+
+#: sliced-invoices-deposit.php:169
+msgid "Deposit Invoice message"
+msgstr "Mensaje de Factura de Depósito"
+
+#: sliced-invoices-deposit.php:847
+msgid "Deposit Invoice options will be displayed after you save this invoice."
+msgstr ""
+"Las opciones de la Factura de depósito se mostrarán después de que guarde "
+"esta factura."
+
+#: sliced-invoices-deposit.php:163 sliced-invoices-deposit.php:222
+msgid "Deposit Invoices"
+msgstr "Facturas de Depósito"
+
+#: sliced-invoices-deposit.php:373
+msgid "Edit"
+msgstr "Editar"
+
+#: updater/plugin-updater.php:92 updater/plugin-updater.php:116
+msgid "Enter the License Key for this extension"
+msgstr "Introduzca la clave de licencia para esta extensión"
+
+#: updater/class-base-updater.php:402
+msgid "Error"
+msgstr "Error"
+
+#. Author URI of the plugin/theme
+msgid "https://slicedinvoices.com/"
+msgstr "https://slicedinvoices.com/"
+
+#. Plugin URI of the plugin/theme
+msgid "https://slicedinvoices.com/extensions/deposit-invoices/"
+msgstr "https://slicedinvoices.com/extensions/deposit-invoices/"
+
+#: sliced-invoices-deposit.php:408
+msgid "Important!"
+msgstr "¡Importante!"
+
+#: updater/plugin-updater.php:132
+#, php-format
+msgid "License: %s"
+msgstr "Licencia: %s"
+
+#: updater/plugin-updater.php:343
+#, php-format
+msgid ""
+"No license key found.  Don't forget to enter your license key on the <a href="
+"\"%s\">Licenses page</a>."
+msgstr ""
+"No se encontró ninguna clave de licencia.  No olvides introducir tu clave de "
+"licencia en la página <a href=\"%s\">Licencias</a>."
+
+#: sliced-invoices-deposit.php:765
+msgid "Paid"
+msgstr "Pagada"
+
+#: sliced-invoices-deposit.php:408
+msgid ""
+"Please ensure that any changes to this invoice are saved before creating the "
+"deposit invoice."
+msgstr ""
+"Por favor, asegúrate que cualquier cambio a esta factura será guardado antes "
+"de crear la factura de depósito."
+
+#: sliced-invoices-deposit.php:258
+msgid "Project Total"
+msgstr "Total Proyecto"
+
+#. Author of the plugin/theme
+msgid "Sliced Invoices"
+msgstr "Sliced Invoices"
+
+#. Plugin Name of the plugin/theme
+msgid "Sliced Invoices Deposit"
+msgstr "Sliced Invoices Facturas de Depósito"
+
+#: sliced-invoices-deposit.php:897
+#, php-format
+msgid ""
+"Sliced Invoices Deposit extension cannot find the required <a href=\"%s"
+"\">Sliced Invoices plugin</a>. Please make sure the core Sliced Invoices "
+"plugin is <a href=\"%s\">installed and activated</a>."
+msgstr ""
+"La extensión Sliced Invoices Deposit no puede encontrar el <a href=\"%s"
+"\">plugin Sliced Invoices</a> requerido. Por favor, asegúrate de que el "
+"plugin Sliced Invoices está <a href=\"%s\">instalado y activado</a>."
+
+#: updater/class-base-updater.php:215
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Hay una nueva versión de %1$s disponible. %2$sVer versión %3$s detalles%4$s "
+"o %5$sactualización ahora%6$s."
+
+#: updater/class-base-updater.php:207
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Hay una nueva versión de %1$s disponible. %2$sVer versión %3$s detalles%4$s."
+
+#: sliced-invoices-deposit.php:771
+msgid "Total Due"
+msgstr "Total Debido"
+
+#: sliced-invoices-deposit.php:670
+#, php-format
+msgid "Total: %s"
+msgstr "Total: %s"
+
+#: sliced-invoices-deposit.php:372
+msgid "View"
+msgstr "Ver"
+
+#: updater/class-base-updater.php:402
+msgid "You do not have permission to install plugin updates"
+msgstr "No tienes permiso para instalar actualizaciones de plugins"
+
+#: updater/plugin-updater.php:373
+#, php-format
+msgid ""
+"Your license for %s has been disabled.  Please <a href=\"%s\">contact us</a> "
+"for assistance."
+msgstr ""
+"Su licencia para %s ha sido desactivada.  Por favor, <a href=\"%s"
+"\">contáctenos </a> para obtener ayuda."
+
+#: updater/plugin-updater.php:360
+#, php-format
+msgid ""
+"Your license for %s has expired.  Please <a href=\"%s\">renew your license</"
+"a> to continue receiving updates and support."
+msgstr ""
+"Su licencia para %s ha expirado.  Por favor <a href=\"%s\">renueve su "
+"licencia</a> para continuar recibiendo actualizaciones y soporte."
+
+#: updater/plugin-updater.php:385
+#, php-format
+msgid ""
+"Your license for %s is not active.  Be sure to activate your license key on "
+"the <a href=\"%s\">Licenses page</a> to receive updates and support."
+msgstr ""
+"Su licencia para %s no está activa.  Asegúrese de activar su clave de "
+"licencia en la <a href=\"%s\">página de licencias</a> para recibir "
+"actualizaciones y soporte."

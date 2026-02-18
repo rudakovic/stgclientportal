@@ -1,0 +1,85 @@
+Sliced PDF, forked from mPDF 6.0
+
+For changes prior to the start of our fork, please see the mPDF 6.0 changelog:
+https://github.com/mpdf/mpdf/blob/a15743d030ce3b5b7be36c6e83f76589b27c3f2c/CHANGELOG.txt
+
+----
+
+1.0.15 -- 2022-06-03
+=================================
+- more PHP 8.0 bullshit
+
+1.0.14 -- 2022-05-25
+=================================
+- more changes for PHP 8.0 compatibility
+
+1.0.13 -- 2022-04-07
+=================================
+- various changes for PHP 8.0 compatibility
+
+1.0.12 -- 2020-08-11
+=================================
+- remove each() function usage (PHP 7.4 compatibility)
+- fix a few PHP warnings/notices
+
+1.0.11 -- 2020-06-18
+=================================
+- replace curly brace string & array offsets with brackets (PHP 7.4 compatibility)
+
+1.0.10 -- 2018-09-12
+=================================
+- remove (almost) all @ error suppression operators... was making it almost impossible to debug anything
+- fix a few PHP warnings/notices
+
+1.0.9 -- 2017-12-03
+=================================
+- fix issue with SVG display in PHP 7
+
+1.0.9 -- 2017-12-03
+=================================
+- fix PHP notice
+
+1.0.8 -- 2017-10-24
+=================================
+- various performance enhancements to mPDF library
+- make sure we populate user-agent when making remote requests... prevent getting blocked by certain firewalls/htaccess rules
+- adjust timeouts
+- for curl, set sslverify to off
+- try everything we can to get files locally first, before going to remote connection
+
+1.0.7 -- 2017-07-07
+=================================
+- improved fault tolerance in CSS Manager class
+
+1.0.6 -- 2017-04-08
+=================================
+- rename all mPDF constants with SLICED or _SLICED prefixes, to avoid conflicts with other plugins also using mPDF
+- rename mPDF global functions with sliced_mpdf prefix
+
+1.0.5 -- 2017-03-27
+=================================
+- Rename all mPDF classes with prefix Sliced_
+  This avoids any conflict with other WordPress plugins that bundle mPDF, and ensures we use our own fork
+
+1.0.4 -- 2017-02-20
+=================================
+- fix PHP notice
+
+1.0.3 -- 2017-02-18
+=================================
+- fix deprecated constructors
+
+1.0.2 -- 2017-02-16
+=================================
+- fix deprecated function in PHP 7.x
+
+1.0.1 -- 2017-01-30
+=================================
+- fix PHP notice
+
+1.0.0 -- 2016-10-25
+=================================
+- Forked mPDF 6.0
+- wrap mb_regex_encoding() in a function_exists() conditional
+  fixes issue on servers where mbregex is disabled (although why would you do this?)
+  mb_regex_encoding() is probably not needed anymore anyway, since neither mb_ereg() nor mb_split() are called anywhere...
