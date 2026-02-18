@@ -173,5 +173,8 @@ if ($error) {
 
 }
 
-
 add_shortcode('cu_get_tasks', 'cu_get_tasks');
+
+add_action('wp_footer', function() {
+    echo '<!-- Git deploy test: ' . date('H:i:s') . ' -->';
+});
